@@ -115,10 +115,10 @@ function Footer() {
           <h4 className="font-semibold mb-3 text-white text-sm uppercase tracking-wider">Find Me Online</h4>
           <ul className="space-y-2">
             {[
-              ['https://www.etsy.com/shop/loveparentingautism', 'Etsy Shop'],
-              ['https://instagram.com', 'Instagram'],
-              ['https://facebook.com', 'Facebook'],
-              ['https://pinterest.com', 'Pinterest'],
+            ['https://loveparentingautism.etsy.com', 'Etsy Shop'],
+              ['https://www.instagram.com/loveparentingandautism/', 'Instagram'],
+              ['https://www.facebook.com/profile.php?id=61588607705379', 'Facebook'],
+              ['https://es.pinterest.com/stixxnicky', 'Pinterest'],
             ].map(([href, label]) => (
               <li key={href}>
                 <a href={href} target="_blank" rel="noopener noreferrer" className="text-sm opacity-70 hover:opacity-100 transition-opacity" style={{ color: 'var(--color-cream)' }}>
