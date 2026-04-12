@@ -36,15 +36,15 @@ const products: Array<Product> = [
   },
   {
     id: 3,
-    name: 'Parenting Alongside Autism Journal',
+    name: 'Tees & Mugs',
     image: '/placeholder.png',
     description:
-      "Sometimes you just need somewhere to put it all. This beautifully designed digital journal gives you prompts, reflection pages, and gentle frameworks to help you process the highs and the harder days. It's a space just for you — to celebrate the wins, untangle the confusion, and remind yourself that you're doing an incredible job.",
+      "Browse our range of autism-awareness tees and mugs — designed with heart and a touch of humour, perfect for the whole family. Every piece is a little reminder that you are not alone on this journey.",
     shortDescription:
-      'A guided digital journal for neurotypical parents — prompts and reflection pages to help you process and grow.',
-    price: 599,
-    etsyUrl: 'https://www.etsy.com/shop/loveparentingautism',
-    format: 'Digital Download (PDF)',
+      'Autism-awareness tees and mugs designed with heart — perfect for the whole family.',
+    price: 1000,
+    etsyUrl: 'https://loveparentingautism.etsy.com',
+    format: 'Etsy Shop',
   },
   {
     id: 4,
