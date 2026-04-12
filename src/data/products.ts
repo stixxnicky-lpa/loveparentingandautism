@@ -13,7 +13,7 @@ const products: Array<Product> = [
   {
     id: 1,
     name: 'Love, Parenting & Autism',
-    image: '/placeholder.png',
+    image: '/Front cover.png',
     description:
       "Written from the heart after 26 years of lived experience alongside autism, this book is a warm, honest, and deeply personal guide for neurotypical parents navigating family life. It's not a clinical manual — it's the book I wished I'd had. Whether you're newly diagnosed or years into the journey, you'll find yourself nodding along, exhaling with relief, and feeling truly seen.",
     shortDescription:
@@ -37,7 +37,7 @@ const products: Array<Product> = [
   {
     id: 3,
     name: 'Tees & Mugs',
-    image: '/placeholder.png',
+    image: '/Jake Birthday.png',
     description:
       "Browse our range of autism-awareness tees and mugs — designed with heart and a touch of humour, perfect for the whole family. Every piece is a little reminder that you are not alone on this journey.",
     shortDescription:
