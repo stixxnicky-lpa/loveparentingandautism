@@ -60,7 +60,7 @@ function ShopPage() {
                 <div style={{ borderTop: '1px solid var(--color-cream-dark)' }} className="pt-4">
                   <div className="flex items-center justify-between mb-3">
                     <span style={{ color: 'var(--color-teal)' }} className="text-xl font-bold">
-                      £{(product.price / 100).toFixed(2)}
+                     €{(product.price / 100).toFixed(2)}
                     </span>
                   </div>
                   <div className="flex gap-2">
