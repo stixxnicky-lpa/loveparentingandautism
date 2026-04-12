@@ -50,7 +50,7 @@ function HomePage() {
               className="aspect-square flex items-center justify-center p-8"
             >
               <img
-                src="/placeholder.png"
+                src="/Front cover.png"
                 alt="Love, Parenting & Autism book cover"
                 className="w-full max-w-56 rounded-xl shadow-2xl"
               />
