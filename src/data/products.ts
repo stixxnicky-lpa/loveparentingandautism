@@ -46,30 +46,6 @@ const products: Array<Product> = [
     etsyUrl: 'https://loveparentingautism.etsy.com',
     format: 'Etsy Shop',
   },
-  {
-    id: 4,
-    name: 'Understanding Your Autistic Partner',
-    image: '/placeholder.png',
-    description:
-      "This digital guide is for anyone in a relationship with an autistic partner who wants to build a stronger, more compassionate connection. It covers emotional regulation differences, social energy, sensory needs, and how to communicate in ways that truly land — all written with warmth, honesty, and zero judgement.",
-    shortDescription:
-      'Deepen your understanding and connection with your autistic partner through this warm, honest digital guide.',
-    price: 699,
-    etsyUrl: 'https://www.etsy.com/shop/loveparentingautism',
-    format: 'Digital Download (PDF)',
-  },
-  {
-    id: 5,
-    name: "The Neurotypical Parent's Toolkit",
-    image: '/placeholder.png',
-    description:
-      "A practical collection of printable tools, checklists, and conversation starters designed specifically for neurotypical parents. From morning routine cards to school communication templates, this toolkit helps you feel more prepared and less alone — whatever stage of the journey you're on.",
-    shortDescription:
-      'Printable tools, checklists and conversation starters for neurotypical parents — practical support for everyday life.',
-    price: 499,
-    etsyUrl: 'https://www.etsy.com/shop/loveparentingautism',
-    format: 'Digital Download (Printable PDF)',
-  },
-]
+ ]
 
 export default products
