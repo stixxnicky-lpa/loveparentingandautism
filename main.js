@@ -1,0 +1,74 @@
+// Year in footer
+document.getElementById('year').textContent = new Date().getFullYear();
+
+// Mobile nav toggle
+const hamburger = document.getElementById('hamburger');
+const navLinks = document.getElementById('nav-links');
+
+hamburger.addEventListener('click', () => {
+  const isOpen = navLinks.classList.toggle('open');
+  hamburger.setAttribute('aria-expanded', isOpen);
+});
+
+// Close mobile nav on link click
+navLinks.querySelectorAll('a').forEach(link => {
+  link.addEventListener('click', () => {
+    navLinks.classList.remove('open');
+    hamburger.setAttribute('aria-expanded', false);
+  });
+});
+
+// Smooth scroll offset for fixed nav
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function (e) {
+    const target = document.querySelector(this.getAttribute('href'));
+    if (target) {
+      e.preventDefault();
+      const offset = 80;
+      const top = target.getBoundingClientRect().top + window.scrollY - offset;
+      window.scrollTo({ top, behavior: 'smooth' });
+    }
+  });
+});
+
+// Highlight active nav link on scroll
+const sections = document.querySelectorAll('section[id]');
+const navItems = document.querySelectorAll('.nav-links a');
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      navItems.forEach(link => {
+        link.style.color = '';
+        if (link.getAttribute('href') === '#' + entry.target.id) {
+          link.style.color = 'var(--teal)';
+        }
+      });
+    }
+  });
+}, { rootMargin: '-30% 0px -60% 0px' });
+
+sections.forEach(s => observer.observe(s));
+
+// Simple form feedback (replace with Formspree/Netlify when deploying)
+function handleFormSubmit() {
+  const name = document.getElementById('name').value.trim();
+  const email = document.getElementById('email').value.trim();
+  const message = document.getElementById('message').value.trim();
+
+  if (!name || !email || !message) {
+    alert('Please fill in all fields before sending.');
+    return;
+  }
+
+  // Show success message
+  const successEl = document.getElementById('form-success');
+  successEl.style.display = 'block';
+
+  // Clear form
+  document.getElementById('name').value = '';
+  document.getElementById('email').value = '';
+  document.getElementById('message').value = '';
+
+  setTimeout(() => { successEl.style.display = 'none'; }, 6000);
+}
