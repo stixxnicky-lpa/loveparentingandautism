@@ -1,1 +1,11 @@
+title: Love, Parenting & Autism
+description: Real talk from an NT wife and mum in a neurodiverse family.
+url: "https://loveparentingandautism.com"
+baseurl: ""
+permalink: /blog/:year/:month/:day/:title/
 
+# Build settings
+markdown: kramdown
+theme: null
+plugins:
+  - jekyll-feed
