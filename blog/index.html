@@ -469,7 +469,8 @@ permalink: /blog/
   <div class="post-grid">
     {% assign thumb_classes = "purple,orange,yellow,mix1,mix2,mix3" | split: "," %}
     {% for post in site.posts limit:6 offset:1 %}
-    {% assign thumb_class = thumb_classes[forloop.index0 | modulo: 6] %}
+   {% assign thumb_index = forloop.index0 | modulo: 6 %}
+{% assign thumb_class = thumb_classes[thumb_index] %}
     <a href="{{ post.url }}" class="post-card">
       <div class="post-card-thumb {{ thumb_class }}">
         <span>{{ post.emoji | default: '✨' }}</span>
