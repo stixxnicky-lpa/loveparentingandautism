@@ -1,1 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{ page.title }} | Love, Parenting & Autism</title>
+  <meta name="description" content="{{ page.description | default: page.excerpt | strip_html | truncatewords: 30 }}" />
 
+  <!-- Open Graph for Pinterest/social sharing -->
+  <meta property="og:title" content="{{ page.title }}" />
+  <meta property="og:description" content="{{ page.description | default: page.excerpt | strip_html | truncatewords: 30 }}" />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="{{ page.url | absolute_url }}" />
+  <meta property="og:image" content="{{ page.og_image | default: '/assets/images/lpa-og-default.jpg' | absolute_url }}" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
+
+  <style>
+    :root {
+      --purple:       #5B1F8A;
+      --purple-dark:  #3d1260;
+      --purple-light: #7a2fb8;
+      --orange:       #E8720C;
+      --yellow:       #F0C040;
+      --cream:        #FDF8F2;
+      --text:         #1a1a2e;
+      --muted:        #6b6b8a;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Lato', sans-serif;
+      background: var(--cream);
+      color: var(--text);
+    }
+
+    /* ── BACK NAV ── */
+    .post-nav-bar {
+      background: var(--purple-dark);
+      padding: 14px 24px;
+      display: flex;
+      align-items: center;
+    }
+
+    .back-link {
+      color: rgba(255,255,255,0.75);
+      font-size: 0.82rem;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      transition: color 0.2s;
+    }
+
+    .back-link:hover { color: var(--yellow); }
+    .back-link::before { content: '←'; }
+
+    /* ── POST HERO ── */
+    .post-hero {
+      background: var(--purple-dark);
+      background-image:
+        radial-gradient(ellipse 70% 60% at 15% 50%, rgba(91,31,138,0.95) 0%, transparent 70%),
+        radial-gradient(ellipse 50% 70% at 85% 15%, rgba(232,114,12,0.3) 0%, transparent 60%);
+      padding: 60px 24px 56px;
+      text-align: center;
+    }
+
+    .post-hero .post-category {
+      display: inline-block;
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--yellow);
+      background: rgba(240,192,64,0.15);
+      padding: 6px 16px;
+      border-radius: 100px;
+      border: 1px solid rgba(240,192,64,0.3);
+      margin-bottom: 24px;
+    }
+
+    .post-hero h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(2rem, 5vw, 3.4rem);
+      font-weight: 900;
+      color: #fff;
+      line-height: 1.15;
+      max-width: 780px;
+      margin: 0 auto 24px;
+    }
+
+    .post-hero .post-description {
+      font-size: 1.1rem;
+      font-weight: 300;
+      color: rgba(255,255,255,0.75);
+      max-width: 600px;
+      margin: 0 auto 32px;
+      line-height: 1.7;
+    }
+
+    .post-hero .post-meta {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      font-size: 0.85rem;
+      color: rgba(255,255,255,0.6);
+      flex-wrap: wrap;
+    }
+
+    .post-hero .post-meta .author {
+      color: rgba(255,255,255,0.85);
+      font-weight: 700;
+    }
+
+    .post-hero .post-meta .read-time {
+      background: var(--orange);
+      color: #fff;
+      padding: 4px 12px;
+      border-radius: 100px;
+      font-size: 0.72rem;
+      font-weight: 700;
+    }
+
+    /* ── POST BODY ── */
+    .post-wrapper {
+      display: grid;
+      grid-template-columns: 1fr min(720px, 100%) 1fr;
+      padding: 60px 24px 80px;
+      gap: 0;
+    }
+
+    .post-wrapper > * { grid-column: 2; }
+
+    /* ── TYPOGRAPHY ── */
+    .post-content { line-height: 1.85; font-size: 1.05rem; color: #2a2a3e; }
+
+    .post-content p { margin-bottom: 1.5em; }
+
+    .post-content h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.7rem;
+      font-weight: 700;
+      color: var(--purple-dark);
+      margin: 2.5em 0 0.8em;
+      line-height: 1.2;
+    }
+
+    .post-content h3 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: var(--purple);
+      margin: 2em 0 0.6em;
+    }
+
+    .post-content ul, .post-content ol {
+      padding-left: 1.5em;
+      margin-bottom: 1.5em;
+    }
+
+    .post-content li { margin-bottom: 0.5em; }
+
+    .post-content a {
+      color: var(--orange);
+      font-weight: 700;
+      text-decoration: underline;
+      text-decoration-color: rgba(232,114,12,0.35);
+      transition: text-decoration-color 0.2s;
+    }
+
+    .post-content a:hover { text-decoration-color: var(--orange); }
+
+    .post-content strong { color: var(--purple-dark); font-weight: 700; }
+
+    .post-content em { font-style: italic; color: var(--muted); }
+
+    .post-content blockquote {
+      border-left: 4px solid var(--orange);
+      margin: 2em 0;
+      padding: 20px 28px;
+      background: rgba(232,114,12,0.06);
+      border-radius: 0 12px 12px 0;
+      font-family: 'Playfair Display', serif;
+      font-size: 1.2rem;
+      font-style: italic;
+      color: var(--purple-dark);
+      line-height: 1.5;
+    }
+
+    .post-content hr {
+      border: none;
+      height: 2px;
+      background: linear-gradient(90deg, var(--purple), var(--orange), transparent);
+      margin: 3em 0;
+      border-radius: 2px;
+    }
+
+    /* ── CALLOUT BOX ── */
+    .callout {
+      background: linear-gradient(135deg, rgba(91,31,138,0.06), rgba(232,114,12,0.06));
+      border: 1px solid rgba(91,31,138,0.15);
+      border-radius: 16px;
+      padding: 28px 32px;
+      margin: 2.5em 0;
+    }
+
+    .callout p:last-child { margin-bottom: 0; }
+
+    /* ── TAGS ── */
+    .post-tags {
+      margin-top: 48px;
+      padding-top: 28px;
+      border-top: 2px solid rgba(91,31,138,0.1);
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      align-items: center;
+    }
+
+    .post-tags .label {
+      font-size: 0.8rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      color: var(--muted);
+      text-transform: uppercase;
+      margin-right: 4px;
+    }
+
+    .post-tag {
+      font-size: 0.78rem;
+      font-weight: 700;
+      padding: 6px 14px;
+      border-radius: 100px;
+      background: rgba(91,31,138,0.08);
+      color: var(--purple);
+      text-decoration: none;
+      transition: background 0.2s, color 0.2s;
+    }
+
+    .post-tag:hover { background: var(--purple); color: #fff; }
+
+    /* ── AUTHOR BIO ── */
+    .author-bio {
+      margin-top: 48px;
+      background: #fff;
+      border-radius: 20px;
+      padding: 32px 36px;
+      display: flex;
+      gap: 24px;
+      align-items: flex-start;
+      box-shadow: 0 4px 20px rgba(91,31,138,0.08);
+    }
+
+    .author-avatar {
+      width: 72px;
+      height: 72px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, var(--purple), var(--orange));
+      flex-shrink: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.8rem;
+    }
+
+    .author-bio-text h4 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: var(--purple-dark);
+      margin-bottom: 6px;
+    }
+
+    .author-bio-text p {
+      font-size: 0.9rem;
+      line-height: 1.6;
+      color: var(--muted);
+      margin: 0;
+    }
+
+    /* ── RELATED POSTS ── */
+    .related-posts {
+      margin-top: 64px;
+      padding: 0 24px 80px;
+      max-width: calc(min(720px, 100%) + 48px);
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .related-posts h3 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: var(--purple-dark);
+      margin-bottom: 24px;
+      padding-bottom: 14px;
+      border-bottom: 2px solid rgba(91,31,138,0.1);
+    }
+
+    .related-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+    }
+
+    .related-card {
+      background: #fff;
+      border-radius: 14px;
+      padding: 22px 22px 24px;
+      text-decoration: none;
+      color: inherit;
+      box-shadow: 0 3px 14px rgba(91,31,138,0.07);
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .related-card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 8px 28px rgba(91,31,138,0.13);
+    }
+
+    .related-card .post-category { color: var(--orange); font-size: 0.7rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; margin-bottom: 8px; }
+    .related-card h4 { font-family: 'Playfair Display', serif; font-size: 1rem; font-weight: 700; color: var(--purple-dark); line-height: 1.3; }
+
+    @media (max-width: 640px) {
+      .related-grid { grid-template-columns: 1fr; }
+      .author-bio { flex-direction: column; }
+      .post-wrapper { padding: 40px 20px 60px; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAV BAR -->
+<nav class="post-nav-bar">
+  <a href="/blog/" class="back-link">Back to Blog</a>
+</nav>
+
+<!-- POST HERO -->
+<header class="post-hero">
+  <p class="post-category">{{ page.category | default: 'NT Life' }}</p>
+  <h1>{{ page.title }}</h1>
+  {% if page.description %}
+  <p class="post-description">{{ page.description }}</p>
+  {% endif %}
+  <div class="post-meta">
+    <span class="author">Nicky Stixx</span>
+    <span class="date">{{ page.date | date: "%d %B %Y" }}</span>
+    <span class="read-time">{{ page.read_time | default: '5 min read' }}</span>
+  </div>
+</header>
+
+<!-- POST CONTENT -->
+<div class="post-wrapper">
+  <article class="post-content">
+    {{ content }}
+
+    <!-- TAGS -->
+    {% if page.tags.size > 0 %}
+    <div class="post-tags">
+      <span class="label">Tagged:</span>
+      {% for tag in page.tags %}
+      <a href="/blog/tag/{{ tag | slugify }}/" class="post-tag">{{ tag }}</a>
+      {% endfor %}
+    </div>
+    {% endif %}
+
+    <!-- AUTHOR BIO -->
+    <div class="author-bio">
+      <div class="author-avatar">💜</div>
+      <div class="author-bio-text">
+        <h4>Nicky Stixx</h4>
+        <p>NT wife, mum, author, and the neurotypical half of a neurodiverse family for over 26 years. I write the real stuff — the messy, honest, unglamorous, and ultimately hopeful truth of this life. Author of <em>Love, Parenting & Autism</em>.</p>
+      </div>
+    </div>
+  </article>
+</div>
+
+<!-- RELATED POSTS -->
+{% assign related = site.posts | where_exp: "post", "post.url != page.url" | limit: 4 %}
+{% if related.size > 0 %}
+<section class="related-posts">
+  <h3>You might also like</h3>
+  <div class="related-grid">
+    {% for post in related limit:4 %}
+    <a href="{{ post.url }}" class="related-card">
+      <p class="post-category">{{ post.category | default: 'NT Life' }}</p>
+      <h4>{{ post.title }}</h4>
+    </a>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
+
+</body>
+</html>
