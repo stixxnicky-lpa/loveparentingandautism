@@ -534,8 +534,10 @@ sections.forEach(s => {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
         navItems.forEach(link => {
-          link.style.color = '';
-          if (link.getAttribute('href') === '#' + entry.target.id) link.style.color = '#5B1F8A';
+          const href = link.getAttribute('href');
+          if (href && href.startsWith('#')) {
+            link.style.color = href === '#' + entry.target.id ? '#5B1F8A' : '';
+          }
         });
       }
     });
