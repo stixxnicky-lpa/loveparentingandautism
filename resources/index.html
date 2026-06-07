@@ -1,1 +1,315 @@
+---
+permalink: /resources/
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Resources I Recommend | Love, Parenting & Autism</title>
+  <meta name="description" content="Genuine product recommendations from 26 years of neurodiverse family life. Sensory tools, weighted blankets, noise-cancelling headphones, books and more." />
+  <link rel="icon" href="/images/mini_banner.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
+  <style>
+    *,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    :root{
+      --purple:#5B1F8A;--purple-dark:#3D1260;--purple-deep:#2A0D45;--purple-light:#EDE0F7;
+      --orange:#E8720C;--orange-dark:#B85A08;--yellow:#F0C040;--yellow-light:#FDF3CC;
+      --cream:#FDF9F4;--cream-dark:#F0E8DC;--text-dark:#1E1226;--text-mid:#4A3D5C;
+      --text-light:#8A7A9A;--white:#FFFFFF;
+    }
+    body{font-family:'Lato',sans-serif;background:var(--cream);color:var(--text-dark);font-size:17px;line-height:1.75}
+    h1,h2,h3,h4{font-family:'Playfair Display',serif;line-height:1.3}
+    a{color:var(--purple);text-decoration:none;transition:color 0.2s}
+    a:hover{color:var(--orange-dark)}
+    img{max-width:100%;display:block}
+    .container{max-width:1080px;margin:0 auto;padding:0 2rem}
 
+    /* NAV */
+    .top-nav{background:var(--purple-dark);padding:14px 24px;display:flex;align-items:center;justify-content:space-between}
+    .back-link{color:rgba(255,255,255,0.75);font-size:0.82rem;font-weight:700;letter-spacing:0.05em;text-decoration:none;display:flex;align-items:center;gap:8px;transition:color 0.2s}
+    .back-link:hover{color:var(--yellow)}
+    .back-link::before{content:'←'}
+    .nav-home{color:rgba(255,255,255,0.75);font-size:0.82rem;font-weight:700;text-decoration:none;transition:color 0.2s}
+    .nav-home:hover{color:var(--yellow)}
+
+    /* HERO */
+    .resources-hero{background:var(--purple-dark);background-image:radial-gradient(ellipse 80% 60% at 20% 50%,rgba(91,31,138,0.9) 0%,transparent 70%),radial-gradient(ellipse 60% 80% at 80% 20%,rgba(232,114,12,0.25) 0%,transparent 60%);padding:60px 24px 50px;text-align:center}
+    .eyebrow{font-size:0.75rem;font-weight:700;letter-spacing:0.2em;text-transform:uppercase;color:var(--yellow);margin-bottom:16px}
+    .resources-hero h1{font-family:'Playfair Display',serif;font-size:clamp(2rem,5vw,3.2rem);color:#fff;margin-bottom:16px}
+    .resources-hero h1 em{color:var(--yellow);font-style:italic}
+    .resources-hero p{font-size:1rem;color:rgba(255,255,255,0.8);max-width:580px;margin:0 auto}
+
+    /* DISCLOSURE */
+    .disclosure{background:var(--yellow-light);border-left:4px solid var(--orange);padding:1rem 1.5rem;margin:2rem auto;max-width:800px;border-radius:0 8px 8px 0;font-size:0.88rem;color:var(--text-mid)}
+    .disclosure strong{color:var(--orange-dark)}
+
+    /* MAIN */
+    .resources-main{max-width:1080px;margin:0 auto;padding:48px 24px 80px}
+
+    /* CATEGORY */
+    .category-section{margin-bottom:56px}
+    .category-header{display:flex;align-items:center;gap:1rem;margin-bottom:28px;padding-bottom:16px;border-bottom:2px solid rgba(91,31,138,0.12)}
+    .category-icon{font-size:1.8rem}
+    .category-header h2{font-family:'Playfair Display',serif;font-size:1.6rem;color:var(--purple-dark)}
+    .category-header p{font-size:0.9rem;color:var(--text-light);margin-top:2px}
+
+    /* PRODUCT GRID */
+    .product-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1.25rem}
+
+    /* PRODUCT CARD */
+    .product-card{background:var(--white);border:1px solid var(--cream-dark);border-radius:14px;padding:1.75rem;display:flex;flex-direction:column;transition:all 0.25s;text-decoration:none;color:inherit}
+    .product-card:hover{border-color:var(--orange);transform:translateY(-4px);box-shadow:0 10px 28px rgba(232,114,12,0.15)}
+    .product-card--featured{border-color:var(--orange);background:linear-gradient(135deg,var(--yellow-light),var(--white))}
+    .product-emoji{font-size:1.8rem;margin-bottom:0.75rem}
+    .product-badge{font-size:0.68rem;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:var(--orange);margin-bottom:0.4rem}
+    .product-card h3{font-family:'Playfair Display',serif;font-size:1rem;color:var(--purple-dark);margin-bottom:0.5rem;line-height:1.3}
+    .product-card p{font-size:0.88rem;color:var(--text-mid);line-height:1.6;flex:1;margin-bottom:1.1rem}
+    .product-cta{display:inline-flex;align-items:center;gap:6px;font-size:0.85rem;font-weight:700;color:var(--white);background:var(--orange);padding:0.5rem 1.1rem;border-radius:20px;transition:all 0.2s;margin-top:auto;width:fit-content}
+    .product-cta:hover{background:var(--orange-dark);color:var(--white);transform:translateY(-1px)}
+    .product-card--featured .product-cta{background:var(--purple-dark)}
+    .product-card--featured .product-cta:hover{background:var(--purple)}
+
+    /* BOTTOM CTA */
+    .bottom-cta{background:var(--purple-dark);background-image:linear-gradient(135deg,var(--purple-dark) 0%,var(--purple) 100%);border-radius:20px;padding:48px 44px;text-align:center;margin-top:16px}
+    .bottom-cta h2{font-family:'Playfair Display',serif;font-size:1.8rem;color:#fff;margin-bottom:12px}
+    .bottom-cta p{color:rgba(255,255,255,0.8);font-size:1rem;margin-bottom:28px;max-width:520px;margin-left:auto;margin-right:auto}
+    .btn-gold{display:inline-block;background:var(--orange);color:var(--white);font-weight:700;font-size:0.95rem;padding:0.75rem 1.75rem;border-radius:25px;transition:all 0.2s}
+    .btn-gold:hover{background:var(--orange-dark);color:var(--white);transform:translateY(-1px)}
+    .btn-outline{display:inline-block;background:transparent;color:var(--white);border:2px solid rgba(255,255,255,0.5);font-weight:700;font-size:0.95rem;padding:0.75rem 1.75rem;border-radius:25px;margin-left:1rem;transition:all 0.2s}
+    .btn-outline:hover{border-color:var(--yellow);color:var(--yellow)}
+
+    /* FOOTER */
+    .resources-footer{background:var(--purple-deep);color:rgba(255,255,255,0.6);padding:2rem 0;text-align:center;font-size:0.88rem;border-top:3px solid var(--orange);margin-top:0}
+    .resources-footer a{color:var(--yellow)}
+    .resources-footer a:hover{color:var(--white)}
+
+    @media(max-width:768px){
+      .product-grid{grid-template-columns:1fr}
+      .bottom-cta{padding:32px 24px}
+      .btn-outline{margin-left:0;margin-top:0.75rem;display:block;width:fit-content;margin:0.75rem auto 0}
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="top-nav">
+  <a href="https://loveparentingandautism.com" class="back-link">Back to main site</a>
+  <a href="https://loveparentingandautism.com/blog/" class="nav-home">Blog →</a>
+</nav>
+
+<!-- HERO -->
+<section class="resources-hero">
+  <p class="eyebrow">Love, Parenting &amp; Autism</p>
+  <h1>Resources I <em>Genuinely</em> Recommend</h1>
+  <p>After 26 years as the NT heart of a neurodiverse family, these are the products I recommend — not because I was paid to, but because they actually help.</p>
+</section>
+
+<div class="container">
+  <div class="disclosure">
+    <strong>Affiliate disclosure:</strong> This page contains Amazon affiliate links. If you click through and make a purchase, I may earn a small commission at no extra cost to you. I only ever recommend products I genuinely believe in — your trust means everything to me. 💙
+  </div>
+</div>
+
+<!-- MAIN -->
+<main class="resources-main">
+
+  <!-- ── MY BOOK ── -->
+  <div class="category-section">
+    <div class="category-header">
+      <span class="category-icon">📖</span>
+      <div>
+        <h2>Start Here — My Book</h2>
+        <p>The resource I wish I'd had from day one</p>
+      </div>
+    </div>
+    <div class="product-grid">
+      <a href="https://www.amazon.co.uk/dp/B0GN7ZH59Z?tag=loveparenti0f-21" target="_blank" rel="noopener sponsored" class="product-card product-card--featured">
+        <div class="product-emoji">📗</div>
+        <div class="product-badge">⭐ My Book — Paperback</div>
+        <h3>Love, Parenting & Autism — Nicky Stixx</h3>
+        <p>The honest, warm companion I wish I'd had from the beginning. Written from 26 years of lived experience as the only NT person in a neurodiverse family. No jargon, no clinical distance — just real talk from someone who truly gets it.</p>
+        <span class="product-cta">Buy Paperback on Amazon →</span>
+      </a>
+      <a href="https://www.amazon.co.uk/dp/B0GTY96RM2?tag=loveparenti0f-21" target="_blank" rel="noopener sponsored" class="product-card product-card--featured">
+        <div class="product-emoji">📱</div>
+        <div class="product-badge">⭐ My Book — Kindle</div>
+        <h3>Love, Parenting & Autism — Kindle Edition</h3>
+        <p>Prefer to read on your device? The Kindle edition is available now — start reading instantly, wherever you are. Same honest content, same warm voice, same real talk.</p>
+        <span class="product-cta">Get Kindle Edition →</span>
+      </a>
+    </div>
+  </div>
+
+  <!-- ── WEIGHTED BLANKETS ── -->
+  <div class="category-section">
+    <div class="category-header">
+      <span class="category-icon">🛏️</span>
+      <div>
+        <h2>Weighted Blankets</h2>
+        <p>Deep pressure that genuinely calms — for children and adults</p>
+      </div>
+    </div>
+    <div class="product-grid">
+      <a href="https://www.amazon.co.uk/dp/B09HXQ3XZ4?tag=loveparenti0f-21" target="_blank" rel="noopener sponsored" class="product-card">
+        <div class="product-emoji">🦁</div>
+        <div class="product-badge">Children — Top Pick</div>
+        <h3>Dailydream Kids Weighted Blanket — Safari Design</h3>
+        <p>100% cotton, glass bead filling, OEKO-TEX certified. 2.3kg, 90x120cm. Genuinely calming for children who struggle with sleep and sensory overwhelm. The safari design is a firm favourite.</p>
+        <span class="product-cta">View on Amazon →</span>
+      </a>
+      <a href="https://www.amazon.co.uk/s?k=Dailydream+Kids+Weighted+Blanket+Forest+Cotton+90x120&tag=loveparenti0f-21" target="_blank" rel="noopener sponsored" class="product-card">
+        <div class="product-emoji">🌿</div>
+        <div class="product-badge">Children</div>
+        <h3>Dailydream Kids Weighted Blanket — Forest Design</h3>
+        <p>Same brilliant quality as the Safari — 100% cotton, 2.3kg, 90x120cm — with a beautiful nature design. Perfect for children who love the outdoors or prefer calmer colours.</p>
+        <span class="product-cta">View on Amazon →</span>
+      </a>
+      <a href="https://www.amazon.co.uk/s?k=Space+Theme+Weighted+Blanket+Children+104x150+3.2kg&tag=loveparenti0f-21" target="_blank" rel="noopener sponsored" class="product-card">
+        <div class="product-emoji">🚀</div>
+        <div class="product-badge">Children — Older Kids</div>
+        <h3>Space Theme Weighted Blanket — 104x150cm, 3.2kg</h3>
+        <p>Larger size for older or bigger children. 3.2kg provides deeper pressure — brilliant for children who need more sensory input to regulate. The space design is a winner with older kids.</p>
+        <span class="product-cta">View on Amazon →</span>
+      </a>
+      <a href="https://www.amazon.co.uk/s?k=Brentfords+Weighted+Blanket+Adult+8kg&tag=loveparenti0f-21" target="_blank" rel="noopener sponsored" class="product-card">
+        <div class="product-emoji">💜</div>
+        <div class="product-badge">Adults — NT Self-Care Pick</div>
+        <h3>Brentfords Weighted Blanket — Adult 8kg</h3>
+        <p>Not just for autistic family members — this one is for you too. The deep pressure of a weighted blanket is genuinely calming for NT adults carrying a heavy load. You deserve the tools as much as anyone else.</p>
+        <span class="product-cta">View on Amazon →</span>
+      </a>
+    </div>
+  </div>
+
+  <!-- ── NOISE CANCELLING ── -->
+  <div class="category-section">
+    <div class="category-header">
+      <span class="category-icon">🎧</span>
+      <div>
+        <h2>Noise Cancelling Headphones &amp; Ear Defenders</h2>
+        <p>The single most impactful sensory tool in our household</p>
+      </div>
+    </div>
+    <div class="product-grid">
+      <a href="https://www.amazon.co.uk/dp/B08JZ21818?tag=loveparenti0f-21" target="_blank" rel="noopener sponsored" class="product-card">
+        <div class="product-emoji">🔵</div>
+        <div class="product-badge">Children — Top Pick</div>
+        <h3>Alpine Muffy Kids Ear Defenders</h3>
+        <p>My number one recommendation for children. 25dB noise reduction, CE &amp; UKCA certified, adjustable for age 3–16. These have transformed supermarket trips, school events, and busy family gatherings in our house.</p>
+        <span class="product-cta">View on Amazon →</span>
+      </a>
+      <a href="https://www.amazon.co.uk/dp/B07Q3WQCQL?tag=loveparenti0f-21" target="_blank" rel="noopener sponsored" class="product-card">
+        <div class="product-emoji">🟢</div>
+        <div class="product-badge">Children — Budget Pick</div>
+        <h3>Vanderfields Kids Ear Defenders</h3>
+        <p>27dB reduction, UKCA certified, adjustable, great value. A solid budget-friendly alternative — particularly good if you're buying a first pair and want to test whether ear defenders help before investing more.</p>
+        <span class="product-cta">View on Amazon →</span>
+      </a>
+      <a href="https://www.amazon.co.uk/s?k=Sony+WH-1000XM5+noise+cancelling&tag=loveparenti0f-21" target="_blank" rel="noopener sponsored" class="product-card">
+        <div class="product-emoji">⚫</div>
+        <div class="product-badge">Adults — Premium Pick</div>
+        <h3>Sony WH-1000XM5 Wireless Headphones</h3>
+        <p>Industry-leading active noise cancellation for adults who need serious sound management. Perfect for autistic adults in busy workplaces or needing genuine quiet time at home. Worth every penny.</p>
+        <span class="product-cta">View on Amazon →</span>
+      </a>
+      <a href="https://www.amazon.co.uk/s?k=Loop+Earplugs+Quiet&tag=loveparenti0f-21" target="_blank" rel="noopener sponsored" class="product-card">
+        <div class="product-emoji">🔮</div>
+        <div class="product-badge">Adults — Discreet Option</div>
+        <h3>Loop Earplugs — Quiet</h3>
+        <p>Stylish, discreet, no electronics. These look like earrings and reduce noise without blocking it entirely — perfect for autistic adults in social or work settings who want to take the edge off without standing out.</p>
+        <span class="product-cta">View on Amazon →</span>
+      </a>
+    </div>
+  </div>
+
+  <!-- ── FIDGET & SENSORY ── -->
+  <div class="category-section">
+    <div class="category-header">
+      <span class="category-icon">🧸</span>
+      <div>
+        <h2>Fidget &amp; Sensory Tools</h2>
+        <p>Small tools that make a big difference to focus and regulation</p>
+      </div>
+    </div>
+    <div class="product-grid">
+      <a href="https://www.amazon.co.uk/s?k=PILPOC+theFube+Fidget+Cube&tag=loveparenti0f-21" target="_blank" rel="noopener sponsored" class="product-card">
+        <div class="product-emoji">🎲</div>
+        <div class="product-badge">Adults &amp; Older Children</div>
+        <h3>PILPOC Fidget Cube</h3>
+        <p>Premium build, quiet sides, satisfying clicker. Works brilliantly for school, work, or home — gives hands something to do without disturbing others. A genuine staple in our household.</p>
+        <span class="product-cta">View on Amazon →</span>
+      </a>
+      <a href="https://www.amazon.co.uk/dp/B0G2RVQ8Q4?tag=loveparenti0f-21" target="_blank" rel="noopener sponsored" class="product-card">
+        <div class="product-emoji">🐛</div>
+        <div class="product-badge">All Ages</div>
+        <h3>Sensory Fidget Slug Toys (3-Pack)</h3>
+        <p>Satisfying tactile feedback, completely silent, endlessly fidgetable. These work brilliantly for children and adults alike — particularly good for anyone who needs something in their hands to focus or regulate.</p>
+        <span class="product-cta">View on Amazon →</span>
+      </a>
+      <a href="https://www.amazon.co.uk/dp/B0F29G6K2P?tag=loveparenti0f-21" target="_blank" rel="noopener sponsored" class="product-card">
+        <div class="product-emoji">🪨</div>
+        <div class="product-badge">All Ages — NT Self-Care Pick</div>
+        <h3>Sensory Worry Stones (6-Pack)</h3>
+        <p>Silent, discreet, surprisingly effective. Not just for autistic family members — these are brilliant for NT parents on the hard days too. Something to hold and press when you need to stay regulated.</p>
+        <span class="product-cta">View on Amazon →</span>
+      </a>
+      <a href="https://www.amazon.co.uk/dp/B07BRKYNVP?tag=loveparenti0f-21" target="_blank" rel="noopener sponsored" class="product-card">
+        <div class="product-emoji">🎁</div>
+        <div class="product-badge">Gift Idea</div>
+        <h3>30-Piece Fidget Toy Set</h3>
+        <p>Perfect as a gift or starter sensory kit — 30 different fidget tools in a handy storage box. Great for finding out which textures and tools work best before investing in individual pieces.</p>
+        <span class="product-cta">View on Amazon →</span>
+      </a>
+    </div>
+  </div>
+
+  <!-- ── BOOKS ── -->
+  <div class="category-section">
+    <div class="category-header">
+      <span class="category-icon">📚</span>
+      <div>
+        <h2>Books Worth Reading</h2>
+        <p>Honest, practical, and actually written for real families</p>
+      </div>
+    </div>
+    <div class="product-grid">
+      <a href="https://www.amazon.co.uk/dp/1839970723?tag=loveparenti0f-21" target="_blank" rel="noopener sponsored" class="product-card">
+        <div class="product-emoji">💛</div>
+        <div class="product-badge">For NT Parents</div>
+        <h3>Parenting Rewired — Danielle Punter &amp; Charlotte Chaney</h3>
+        <p>Highly rated, warm, and practical guide for NT parents raising autistic children. Written by parents who get it — this sits alongside my own book as essential reading for anyone navigating this life.</p>
+        <span class="product-cta">View on Amazon →</span>
+      </a>
+      <a href="https://www.amazon.co.uk/s?k=Autistic+Burnout+Workbook+Megan+Anna+Neff&tag=loveparenti0f-21" target="_blank" rel="noopener sponsored" class="product-card">
+        <div class="product-emoji">🌱</div>
+        <div class="product-badge">For Autistic Family Members</div>
+        <h3>The Autistic Burnout Workbook — Dr. Megan Anna Neff</h3>
+        <p>An excellent resource for the autistic people in your life — and for you to understand what burnout looks like and how to support recovery. Understanding burnout changed everything for our family.</p>
+        <span class="product-cta">View on Amazon →</span>
+      </a>
+    </div>
+  </div>
+
+  <!-- BOTTOM CTA -->
+  <div class="bottom-cta">
+    <h2>Want more honest guidance?</h2>
+    <p>Head to the blog for real talk from 26 years of neurodiverse family life — or grab my book and start from the beginning.</p>
+    <a href="https://loveparentingandautism.com/blog/" class="btn-gold">Read the Blog →</a>
+    <a href="https://www.amazon.co.uk/dp/B0GN7ZH59Z?tag=loveparenti0f-21" target="_blank" rel="noopener sponsored" class="btn-outline">Get the Book on Amazon →</a>
+  </div>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="resources-footer">
+  <p>© <script>document.write(new Date().getFullYear())</script> Nicky Stixx — Love, Parenting &amp; Autism. All rights reserved.</p>
+  <p style="margin-top:0.5rem"><a href="https://loveparentingandautism.com">← Back to main site</a> &nbsp;|&nbsp; <a href="https://loveparentingandautism.com/blog/">Blog</a> &nbsp;|&nbsp; <a href="https://www.amazon.co.uk/dp/B0GN7ZH59Z?tag=loveparenti0f-21" target="_blank" rel="noopener sponsored">My Book on Amazon</a></p>
+</footer>
+
+</body>
+</html>
