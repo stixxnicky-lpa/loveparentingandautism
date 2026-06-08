@@ -3,6 +3,7 @@ layout: post
 title: "Autism Explained: What Nobody Tells You at Diagnosis"
 date: 2025-06-07
 category: Autism Explained
+description: "What autism actually feels like from the inside, why autistic people communicate differently, and the myths that need dismantling — from 26 years of lived experience."
 emoji: 🧩
 read_time: 9 min read
 excerpt: "The diagnosis lands and suddenly you're handed a label, a leaflet, and absolutely nothing else. Here's what I wish someone had explained to me — from 26 years of living it up close."
