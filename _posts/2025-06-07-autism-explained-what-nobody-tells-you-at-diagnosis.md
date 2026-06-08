@@ -105,6 +105,7 @@ What doesn't help: telling them to just cope. Telling them other people manage f
 
 It is that bad. For them, in that moment, it is exactly that bad. Believing them is the beginning of everything.
 *For the practical side of managing sensory overload at home, I've put together [the tools that actually made a difference for our family](/blog/2025/06/08/the-tools-that-actually-help/).*
+
 ---
 
 ## What I Want You to Know Right Now
