@@ -38,6 +38,7 @@ This is invisible labour. It is real work. It is exhausting work. And the reason
 
 It is not part of the furniture. It is you. And you deserve to be seen.
 
+*If this resonates, [The NT Parent Truths Nobody Talks About](/blog/2025/06/06/the-nt-parent-truths-nobody-talks-about/) goes deeper into the emotional reality of this life.*
 ---
 
 ## Why Self-Care Isn't Selfish — It's the Whole Point
@@ -81,6 +82,8 @@ Because here's the truth: if it isn't in the diary, it isn't happening. You will
 One of the most restorative things you can do is spend time with people who understand your life without needing it explained. Other NT partners. Other NT parents. People who get the particular flavour of your exhaustion because they are living a version of it too.
 
 This community exists. It is growing. You are not as alone in this as it sometimes feels, and connecting with people who truly understand — not people who sympathise from a comfortable distance, but people who *get it* — is profoundly, genuinely healing.
+
+The [tools and strategies post](/blog/2025/06/08/the-tools-that-actually-help/) is also worth bookmarking — practical shifts that actually work for neurodiverse families.
 
 **Let some things be imperfect.**
 
