@@ -3,6 +3,7 @@ layout: post
 title: "The NT Parent Truths Nobody Talks About"
 date: 2025-06-06
 category: NT Parent Truths
+description: "The honest truth about being a neurotypical parent in a neurodiverse family — the loneliness, the guilt, and what nobody else is saying."
 emoji: 💙
 read_time: 7 min read
 excerpt: "Lonely. Guilty. Exhausted. And somehow still the one holding it all together. If you're the neurotypical parent in a neurodiverse family, this one's for you."
