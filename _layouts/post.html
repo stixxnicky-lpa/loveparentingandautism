@@ -28,11 +28,11 @@
   "datePublished": "{{ page.date | date_to_xmlschema }}",
   "dateModified": "{{ page.last_modified_at | default: page.date | date_to_xmlschema }}",
   "author": {
-    "@type": "Person",
-    "name": "Nicky Stixx",
-    "url": "{{ '/about/' | absolute_url }}",
-    "description": "NT wife, mum, and author with 26+ years lived experience in a neurodiverse family. Author of Love, Parenting & Autism."
-  },
+      "@type": "Person",
+      "name": "{{ site.author.name }}",
+      "url": "{{ site.author.url }}",
+      "description": "{{ site.author.description }}"
+    },
   "publisher": {
     "@type": "Organization",
     "name": "Love, Parenting & Autism",
