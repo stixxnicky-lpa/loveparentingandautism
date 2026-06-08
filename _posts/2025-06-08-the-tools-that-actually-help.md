@@ -36,6 +36,16 @@ Because the tools only work when you're not running on empty. And most of us are
 
 So. A breath. A moment. And then — let's talk about what actually helps.
 
+## Quick Reference: Tools That Actually Help
+
+| Area | Tool or Strategy |
+|---|---|
+| Communication | Say it directly; daily 1–10 check-in; written messages for hard conversations |
+| Sensory | Noise-cancelling headphones; soft lighting; dedicated decompression space |
+| Sleep & calm | Weighted blanket; low-stimulus bedroom; consistent wind-down routine |
+| Routine | Visual schedules; transition warnings; same morning sequence |
+| NT wellbeing | Five minutes before the house wakes; scheduled restoration time; asking for help specifically |
+
 ---
 
 ## Communication Tools and Strategies
