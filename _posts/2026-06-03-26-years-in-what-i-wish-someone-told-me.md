@@ -42,6 +42,8 @@ And here's the thing. When I finally did start saying things plainly? When I sto
 
 I had to meet him where he was. That's not a small thing.
 
+*I go into this in much more detail in [You Cannot Pour From an Empty Cup](/blog/2025/06/09/you-cannot-pour-from-an-empty-cup/) — specifically around how NT partners can stop absorbing everything silently.*
+
 ---
 
 ## Your needs matter — say that out loud until you believe it
