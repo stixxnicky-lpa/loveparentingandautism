@@ -28,7 +28,7 @@ These are the tools, strategies, and small but significant shifts that changed t
 
 Before the tools. Before the strategies. Before any of it.
 
-Let yourself feel the weight of this. The exhaustion of being the one who holds it all together. The loneliness of being the neurotypical person in a house full of people who experience the world so differently from you. The grief — and it is grief, even when everyone is alive and loved and present — for the easier version of this life you imagined.
+Let yourself feel the weight of this. I wrote a whole post about this — [what it actually means to look after yourself](/blog/2025/06/09/you-cannot-pour-from-an-empty-cup/) when you're the NT heart of a neurodiverse family. The exhaustion of being the one who holds it all together. The loneliness of being the neurotypical person in a house full of people who experience the world so differently from you. The grief — and it is grief, even when everyone is alive and loved and present — for the easier version of this life you imagined.
 
 You are allowed to feel all of that. You are allowed to sit in it for a moment before you pick yourself back up and go again.
 
@@ -43,6 +43,8 @@ So. A breath. A moment. And then — let's talk about what actually helps.
 Communication in a neurodiverse relationship or family is not about one person learning to communicate better. It is about building a shared language — one that works for everyone's brain, not just the NT one.
 
 **Say what you mean. Mean what you say.**
+
+*(If you're new to understanding why direct communication matters so much, [Autism Explained](/blog/2025/06/07/autism-explained-what-nobody-tells-you-at-diagnosis/) covers the neurological reasons behind it.)*
 
 This sounds simple. It isn't. NT communication is full of implication, subtext, and the unspoken expectation that the other person will read between the lines. In a neurodiverse relationship, this is a recipe for constant misunderstanding. If you need something, say it directly. Not as a hint. Not wrapped in a question you don't actually want answered. Directly.
 
