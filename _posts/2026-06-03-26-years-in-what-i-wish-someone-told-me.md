@@ -3,6 +3,7 @@ layout: post
 title: "26 Years In — What I Wish Someone Had Told Me About Loving an Autistic Man"
 description: "The honest, unfiltered truth from an NT wife who had no idea what she was walking into — and wouldn't change it for the world."
 category: NT Wife Life
+description: "What 26 years as an NT wife married to an autistic man actually looks like — the communication breakthroughs, the loneliness, and what I wish someone had told me."
 date: 2026-06-03
 emoji: 💜
 read_time: 7 min read
