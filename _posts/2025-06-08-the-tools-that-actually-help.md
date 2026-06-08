@@ -3,6 +3,7 @@ layout: post
 title: "The Tools That Actually Help (And the Ones I Wish I'd Found Sooner)"
 date: 2025-06-08
 category: Tools & Strategies
+description: "The communication tools, sensory strategies, and practical shifts that actually work for neurotypical parents and partners in neurodiverse families."
 emoji: 🛠️
 read_time: 8 min read
 excerpt: "I spent years trying harder instead of trying differently. Then I found the tools, strategies and small shifts that actually made a difference. Here's everything I wish someone had handed me at the start."
