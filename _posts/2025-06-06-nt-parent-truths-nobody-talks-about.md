@@ -53,7 +53,7 @@ Because you can't fall apart. Not here. Not now.
 Later — maybe in the car, maybe at midnight when the house is finally quiet — you might let yourself feel it. The humiliation. The helplessness. The grief, even, for the ordinary shopping trips you'll never quite have.
 
 But in the moment? You just keep going. Because that's what you do.
-
+*If you're looking for practical tools that actually help in those moments, I've written about [the strategies that genuinely changed things for us](/blog/2025/06/08/the-tools-that-actually-help/).*
 ---
 
 ## The Guilt Nobody Talks About
@@ -71,7 +71,7 @@ You can love your child completely and still grieve the diagnosis. You can be yo
 The guilt tells you that feeling any of this makes you a bad parent. The guilt is wrong.
 
 Feeling it — and letting yourself feel it, without spiralling — is not weakness. It is part of processing a life that is genuinely, objectively hard. And you are allowed to find it hard.
-
+*And if the exhaustion of carrying all of this is getting to you, this one's worth reading: [You Cannot Pour From an Empty Cup](/blog/2025/06/09/you-cannot-pour-from-an-empty-cup/).*
 ---
 
 ## When Your Partner Is Also on the Spectrum
@@ -106,4 +106,4 @@ This space exists for you. Come back whenever you need it. 💙
 
 ---
 
-*Nicky Stixx is the author of [Love, Parenting & Autism](https://www.amazon.co.uk/dp/B0GN7ZH59Z), available on Amazon in paperback and Kindle. She is the neurotypical heart of a neurodiverse family, and she's been writing about it honestly for over two decades.*
+*Nicky Stixx is the author of [Love, Parenting & Autism](https://www.amazon.co.uk/dp/B0GN7ZH59Z) — also available from the [LPA shop](/shop/).*
