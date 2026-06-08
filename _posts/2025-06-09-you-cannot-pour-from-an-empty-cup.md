@@ -3,6 +3,7 @@ layout: post
 title: "You Cannot Pour From an Empty Cup — And Yours Has Been Empty For Too Long"
 date: 2025-06-09
 category: NT Self-Care
+description: "Why self-care isn't selfish for NT parents and partners — and what actually works when you're the one holding everything together."
 emoji: 💛
 read_time: 7 min read
 excerpt: "You give everything to everyone else and call what's left self-care. It isn't. It's time to talk about what looking after yourself actually means when you're the NT heart of a neurodiverse family."
