@@ -62,6 +62,14 @@ When I stopped expecting my husband to communicate the way I do, and started lea
 
 If you're newly navigating a diagnosis, you will encounter myths. Some will come from well-meaning family members. Some from strangers. Some, heartbreakingly, from professionals who should know better. Here are the ones I want to dismantle for you right now.
 
+| Myth | The Truth |
+|---|---|
+| "Autistic people lack empathy" | Many autistic people experience empathy intensely — it's expressed and processed differently |
+| "Autism is a childhood condition" | Autistic children become autistic adults. Traits don't disappear at 18 |
+| "If they can do X, they can't really be autistic" | The spectrum isn't a single sliding scale — masking is real and exhausting |
+| "They'll grow out of it" | They may grow into themselves, finding strategies that work — not the same thing |
+| "It's caused by bad parenting" | No. Absolutely not. Move on from anyone who suggests otherwise |
+
 **"Autistic people lack empathy."**
 This is perhaps the most damaging myth of all. Autistic people do not lack empathy — many experience it in overwhelming quantities. What differs is how it is recognised, processed, and expressed. The double empathy problem — a theory that autistic and non-autistic people simply have difficulty understanding each other's communication styles — is far closer to the truth.
 
