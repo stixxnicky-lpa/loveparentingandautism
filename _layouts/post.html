@@ -17,6 +17,29 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
+  <!-- Author + Article structured data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "{{ page.title | escape }}",
+  "description": "{{ page.description | default: page.excerpt | strip_html | truncatewords: 30 | escape }}",
+  "url": "{{ page.url | absolute_url }}",
+  "datePublished": "{{ page.date | date_to_xmlschema }}",
+  "dateModified": "{{ page.last_modified_at | default: page.date | date_to_xmlschema }}",
+  "author": {
+    "@type": "Person",
+    "name": "Nicky Stixx",
+    "url": "{{ '/about/' | absolute_url }}",
+    "description": "NT wife, mum, and author with 26+ years lived experience in a neurodiverse family. Author of Love, Parenting & Autism."
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Love, Parenting & Autism",
+    "url": "{{ '/' | absolute_url }}"
+  }
+}
+</script>
 
   <style>
     :root {
