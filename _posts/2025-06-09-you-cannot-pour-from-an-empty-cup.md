@@ -61,7 +61,14 @@ So. Let's talk about what actually helps.
 
 ## How to Fill Your Cup When You're Always Pouring for Others
 
-**Start by admitting it's empty.**
+Here's what actually works — not in theory, but in the real, complicated, always-something-else-happening life you're living:
+
+- **Admit it's empty** — not "am I coping?" but "am I okay?" Different questions
+- **Find your five minutes** before you find your hour — build the habit first
+- **Name what actually restores you** — not what should, what does — and protect it
+- **Find your people** — NT partners and parents who get it without explanation
+- **Let some things be imperfect** — the dinner, the house, the birthday cake
+- **Ask for help specifically** — not "let me know if you can help" but "could you have the kids Saturday?"
 
 This sounds obvious. It isn't. Most of us have become so accustomed to running on low that we've redefined it as normal. Check in with yourself honestly — not "am I coping?" (you are always coping, you are extraordinarily good at coping) but "am I okay?" Those are different questions. Answer the second one.
 
