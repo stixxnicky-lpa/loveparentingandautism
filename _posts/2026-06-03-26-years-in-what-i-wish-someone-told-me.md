@@ -26,6 +26,8 @@ Not the kind where you're alone. The kind where you're sitting next to someone y
 
 My husband doesn't miss me. He's *right there*. But the emotional attunement — the thing where your partner just *reads the room*, catches the look on your face, knows something's wrong before you say it — that doesn't come naturally to him. It took me years to understand that this wasn't rejection. It wasn't indifference. It was just... wiring.
 
+*[Autism Explained](/blog/2025/06/07/autism-explained-what-nobody-tells-you-at-diagnosis/) is the post I'd hand to anyone who's just had that lightbulb moment.*
+
 Knowing that doesn't make the lonely moments disappear. But it changes everything about how you carry them.
 
 > The moment I stopped interpreting his silence as not caring was the moment I started actually seeing him.
