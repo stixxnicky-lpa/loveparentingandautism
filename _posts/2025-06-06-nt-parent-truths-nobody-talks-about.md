@@ -54,6 +54,7 @@ Later — maybe in the car, maybe at midnight when the house is finally quiet �
 
 But in the moment? You just keep going. Because that's what you do.
 *If you're looking for practical tools that actually help in those moments, I've written about [the strategies that genuinely changed things for us](/blog/2025/06/08/the-tools-that-actually-help/).*
+
 ---
 
 ## The Guilt Nobody Talks About
@@ -72,6 +73,7 @@ The guilt tells you that feeling any of this makes you a bad parent. The guilt i
 
 Feeling it — and letting yourself feel it, without spiralling — is not weakness. It is part of processing a life that is genuinely, objectively hard. And you are allowed to find it hard.
 *And if the exhaustion of carrying all of this is getting to you, this one's worth reading: [You Cannot Pour From an Empty Cup](/blog/2025/06/09/you-cannot-pour-from-an-empty-cup/).*
+
 ---
 
 ## When Your Partner Is Also on the Spectrum
