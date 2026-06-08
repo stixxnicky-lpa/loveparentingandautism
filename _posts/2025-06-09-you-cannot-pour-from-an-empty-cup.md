@@ -62,7 +62,7 @@ So. Let's talk about what actually helps.
 ## How to Fill Your Cup When You're Always Pouring for Others
 
 Here's what actually works — not in theory, but in the real, complicated, always-something-else-happening life you're living:
-
+**Start by admitting it's empty.**
 - **Admit it's empty** — not "am I coping?" but "am I okay?" Different questions
 - **Find your five minutes** before you find your hour — build the habit first
 - **Name what actually restores you** — not what should, what does — and protect it
