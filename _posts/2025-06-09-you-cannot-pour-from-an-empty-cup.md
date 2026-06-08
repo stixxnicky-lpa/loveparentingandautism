@@ -39,6 +39,7 @@ This is invisible labour. It is real work. It is exhausting work. And the reason
 It is not part of the furniture. It is you. And you deserve to be seen.
 
 *If this resonates, [The NT Parent Truths Nobody Talks About](/blog/2025/06/06/the-nt-parent-truths-nobody-talks-about/) goes deeper into the emotional reality of this life.*
+
 ---
 
 ## Why Self-Care Isn't Selfish — It's the Whole Point
@@ -68,6 +69,7 @@ Here's what actually works — not in theory, but in the real, complicated, alwa
 - **Find your people** — NT partners and parents who get it without explanation
 - **Let some things be imperfect** — the dinner, the house, the birthday cake
 - **Ask for help specifically** — not "let me know if you can help" but "could you have the kids Saturday?"
+  
 **Start by admitting it's empty.**
 
 This sounds obvious. It isn't. Most of us have become so accustomed to running on low that we've redefined it as normal. Check in with yourself honestly — not "am I coping?" (you are always coping, you are extraordinarily good at coping) but "am I okay?" Those are different questions. Answer the second one.
