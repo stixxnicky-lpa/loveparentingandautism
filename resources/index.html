@@ -1,0 +1,660 @@
+---
+permalink: /resources/
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Resources I Recommend | Love, Parenting & Autism</title>
+  <meta name="description" content="Genuine product recommendations from 26 years of neurodiverse family life. Sensory tools, weighted blankets, noise-cancelling headphones, books and more." />
+  <link rel="icon" href="/images/mini_banner.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
+  <style>
+    *,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    :root{
+      --purple:#5B1F8A;--purple-dark:#3D1260;--purple-deep:#2A0D45;--purple-light:#EDE0F7;
+      --orange:#E8720C;--orange-dark:#B85A08;--yellow:#F0C040;--yellow-light:#FDF3CC;
+      --cream:#FDF9F4;--cream-dark:#F0E8DC;--text-dark:#1E1226;--text-mid:#4A3D5C;
+      --text-light:#8A7A9A;--white:#FFFFFF;
+    }
+    body{font-family:'Lato',sans-serif;background:var(--cream);color:var(--text-dark);font-size:17px;line-height:1.75}
+    h1,h2,h3,h4{font-family:'Playfair Display',serif;line-height:1.3}
+    a{color:var(--purple);text-decoration:none;transition:color 0.2s}
+    a:hover{color:var(--orange-dark)}
+    img{max-width:100%;display:block}
+    .container{max-width:1080px;margin:0 auto;padding:0 2rem}
+    .top-nav{background:var(--purple-dark);padding:14px 24px;display:flex;align-items:center;justify-content:space-between}
+    .back-link{color:rgba(255,255,255,0.75);font-size:0.82rem;font-weight:700;letter-spacing:0.05em;text-decoration:none;display:flex;align-items:center;gap:8px;transition:color 0.2s}
+    .back-link:hover{color:var(--yellow)}
+    .back-link::before{content:'←'}
+    .nav-home{color:rgba(255,255,255,0.75);font-size:0.82rem;font-weight:700;text-decoration:none;transition:color 0.2s}
+    .nav-home:hover{color:var(--yellow)}
+    .resources-hero{background:var(--purple-dark);background-image:radial-gradient(ellipse 80% 60% at 20% 50%,rgba(91,31,138,0.9) 0%,transparent 70%),radial-gradient(ellipse 60% 80% at 80% 20%,rgba(232,114,12,0.25) 0%,transparent 60%);padding:60px 24px 50px;text-align:center}
+    .eyebrow{font-size:0.75rem;font-weight:700;letter-spacing:0.2em;text-transform:uppercase;color:var(--yellow);margin-bottom:16px}
+    .resources-hero h1{font-family:'Playfair Display',serif;font-size:clamp(2rem,5vw,3.2rem);color:#fff;margin-bottom:16px}
+    .resources-hero h1 em{color:var(--yellow);font-style:italic}
+    .resources-hero p{font-size:1rem;color:rgba(255,255,255,0.8);max-width:580px;margin:0 auto}
+    .disclosure{background:var(--yellow-light);border-left:4px solid var(--orange);padding:1rem 1.5rem;margin:2rem auto;max-width:800px;border-radius:0 8px 8px 0;font-size:0.88rem;color:var(--text-mid)}
+    .disclosure strong{color:var(--orange-dark)}
+    .resources-main{max-width:1080px;margin:0 auto;padding:48px 24px 80px}
+    .category-section{margin-bottom:56px}
+    .category-header{display:flex;align-items:center;gap:1rem;margin-bottom:28px;padding-bottom:16px;border-bottom:2px solid rgba(91,31,138,0.12)}
+    .category-icon{font-size:1.8rem}
+    .category-header h2{font-family:'Playfair Display',serif;font-size:1.6rem;color:var(--purple-dark)}
+    .category-header p{font-size:0.9rem;color:var(--text-light);margin-top:2px}
+    .product-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1.25rem}
+    /* PRODUCT CARD - no hover transform since cards contain links not are links */
+    .product-card{background:var(--white);border:1px solid var(--cream-dark);border-radius:14px;padding:1.75rem;display:flex;flex-direction:column;transition:border-color 0.25s,box-shadow 0.25s}
+    .product-card:hover{border-color:var(--orange);box-shadow:0 10px 28px rgba(232,114,12,0.15)}
+    .product-card--featured{border-color:var(--orange);background:linear-gradient(135deg,var(--yellow-light),var(--white))}
+    .product-emoji{font-size:1.8rem;margin-bottom:0.75rem}
+    .product-badge{font-size:0.68rem;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:var(--orange);margin-bottom:0.4rem}
+    .product-card h3{font-family:'Playfair Display',serif;font-size:1rem;color:var(--purple-dark);margin-bottom:0.5rem;line-height:1.3}
+    .product-card p{font-size:0.88rem;color:var(--text-mid);line-height:1.6;flex:1;margin-bottom:1.1rem}
+    /* DUAL CTA BUTTONS */
+    .product-ctas{display:flex;gap:8px;flex-wrap:wrap;margin-top:auto}
+    .product-cta{display:inline-flex;align-items:center;gap:6px;font-size:0.82rem;font-weight:700;color:var(--white);background:var(--orange);padding:0.45rem 1rem;border-radius:20px;transition:all 0.2s;text-decoration:none;white-space:nowrap}
+    .product-cta:hover{background:var(--orange-dark);color:var(--white);transform:translateY(-1px)}
+    .product-cta--es{background:var(--purple-dark)}
+    .product-cta--es:hover{background:var(--purple);color:var(--white)}
+    .product-card--featured .product-cta{background:var(--purple-dark)}
+    .product-card--featured .product-cta:hover{background:var(--purple)}
+    .product-card--featured .product-cta--es{background:var(--orange)}
+    .product-card--featured .product-cta--es:hover{background:var(--orange-dark)}
+    /* COLOUR SELECTOR for Alpine Muffy */
+    .colour-selector{margin-bottom:1rem}
+    .colour-selector label{display:block;font-size:0.78rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:var(--text-light);margin-bottom:8px}
+    .colour-swatches{display:flex;flex-wrap:wrap;gap:8px}
+    .colour-swatch{width:28px;height:28px;border-radius:50%;cursor:pointer;border:3px solid transparent;transition:all 0.2s;position:relative}
+    .colour-swatch:hover,.colour-swatch.active{border-color:var(--purple-dark);transform:scale(1.15)}
+    .colour-swatch[title]::after{content:attr(title);position:absolute;bottom:calc(100% + 6px);left:50%;transform:translateX(-50%);background:var(--purple-dark);color:#fff;font-size:0.7rem;font-weight:700;padding:3px 8px;border-radius:6px;white-space:nowrap;opacity:0;pointer-events:none;transition:opacity 0.15s}
+    .colour-swatch:hover::after{opacity:1}
+    /* BOTTOM CTA */
+    .bottom-cta{background:var(--purple-dark);background-image:linear-gradient(135deg,var(--purple-dark) 0%,var(--purple) 100%);border-radius:20px;padding:48px 44px;text-align:center;margin-top:16px}
+    .bottom-cta h2{font-family:'Playfair Display',serif;font-size:1.8rem;color:#fff;margin-bottom:12px}
+    .bottom-cta p{color:rgba(255,255,255,0.8);font-size:1rem;margin-bottom:28px;max-width:520px;margin-left:auto;margin-right:auto}
+    .btn-gold{display:inline-block;background:var(--orange);color:var(--white);font-weight:700;font-size:0.95rem;padding:0.75rem 1.75rem;border-radius:25px;transition:all 0.2s}
+    .btn-gold:hover{background:var(--orange-dark);color:var(--white);transform:translateY(-1px)}
+    .btn-outline{display:inline-block;background:transparent;color:var(--white);border:2px solid rgba(255,255,255,0.5);font-weight:700;font-size:0.95rem;padding:0.75rem 1.75rem;border-radius:25px;margin-left:1rem;transition:all 0.2s}
+    .btn-outline:hover{border-color:var(--yellow);color:var(--yellow)}
+    .resources-footer{background:var(--purple-deep);color:rgba(255,255,255,0.6);padding:2rem 0;text-align:center;font-size:0.88rem;border-top:3px solid var(--orange);margin-top:0}
+    .resources-footer a{color:var(--yellow)}
+    .resources-footer a:hover{color:var(--white)}
+    @media(max-width:768px){
+      .product-grid{grid-template-columns:1fr}
+      .bottom-cta{padding:32px 24px}
+      .btn-outline{margin-left:0;margin-top:0.75rem;display:block;width:fit-content;margin:0.75rem auto 0}
+      .product-ctas{flex-direction:column}
+      .product-cta{text-align:center;justify-content:center}
+    }
+  </style>
+</head>
+<body>
+
+<nav class="top-nav">
+  <a href="https://loveparentingandautism.com" class="back-link">Back to main site</a>
+  <a href="https://loveparentingandautism.com/blog/" class="nav-home">Blog →</a>
+</nav>
+
+<section class="resources-hero">
+  <p class="eyebrow">Love, Parenting &amp; Autism</p>
+  <h1>Resources I <em>Genuinely</em> Recommend</h1>
+  <p>After 26 years as the NT heart of a neurodiverse family, these are the products I recommend — not because I was paid to, but because they actually help.</p>
+</section>
+
+<div class="container">
+  <div class="disclosure">
+    <strong>Affiliate disclosure:</strong> This page contains Amazon affiliate links. If you click through and make a purchase, I may earn a small commission at no extra cost to you. I only ever recommend products I genuinely believe in — your trust means everything to me. 💙
+  </div>
+</div>
+
+<main class="resources-main">
+
+  <!-- ── MY BOOK ── -->
+  <div class="category-section">
+    <div class="category-header">
+      <span class="category-icon">📖</span>
+      <div>
+        <h2>Start Here — My Book</h2>
+        <p>The resource I wish I'd had from day one</p>
+      </div>
+    </div>
+    <div class="product-grid">
+      <div class="product-card product-card--featured">
+        <div class="product-emoji">📗</div>
+        <div class="product-badge">⭐ My Book — Paperback</div>
+        <h3>Love, Parenting &amp; Autism — Nicky Stixx</h3>
+        <p>The honest, warm companion I wish I'd had from the beginning. Written from 26 years of lived experience as the only NT person in a neurodiverse family. No jargon, no clinical distance — just real talk from someone who truly gets it.</p>
+        <div class="product-ctas">
+          <a href="https://www.amazon.co.uk/Love-Parenting-Autism-perspective-mother/dp/B0GN7ZH59Z?crid=1YK7U53305QKT&dib=eyJ2IjoiMSJ9.iFoCKsu7Cepce4zZLPrP4HWqEMWv_3NCcr2H3_pjEIJvGuSvUm7Op-MsWksHvR0H2Ajs8_OAj7sooMsfcYkvzlqxlpLpbgTQwuOTYVubEJaCWmXarQqWzI2O7gAK1AVL.q2KsJJmi-KEY0mhTpYQ91dr8Jjcul1IU0ErkOyYW2bI&dib_tag=se&keywords=love+parenting+and+autism+nicky+stixx&qid=1780916075&sprefix=love+parenting+and+autism+nicky+stixx%2Caps%2C99&sr=8-1&linkCode=ll2&tag=loveparenti0f-21&linkId=e1240bcdc089bdf5a27858dbca626929&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored" class="product-cta">Amazon UK →</a>
+          <a href="https://www.amazon.es/-/en/Love-Parenting-Autism-perspective-mother/dp/B0GN7ZH59Z?crid=QY4IDW9XWSQR&dib=eyJ2IjoiMSJ9.mZMNXswBZ-8AZGwCuYdu6A.zc8HAWobkvP9TIeOu_xm9jbtUAvneCsxuekImb5zc-I&dib_tag=se&keywords=Love%2C+Parenting+%26+Autism+nicky+stixx&qid=1780915642&sprefix=love+parenting+%26+autism+nicky+stixx%2Caps%2C82&sr=8-1&linkCode=ll2&tag=loveparenti00-21&linkId=017ac440809b5345dc999d5e1a8a044f&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored" class="product-cta product-cta--es">Amazon ES →</a>
+        </div>
+      </div>
+      <div class="product-card product-card--featured">
+        <div class="product-emoji">📱</div>
+        <div class="product-badge">⭐ My Book — Kindle</div>
+        <h3>Love, Parenting &amp; Autism — Kindle Edition</h3>
+        <p>Prefer to read on your device? The Kindle edition is available now — start reading instantly, wherever you are. Same honest content, same warm voice, same real talk.</p>
+        <div class="product-ctas">
+          <a href="https://www.amazon.es/-/en/Nicky-Stixx-ebook/dp/B0GTY96RM2?_encoding=UTF8&dib_tag=se&dib=eyJ2IjoiMSJ9.mZMNXswBZ-8AZGwCuYdu6A.zc8HAWobkvP9TIeOu_xm9jbtUAvneCsxuekImb5zc-I&qid=1780915642&sr=8-1&linkCode=ll2&tag=loveparenti00-21&linkId=cec00e809b15903a00e803e1597529d4&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored" class="product-cta">Get Kindle Edition →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── WEIGHTED BLANKETS ── -->
+  <div class="category-section">
+    <div class="category-header">
+      <span class="category-icon">🛏️</span>
+      <div>
+        <h2>Weighted Blankets</h2>
+        <p>Deep pressure that genuinely calms — for children and adults</p>
+      </div>
+    </div>
+    <div class="product-grid">
+      <div class="product-card">
+        <div class="product-emoji">🦁</div>
+        <div class="product-badge">Children — Top Pick</div>
+        <h3>Dailydream Kids Weighted Blanket — Safari Design</h3>
+        <p>100% cotton, glass bead filling, OEKO-TEX certified. 2.3kg, 90x120cm. Genuinely calming for children who struggle with sleep and sensory overwhelm. The safari design is a firm favourite.</p>
+        <div class="product-ctas">
+          <a href="https://www.amazon.co.uk/Dailydream-Childrens-Weighted-Blanket-Cotton/dp/B0CGTZMFCR?crid=1EMZKRU6SAO3E&dib=eyJ2IjoiMSJ9.Zsqt1uu4Iiz3Hy8DnDjTOkbIRkYLzMQCl_p6tOlz2XTdN6cnCIezMFsz6Fd44iUZRp6HRCWFGVSJUXzvBL-NHU3iFcpqcz0zdXBE9cvMDPQVM0CSDn4oB8i6gEQrd8TE1FwzUZ6QWVv3pG_ckEAmqV88aTEQ4Om6otNwt5SHhFdloLlmZCu5XUlVqCVk1zfS7WXkoWqYBqTJ6NcMTPDB20g_SUdSkqm--vc81OOFzV_A45B_n0lE0Pp0PIcTUagF3F26YyC1CeiksJWN__CeGB58qP450JfYCFEpjSAwor0.ULVm9evoTz23w90d5B3LHBJs5sda5KE4SGypILmaY6g&dib_tag=se&keywords=Dailydream%2BKids%2BWeighted%2BBlanket&qid=1780916526&sprefix=dailydream%2Bkids%2Bweighted%2Bblanket%2Caps%2C163&sr=8-1-spons&aref=el6hRjWCKP&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&linkCode=ll2&tag=loveparenti0f-21&linkId=c05757250c21e771469b6a2207e1ccf1&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored" class="product-cta">Amazon UK →</a>
+          <a href="https://www.amazon.es/Dailydream-Safari-Weighted-Blanket-90x120cm/dp/B0CGTZMFCR?crid=1PW9MEPFAOXX2&dib=eyJ2IjoiMSJ9.RBNGkC6TezixBGGv6oJAIcqVkrBjDf2D6eXzpfvMhAEVYLnQEpvLsYEyRq2KI0iCnX4mv4lWngTyFnGmfE7x9H8n8_ZAAu0v1Lc_O2VP0fU4fOhcHRih-m3dhHKsrPSgKilWCEWOk2RYLKL4asAjzXoEcUZmG274NUdatUUO7UZoOUJ9btujKm7XRb-k8RTPQraHcUQeXfcdZPLXu2Zc7XkEb9XudcvODD302MNvQMpnAbNCdcvVDZSlDKhIGUQX5pnp69hqaSrLhaPk-r5U51zRxoGXvrbOyecpmGTPFG8.9VYqqTi4eJBqoFIZW0dPNjSyW02VWBBzCSUTkbji__A&dib_tag=se&keywords=Dailydream+Kids+Weighted+Blanket&qid=1780916519&sprefix=dailydream+kids+weighted+blanket%2Caps%2C195&sr=8-2-spons&aref=zAlvLCf4G4&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1&linkCode=ll2&tag=loveparenti00-21&linkId=83937961b206de29dde5eb1f48f08151&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored" class="product-cta product-cta--es">Amazon ES →</a>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-emoji">🌿</div>
+        <div class="product-badge">Children</div>
+        <h3>Dailydream Kids Weighted Blanket — Forest Design</h3>
+        <p>Same brilliant quality as the Safari — 100% cotton, 2.3kg, 90x120cm — with a beautiful nature design. Perfect for children who love the outdoors or prefer calmer colours.</p>
+        <div class="product-ctas">
+          <a href="https://www.amazon.co.uk/Dailydream-Childrens-Weighted-Blanket-Cotton/dp/B09HXQM331?crid=136EUI77GH6Y7&dib=eyJ2IjoiMSJ9.K2cRFJC7fftAskx8pv81PPgz2Qq7P6rZkJGsRM6aIX8foKjERR8JW0LweMpZBMMHDLaOd-6H4mnqDdALp3Af8J9E7tCXbD4pN6nADogFfYdxw7X8jhqE8NzbqNLuyytFcHCzk_t2cortumpFfpcy949VjYTDxLm9erYLJZX5d75M2fhbORqReLBAuCeukyriN067PHlw09ij3Qc_A3pApYzjgrTNXLZ78eT0k4XNbz_3R1cuwA5Wu-q4eSqT2Lx8NgCihHZoDBYgppYshkgy2gKVn3MB1CFD-FbLzSVbCaI.W6ILorW57jMigWGahpmwf1XLndyQLs4WfXQfeze6Qf0&dib_tag=se&keywords=weighted%2Bblanket%2Bforest&qid=1780917789&sprefix=weighted%2Bblanket%2Bforest%2Caps%2C108&sr=8-8&th=1&linkCode=ll2&tag=loveparenti0f-21&linkId=d28a49946b1d24cc80b060e6df07a7ed&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored" class="product-cta">Amazon UK →</a>
+          <a href="https://www.amazon.es/Dailydream-Weighted-Blanket-Cotton-90x120cm/dp/B09HXQM331?crid=1RMGYP96LGCH7&dib=eyJ2IjoiMSJ9.QtmvLA1If2kopPlvein_raauGG4-jYTusoX2kMzxgJbfdNFYryS4LjkrYDTxBfG-g9j8CYcJF7I8kDPYUKs2xj_PWPFL5QzzDu1xCnkOSmPJs4P71i2dybAv2rkgjC1UhKbUy73RDu9G7fP4Ffqob-0yeepU-lLd5XXlPvGuFe_LD4jeVSTW1UkRKR5lWfmYbSPXJfBQ3pyS0CDtw68ylbpxMJlmZ_h3ucQOonvw_t4oewQeJ17Zpuj6gzggUG3bN0D4JpjHD_cqd2ZbkriFchTlmZjIzjgyLla8T2XHPMI.zz9EESbKp_2FnHL3Jq8stKz9cVnuwj0alBrU3K_-Hfw&dib_tag=se&keywords=weighted+blanket&qid=1780917769&sprefix=weighted%2Caps%2C155&sr=8-1-spons&aref=Akgg98jKHG&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1&linkCode=ll2&tag=loveparenti00-21&linkId=61c9bbda85fdfbff915fa3e008a5e4ff&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored" class="product-cta product-cta--es">Amazon ES →</a>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-emoji">🚀</div>
+        <div class="product-badge">Children — Older Kids</div>
+        <h3>Space Theme Weighted Blanket — 100x150cm, 3kg</h3>
+        <p>Larger size for older or bigger children. 3kg provides deeper pressure — brilliant for children who need more sensory input to regulate. The space design is a winner with older kids.</p>
+        <div class="product-ctas">
+          <a href="https://www.amazon.co.uk/Weighted-Blanket-Non-Toxic-Insomnia-Astronaut/dp/B0GLXPMJ3D?dib=eyJ2IjoiMSJ9.kdlloDTqLDXWjzqPw5VnQ82h6T0j4hoi-CKBluBDSMVyF9iaci56WVhFzXGqmrDI0wNjOGOQwz2e5W_OTthCe_iT-Vnkqm9SLoKLieWxMUEE61oVIU6KN88ZHdOMj6RwtEWv5fhZ8PeJnv_ugqF-oViByIqGeZjAbNljVm83zFUx5S0kkpdIFTcRkvNvmH2P0xQpLNTHNSOFHRX9swYy2LwqQ0eLWOFFqHAz7YAeeldx9bfLuvUNqw77E7GeuRRWDSf84Aop5-C6yGScj7dEXvW_L5zsHvAtwTjJgf6Uz-o.1dyWCFTnzjmlJ5YmA5TIhfRpgS8ASv8erhZb-bq8cE0&dib_tag=se&keywords=Space%2BTheme%2BWeighted%2BBlanket%2BChildren%2B104x150%2B3.2kg&qid=1780989021&sr=8-4&th=1&linkCode=ll2&tag=loveparenti0f-21&linkId=8d71fe2bba1bdbebac410f3f76656bf1&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored" class="product-cta">Amazon UK →</a>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-emoji">💜</div>
+        <div class="product-badge">Adults — NT Self-Care Pick</div>
+        <h3>Dailydream Therapie Weighted Blanket — 135x200cm, 11kg</h3>
+        <p>Not just for autistic family members — this one is for you too. Fleece-filled with glass beads, 11kg of deep pressure that genuinely calms. The most restorative tool I've found for NT parents carrying a heavy load.</p>
+        <div class="product-ctas">
+          <a href="https://www.amazon.co.uk/Dailydream-Therapy-Weighted-Blanket-Fluffy/dp/B0GKPZZX4J?crid=3LYAY8GCKFOUX&dib=eyJ2IjoiMSJ9.Te-SpyHsc2qTIsxo541BX5kpM8ZZYB3WoTQ8VD19GwfuLyroxpGA5RAEEzdwLfRri8KboNS38xP70dlgXseWVwCOlJUxB0CwiDwxfMdtYd3XO3f5lTVk7nB_aLnGLh2ci4jaKcAscx7vl9pIL1XusG7CIRBeFJXs-vWX4Wdhn0KmO_q4WtOnn7S-z0xb3qGjDSVQnqHP1ILFkliOk6dtDXzx5EMZ_FxMlDKpAJOQSHgADpfpGuoaRSMmqM4kB2Qb0Anh2BelE3Yrds90Rya8wYBDDJT5feviMMhhZT3CJao.IsDcjJfmtko5u16YHSwJjDNaMH06afQxdgMYWxwIu90&dib_tag=se&keywords=Dailydream%2BTherapie%2BWeighted%2BBlanket&qid=1780917041&sr=8-5&th=1&linkCode=ll2&tag=loveparenti0f-21&linkId=1ffd2cd3e0e88c0d9f3156b9d14d9456&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored" class="product-cta">Amazon UK →</a>
+          <a href="https://www.amazon.es/dp/B0GKPZZX4J?pd_rd_i=B08HQYH88Q&pd_rd_w=9cZzh&content-id=amzn1.sym.1a1cf43a-d009-48e1-8554-8b895fd31e09&pf_rd_p=1a1cf43a-d009-48e1-8554-8b895fd31e09&pf_rd_r=5V9YRA5ZHFQYMAZJX2X7&pd_rd_wg=yPo97&pd_rd_r=56813ad2-a01d-4162-931b-a29a9a8c09e0&aref=yJgX8MnpaQ&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWw&th=1&linkCode=ll2&tag=loveparenti00-21&linkId=938eff1d876331a76d5e43fa4186c6b4&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored" class="product-cta product-cta--es">Amazon ES →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── SENSORY COMPRESSION BLANKETS ── -->
+  <div class="category-section">
+    <div class="category-header">
+      <span class="category-icon">🧘</span>
+      <div>
+        <h2>Sensory Compression Blankets</h2>
+        <p>Lycra body sheets for deep pressure, relaxation and calm — for children and adults</p>
+      </div>
+    </div>
+    <div class="product-grid">
+      <div class="product-card">
+        <div class="product-emoji">🪻</div>
+        <div class="product-badge">Children &amp; Adults — Lilac</div>
+        <h3>Sensory Compression Blanket — Lilac</h3>
+        <p>Stretchy lycra sheet that wraps the body in calming deep pressure. Helps with anxiety, sensory processing, ADHD, and autism regulation. The deep pressure feeling of being hugged makes adults and children feel safe and protected.</p>
+        <div class="product-ctas">
+          <a href="https://www.amazon.co.uk/Sensory-Compression-Blanket-Relaxing-Oxytocin/dp/B081NJDGWC?aref=limShGExQa&content-id=amzn1.sym.0cf85714-a5b0-4d96-9050-d0dce9037023%3Aamzn1.sym.0cf85714-a5b0-4d96-9050-d0dce9037023&crid=QNCUUNFWG16I&cv_ct_cx=Sensory%2BCompression%2BSheet&keywords=Sensory%2BCompression%2BSheet&pd_rd_i=B081FBYJHH&pd_rd_r=90767c85-e68f-4671-b302-a1d310037cbb&pd_rd_w=4D5WS&pd_rd_wg=3xYtQ&pf_rd_p=0cf85714-a5b0-4d96-9050-d0dce9037023&pf_rd_r=2B1PJ670QECCGF434VM0&qid=1780919102&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sr=1-1-9131241a-a358-4619-a7b8-0f5a65d91d81&th=1&linkCode=ll2&tag=loveparenti0f-21&linkId=69d3ff00e504965b96ae5e807a2f0ae8&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored" class="product-cta">Amazon UK →</a>
+          <a href="https://www.amazon.es/-/en/Sensory-Compression-Relaxation-Oxytocin-Stretchy/dp/B081NJDGWC?crid=224GJUGMEZHEE&dib=eyJ2IjoiMSJ9.8AeGrwEqY2oW6cOrwVQD-6896FKtYFtvHKnXZxuxqH1npw7gHGDFntfV-fJYbmjfmf6jZQJB6hQmjnNoZ5x4zRyBA_ZddiJCfIIUd9XFn61Ug8reCG_F3vDe15V8zfaniVOJwkUK1yJsyvzapFiaesz4QYvweWRYLR5YpCkzVvOXfa0iYddxpM3RysfoaDeKsEDjv-ON7AB82ECm3qzV0IRer3Sx6-bZ62ZXf0y_MnD0T1c_SPPMqojuABmkLrngpgR3mQMypz27d1yIPaq4LtqpgiQ8JwDhQdGJwv9hv4g.QhANAXpO-nA8TlwPi-5dcNMCN00JYTVcmcPgFGWffJE&dib_tag=se&keywords=compression+sheets+for+kids&qid=1780919070&sprefix=compression+sheets+for+kids%2Caps%2C93&sr=8-4&linkCode=ll2&tag=loveparenti00-21&linkId=fa0a5f5fd78d3af932599b01e0a96002&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored" class="product-cta product-cta--es">Amazon ES →</a>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-emoji">🔵</div>
+        <div class="product-badge">Children &amp; Adults — Blue</div>
+        <h3>Sensory Compression Blanket — Blue</h3>
+        <p>Same calming deep pressure in a cool blue. Helps with sensory processing, ADHD, autism, anxiety, and sleep. Not just for autistic family members — the deep pressure is genuinely restorative for NT adults too.</p>
+        <div class="product-ctas">
+          <a href="https://www.amazon.co.uk/Sensory-Compression-Blanket-Relaxing-Oxytocin/dp/B081FBYJHH?aref=limShGExQa&content-id=amzn1.sym.0cf85714-a5b0-4d96-9050-d0dce9037023%3Aamzn1.sym.0cf85714-a5b0-4d96-9050-d0dce9037023&crid=QNCUUNFWG16I&cv_ct_cx=Sensory%2BCompression%2BSheet&keywords=Sensory%2BCompression%2BSheet&pd_rd_i=B081FBYJHH&pd_rd_r=90767c85-e68f-4671-b302-a1d310037cbb&pd_rd_w=4D5WS&pd_rd_wg=3xYtQ&pf_rd_p=0cf85714-a5b0-4d96-9050-d0dce9037023&pf_rd_r=2B1PJ670QECCGF434VM0&qid=1780919102&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sr=1-1-9131241a-a358-4619-a7b8-0f5a65d91d81&th=1&linkCode=ll2&tag=loveparenti0f-21&linkId=ca07da7aabf68e74408e5cb34a5a37ee&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored" class="product-cta">Amazon UK →</a>
+          <a href="https://www.amazon.es/-/en/Sensory-Compression-Relaxation-Oxytocin-Stretchy/dp/B081FBYJHH?crid=224GJUGMEZHEE&dib=eyJ2IjoiMSJ9.8AeGrwEqY2oW6cOrwVQD-6896FKtYFtvHKnXZxuxqH1npw7gHGDFntfV-fJYbmjfmf6jZQJB6hQmjnNoZ5x4zRyBA_ZddiJCfIIUd9XFn61Ug8reCG_F3vDe15V8zfaniVOJwkUK1yJsyvzapFiaesz4QYvweWRYLR5YpCkzVvOXfa0iYddxpM3RysfoaDeKsEDjv-ON7AB82ECm3qzV0IRer3Sx6-bZ62ZXf0y_MnD0T1c_SPPMqojuABmkLrngpgR3mQMypz27d1yIPaq4LtqpgiQ8JwDhQdGJwv9hv4g.QhANAXpO-nA8TlwPi-5dcNMCN00JYTVcmcPgFGWffJE&dib_tag=se&keywords=compression+sheets+for+kids&qid=1780919070&sprefix=compression+sheets+for+kids%2Caps%2C93&sr=8-4&linkCode=ll2&tag=loveparenti00-21&linkId=cf6e543abc67febd9750ebe93a83c36f&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored" class="product-cta product-cta--es">Amazon ES →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── NOISE CANCELLING ── -->
+  <div class="category-section">
+    <div class="category-header">
+      <span class="category-icon">🎧</span>
+      <div>
+        <h2>Noise Cancelling Headphones &amp; Ear Defenders</h2>
+        <p>The single most impactful sensory tool in our household</p>
+      </div>
+    </div>
+    <div class="product-grid">
+
+      <!-- ALPINE MUFFY DROPDOWN CARD -->
+      <div class="product-card" id="muffy-card" style="grid-column: 1 / -1;">
+        <div class="product-emoji">🎧</div>
+        <div class="product-badge">Children — Top Pick — 9 Colours Available</div>
+        <h3>Alpine Muffy Kids Ear Defenders</h3>
+        <p>My number one recommendation for children. 25dB noise reduction, CE &amp; UKCA certified, adjustable for age 3–16. Available in 9 colours including special editions. These have transformed supermarket trips, school events, and busy family gatherings in our house. Choose your colour below.</p>
+        <div class="colour-selector">
+          <label>Choose colour:</label>
+          <div class="colour-swatches">
+            <div class="colour-swatch active" style="background:#4A90D9;" title="Blue" data-uk="https://www.amazon.co.uk/Alpine-Muffy-Kids-Defenders-Noise-canceling/dp/B08JZ21818?dib=eyJ2IjoiMSJ9.pEZfm7ki9cTpdxNOg5AqY1yy3VEcejgwvqTGlwhOIEekmbmxeP-HZfMq6YiGzBqkzT4DrOHZEybLENftoFK5X6gcQzzEpVPJNuKJ3m8ypNlBcCqqqGS_iPVdqvz5ATkW9-ftM8XjL_685DHQ8YLsTAaRUKd7CSU3hjTSa0rnnSq3Efv_UJATML0rzuvV6TEGVIFlVUgqeIXG_I4A4E3M-6NoY37RUAOF9Mm569z3l6pg7eEBhXKVXxB1QgKSze5WULQ51MG1WApp6rDv4d9c08o-XuFrceHOgpOMtM1j8UU.ZsGd3sabuqIpFCRd6ieVq6BN6kijfmFJqCMZpyG1uFM&dib_tag=se&keywords=Alpine%2BMuffy%2BKids%2BEar%2BDefenders&qid=1780916427&sr=8-1-spons&aref=9cU4yEkiZ4&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&linkCode=ll2&tag=loveparenti0f-21&linkId=899afd937e4272321e6e4b32aeb911ae&ref_=as_li_ss_tl" data-es="https://www.amazon.es/Alpine-Muffy-Protectors-Children-Years/dp/B08JZ21818?crid=2ODIXXYH1WPWA&dib=eyJ2IjoiMSJ9.pEZfm7ki9cTpdxNOg5AqY1yy3VEcejgwvqTGlwhOIEdyL-6xhgCV3sQBzUEpxa8jT8SnuaOcvx9mKOoRmUFLiKU0_LrN4a2qMOX2FsulANh_MgQGLK7pI0gsonZLh6jtzHcjLpVw2XN24nSaNOt-xZb0xyBLeL8brp5fJRPe0El38-1IfwNTQdn2OsizejqDsgU009ZE9gsemX9PF-aLEgxIfg6dSb3svcjBoZYtwjGrlUaNusu0shZZqj4nLYcphOEaz3DY1lotAY3_hUD1ACHLNsOxUbE0toMMKIR-ap0.Uk8f28mh6Y1hxVfBmOUySo1f_rjL4tIlGuyoca4qyQQ&dib_tag=se&keywords=Alpine%2BMuffy%2BKids%2BEar%2BDefenders&qid=1780916361&sprefix=alpine%2Bmuffy%2Bkids%2Bear%2Bdefenders%2Caps%2C193&sr=8-1-spons&aref=29xS6ObR5g&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&linkCode=ll2&tag=loveparenti00-21&linkId=fba56c6328e492e7189f107afaf3ea96&ref_=as_li_ss_tl" onclick="selectMuffy(this)"></div>
+            <div class="colour-swatch" style="background:#F4A7C3;" title="Pink" data-uk="https://www.amazon.co.uk/Alpine-Muffy-Kids-Defenders-Noise-canceling/dp/B08JYZK7HR?dib=eyJ2IjoiMSJ9.pEZfm7ki9cTpdxNOg5AqY1yy3VEcejgwvqTGlwhOIEekmbmxeP-HZfMq6YiGzBqkzT4DrOHZEybLENftoFK5X6gcQzzEpVPJNuKJ3m8ypNlBcCqqqGS_iPVdqvz5ATkW9-ftM8XjL_685DHQ8YLsTAaRUKd7CSU3hjTSa0rnnSq3Efv_UJATML0rzuvV6TEGVIFlVUgqeIXG_I4A4E3M-6NoY37RUAOF9Mm569z3l6pg7eEBhXKVXxB1QgKSze5WULQ51MG1WApp6rDv4d9c08o-XuFrceHOgpOMtM1j8UU.ZsGd3sabuqIpFCRd6ieVq6BN6kijfmFJqCMZpyG1uFM&dib_tag=se&keywords=Alpine%2BMuffy%2BKids%2BEar%2BDefenders&qid=1780916427&sr=8-1-spons&aref=9cU4yEkiZ4&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&linkCode=ll2&tag=loveparenti0f-21&linkId=be5cd46ae610033bb7dda3882176a757&ref_=as_li_ss_tl" data-es="https://www.amazon.es/Alpine-Muffy-Protectors-Children-Years/dp/B08JYZK7HR?crid=2ODIXXYH1WPWA&dib=eyJ2IjoiMSJ9.pEZfm7ki9cTpdxNOg5AqY1yy3VEcejgwvqTGlwhOIEdyL-6xhgCV3sQBzUEpxa8jT8SnuaOcvx9mKOoRmUFLiKU0_LrN4a2qMOX2FsulANh_MgQGLK7pI0gsonZLh6jtzHcjLpVw2XN24nSaNOt-xZb0xyBLeL8brp5fJRPe0El38-1IfwNTQdn2OsizejqDsgU009ZE9gsemX9PF-aLEgxIfg6dSb3svcjBoZYtwjGrlUaNusu0shZZqj4nLYcphOEaz3DY1lotAY3_hUD1ACHLNsOxUbE0toMMKIR-ap0.Uk8f28mh6Y1hxVfBmOUySo1f_rjL4tIlGuyoca4qyQQ&dib_tag=se&keywords=Alpine%2BMuffy%2BKids%2BEar%2BDefenders&qid=1780916361&sprefix=alpine%2Bmuffy%2Bkids%2Bear%2Bdefenders%2Caps%2C193&sr=8-1-spons&aref=29xS6ObR5g&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&linkCode=ll2&tag=loveparenti00-21&linkId=e9f78b7da90bc65c7955c3707cda8987&ref_=as_li_ss_tl" onclick="selectMuffy(this)"></div>
+            <div class="colour-swatch" style="background:#5CB85C;" title="Green" data-uk="https://www.amazon.co.uk/Alpine-Muffy-Kids-Defenders-Noise-canceling/dp/B08JZ1XFSD?dib=eyJ2IjoiMSJ9.pEZfm7ki9cTpdxNOg5AqY1yy3VEcejgwvqTGlwhOIEekmbmxeP-HZfMq6YiGzBqkzT4DrOHZEybLENftoFK5X6gcQzzEpVPJNuKJ3m8ypNlBcCqqqGS_iPVdqvz5ATkW9-ftM8XjL_685DHQ8YLsTAaRUKd7CSU3hjTSa0rnnSq3Efv_UJATML0rzuvV6TEGVIFlVUgqeIXG_I4A4E3M-6NoY37RUAOF9Mm569z3l6pg7eEBhXKVXxB1QgKSze5WULQ51MG1WApp6rDv4d9c08o-XuFrceHOgpOMtM1j8UU.ZsGd3sabuqIpFCRd6ieVq6BN6kijfmFJqCMZpyG1uFM&dib_tag=se&keywords=Alpine%2BMuffy%2BKids%2BEar%2BDefenders&qid=1780916427&sr=8-1-spons&aref=9cU4yEkiZ4&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&linkCode=ll2&tag=loveparenti0f-21&linkId=58b9020251dfc820a9a474cc109b0db3&ref_=as_li_ss_tl" data-es="https://www.amazon.es/Alpine-Muffy-Protectors-Children-Years/dp/B08JZ1XFSD?crid=2ODIXXYH1WPWA&dib=eyJ2IjoiMSJ9.pEZfm7ki9cTpdxNOg5AqY1yy3VEcejgwvqTGlwhOIEdyL-6xhgCV3sQBzUEpxa8jT8SnuaOcvx9mKOoRmUFLiKU0_LrN4a2qMOX2FsulANh_MgQGLK7pI0gsonZLh6jtzHcjLpVw2XN24nSaNOt-xZb0xyBLeL8brp5fJRPe0El38-1IfwNTQdn2OsizejqDsgU009ZE9gsemX9PF-aLEgxIfg6dSb3svcjBoZYtwjGrlUaNusu0shZZqj4nLYcphOEaz3DY1lotAY3_hUD1ACHLNsOxUbE0toMMKIR-ap0.Uk8f28mh6Y1hxVfBmOUySo1f_rjL4tIlGuyoca4qyQQ&dib_tag=se&keywords=Alpine%2BMuffy%2BKids%2BEar%2BDefenders&qid=1780916361&sprefix=alpine%2Bmuffy%2Bkids%2Bear%2Bdefenders%2Caps%2C193&sr=8-1-spons&aref=29xS6ObR5g&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&linkCode=ll2&tag=loveparenti00-21&linkId=314c37ca1868bc725eda915ddd9eadc6&ref_=as_li_ss_tl" onclick="selectMuffy(this)"></div>
+            <div class="colour-swatch" style="background:#F0C040;" title="Yellow" data-uk="https://www.amazon.co.uk/Alpine-Muffy-Kids-Defenders-Noise-canceling/dp/B08JZ1PBJ4?dib=eyJ2IjoiMSJ9.pEZfm7ki9cTpdxNOg5AqY1yy3VEcejgwvqTGlwhOIEekmbmxeP-HZfMq6YiGzBqkzT4DrOHZEybLENftoFK5X6gcQzzEpVPJNuKJ3m8ypNlBcCqqqGS_iPVdqvz5ATkW9-ftM8XjL_685DHQ8YLsTAaRUKd7CSU3hjTSa0rnnSq3Efv_UJATML0rzuvV6TEGVIFlVUgqeIXG_I4A4E3M-6NoY37RUAOF9Mm569z3l6pg7eEBhXKVXxB1QgKSze5WULQ51MG1WApp6rDv4d9c08o-XuFrceHOgpOMtM1j8UU.ZsGd3sabuqIpFCRd6ieVq6BN6kijfmFJqCMZpyG1uFM&dib_tag=se&keywords=Alpine%2BMuffy%2BKids%2BEar%2BDefenders&qid=1780916427&sr=8-1-spons&aref=9cU4yEkiZ4&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&linkCode=ll2&tag=loveparenti0f-21&linkId=fc25d3fcbc40b0cb0772d366e8c777cc&ref_=as_li_ss_tl" data-es="https://www.amazon.es/Alpine-Muffy-Protectors-Children-Years/dp/B08JZ1PBJ4?crid=2ODIXXYH1WPWA&dib=eyJ2IjoiMSJ9.pEZfm7ki9cTpdxNOg5AqY1yy3VEcejgwvqTGlwhOIEdyL-6xhgCV3sQBzUEpxa8jT8SnuaOcvx9mKOoRmUFLiKU0_LrN4a2qMOX2FsulANh_MgQGLK7pI0gsonZLh6jtzHcjLpVw2XN24nSaNOt-xZb0xyBLeL8brp5fJRPe0El38-1IfwNTQdn2OsizejqDsgU009ZE9gsemX9PF-aLEgxIfg6dSb3svcjBoZYtwjGrlUaNusu0shZZqj4nLYcphOEaz3DY1lotAY3_hUD1ACHLNsOxUbE0toMMKIR-ap0.Uk8f28mh6Y1hxVfBmOUySo1f_rjL4tIlGuyoca4qyQQ&dib_tag=se&keywords=Alpine%2BMuffy%2BKids%2BEar%2BDefenders&qid=1780916361&sprefix=alpine%2Bmuffy%2Bkids%2Bear%2Bdefenders%2Caps%2C193&sr=8-1-spons&aref=29xS6ObR5g&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&linkCode=ll2&tag=loveparenti00-21&linkId=4dc0c835b1da2704b45fd7c98b7c35bb&ref_=as_li_ss_tl" onclick="selectMuffy(this)"></div>
+            <div class="colour-swatch" style="background:#A8E6CF;" title="Mint" data-uk="https://www.amazon.co.uk/Alpine-Muffy-Kids-Defenders-Noise-canceling/dp/B08JYZLZPP?dib=eyJ2IjoiMSJ9.pEZfm7ki9cTpdxNOg5AqY1yy3VEcejgwvqTGlwhOIEekmbmxeP-HZfMq6YiGzBqkzT4DrOHZEybLENftoFK5X6gcQzzEpVPJNuKJ3m8ypNlBcCqqqGS_iPVdqvz5ATkW9-ftM8XjL_685DHQ8YLsTAaRUKd7CSU3hjTSa0rnnSq3Efv_UJATML0rzuvV6TEGVIFlVUgqeIXG_I4A4E3M-6NoY37RUAOF9Mm569z3l6pg7eEBhXKVXxB1QgKSze5WULQ51MG1WApp6rDv4d9c08o-XuFrceHOgpOMtM1j8UU.ZsGd3sabuqIpFCRd6ieVq6BN6kijfmFJqCMZpyG1uFM&dib_tag=se&keywords=Alpine%2BMuffy%2BKids%2BEar%2BDefenders&qid=1780916427&sr=8-1-spons&aref=9cU4yEkiZ4&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&linkCode=ll2&tag=loveparenti0f-21&linkId=247eaf23ce90f99c30f80b72cf541983&ref_=as_li_ss_tl" data-es="https://www.amazon.es/Alpine-Muffy-Protectors-Children-Years/dp/B08JYZLZPP?crid=2ODIXXYH1WPWA&dib=eyJ2IjoiMSJ9.pEZfm7ki9cTpdxNOg5AqY1yy3VEcejgwvqTGlwhOIEdyL-6xhgCV3sQBzUEpxa8jT8SnuaOcvx9mKOoRmUFLiKU0_LrN4a2qMOX2FsulANh_MgQGLK7pI0gsonZLh6jtzHcjLpVw2XN24nSaNOt-xZb0xyBLeL8brp5fJRPe0El38-1IfwNTQdn2OsizejqDsgU009ZE9gsemX9PF-aLEgxIfg6dSb3svcjBoZYtwjGrlUaNusu0shZZqj4nLYcphOEaz3DY1lotAY3_hUD1ACHLNsOxUbE0toMMKIR-ap0.Uk8f28mh6Y1hxVfBmOUySo1f_rjL4tIlGuyoca4qyQQ&dib_tag=se&keywords=Alpine%2BMuffy%2BKids%2BEar%2BDefenders&qid=1780916361&sprefix=alpine%2Bmuffy%2Bkids%2Bear%2Bdefenders%2Caps%2C193&sr=8-1-spons&aref=29xS6ObR5g&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&linkCode=ll2&tag=loveparenti00-21&linkId=6d5b827f1bec069780c49184ab2459a0&ref_=as_li_ss_tl" onclick="selectMuffy(this)"></div>
+            <div class="colour-swatch" style="background:#9B59B6;" title="Purple" data-uk="https://www.amazon.co.uk/Alpine-Muffy-Kids-Defenders-Noise-canceling/dp/B0CMR1QMBM?dib=eyJ2IjoiMSJ9.pEZfm7ki9cTpdxNOg5AqY1yy3VEcejgwvqTGlwhOIEekmbmxeP-HZfMq6YiGzBqkzT4DrOHZEybLENftoFK5X6gcQzzEpVPJNuKJ3m8ypNlBcCqqqGS_iPVdqvz5ATkW9-ftM8XjL_685DHQ8YLsTAaRUKd7CSU3hjTSa0rnnSq3Efv_UJATML0rzuvV6TEGVIFlVUgqeIXG_I4A4E3M-6NoY37RUAOF9Mm569z3l6pg7eEBhXKVXxB1QgKSze5WULQ51MG1WApp6rDv4d9c08o-XuFrceHOgpOMtM1j8UU.ZsGd3sabuqIpFCRd6ieVq6BN6kijfmFJqCMZpyG1uFM&dib_tag=se&keywords=Alpine%2BMuffy%2BKids%2BEar%2BDefenders&qid=1780916427&sr=8-1-spons&aref=9cU4yEkiZ4&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&linkCode=ll2&tag=loveparenti0f-21&linkId=9600f92633815b5cb701c75d5e5c8814&ref_=as_li_ss_tl" data-es="https://www.amazon.es/Alpine-Muffy-Protectors-Children-Years/dp/B0CMR1QMBM?crid=2ODIXXYH1WPWA&dib=eyJ2IjoiMSJ9.pEZfm7ki9cTpdxNOg5AqY1yy3VEcejgwvqTGlwhOIEdyL-6xhgCV3sQBzUEpxa8jT8SnuaOcvx9mKOoRmUFLiKU0_LrN4a2qMOX2FsulANh_MgQGLK7pI0gsonZLh6jtzHcjLpVw2XN24nSaNOt-xZb0xyBLeL8brp5fJRPe0El38-1IfwNTQdn2OsizejqDsgU009ZE9gsemX9PF-aLEgxIfg6dSb3svcjBoZYtwjGrlUaNusu0shZZqj4nLYcphOEaz3DY1lotAY3_hUD1ACHLNsOxUbE0toMMKIR-ap0.Uk8f28mh6Y1hxVfBmOUySo1f_rjL4tIlGuyoca4qyQQ&dib_tag=se&keywords=Alpine%2BMuffy%2BKids%2BEar%2BDefenders&qid=1780916361&sprefix=alpine%2Bmuffy%2Bkids%2Bear%2Bdefenders%2Caps%2C193&sr=8-1-spons&aref=29xS6ObR5g&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&linkCode=ll2&tag=loveparenti00-21&linkId=35c777057cd4a9673e260c8c938d5e5b&ref_=as_li_ss_tl" onclick="selectMuffy(this)"></div>
+            <div class="colour-swatch" style="background:#2C2C2C;" title="Black" data-uk="https://www.amazon.co.uk/Alpine-Muffy-Kids-Defenders-Noise-canceling/dp/B0CMQX1Y1F?dib=eyJ2IjoiMSJ9.pEZfm7ki9cTpdxNOg5AqY1yy3VEcejgwvqTGlwhOIEekmbmxeP-HZfMq6YiGzBqkzT4DrOHZEybLENftoFK5X6gcQzzEpVPJNuKJ3m8ypNlBcCqqqGS_iPVdqvz5ATkW9-ftM8XjL_685DHQ8YLsTAaRUKd7CSU3hjTSa0rnnSq3Efv_UJATML0rzuvV6TEGVIFlVUgqeIXG_I4A4E3M-6NoY37RUAOF9Mm569z3l6pg7eEBhXKVXxB1QgKSze5WULQ51MG1WApp6rDv4d9c08o-XuFrceHOgpOMtM1j8UU.ZsGd3sabuqIpFCRd6ieVq6BN6kijfmFJqCMZpyG1uFM&dib_tag=se&keywords=Alpine%2BMuffy%2BKids%2BEar%2BDefenders&qid=1780916427&sr=8-1-spons&aref=9cU4yEkiZ4&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&linkCode=ll2&tag=loveparenti0f-21&linkId=c67d1c6865bc0700b1a860f439b2e27c&ref_=as_li_ss_tl" data-es="https://www.amazon.es/Alpine-Muffy-Protectors-Children-Years/dp/B0CMQX1Y1F?crid=2ODIXXYH1WPWA&dib=eyJ2IjoiMSJ9.pEZfm7ki9cTpdxNOg5AqY1yy3VEcejgwvqTGlwhOIEdyL-6xhgCV3sQBzUEpxa8jT8SnuaOcvx9mKOoRmUFLiKU0_LrN4a2qMOX2FsulANh_MgQGLK7pI0gsonZLh6jtzHcjLpVw2XN24nSaNOt-xZb0xyBLeL8brp5fJRPe0El38-1IfwNTQdn2OsizejqDsgU009ZE9gsemX9PF-aLEgxIfg6dSb3svcjBoZYtwjGrlUaNusu0shZZqj4nLYcphOEaz3DY1lotAY3_hUD1ACHLNsOxUbE0toMMKIR-ap0.Uk8f28mh6Y1hxVfBmOUySo1f_rjL4tIlGuyoca4qyQQ&dib_tag=se&keywords=Alpine%2BMuffy%2BKids%2BEar%2BDefenders&qid=1780916361&sprefix=alpine%2Bmuffy%2Bkids%2Bear%2Bdefenders%2Caps%2C193&sr=8-1-spons&aref=29xS6ObR5g&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&linkCode=ll2&tag=loveparenti00-21&linkId=2d64dddec14d3a3029faa3e0a1c5856b&ref_=as_li_ss_tl" onclick="selectMuffy(this)"></div>
+            <div class="colour-swatch" style="background:#E8720C;border:2px solid #ccc;" title="Moto GP" data-uk="https://www.amazon.co.uk/Alpine-Muffy-Kids-Defenders-Noise-canceling/dp/B0B4BGF5GK?dib=eyJ2IjoiMSJ9.pEZfm7ki9cTpdxNOg5AqY1yy3VEcejgwvqTGlwhOIEekmbmxeP-HZfMq6YiGzBqkzT4DrOHZEybLENftoFK5X6gcQzzEpVPJNuKJ3m8ypNlBcCqqqGS_iPVdqvz5ATkW9-ftM8XjL_685DHQ8YLsTAaRUKd7CSU3hjTSa0rnnSq3Efv_UJATML0rzuvV6TEGVIFlVUgqeIXG_I4A4E3M-6NoY37RUAOF9Mm569z3l6pg7eEBhXKVXxB1QgKSze5WULQ51MG1WApp6rDv4d9c08o-XuFrceHOgpOMtM1j8UU.ZsGd3sabuqIpFCRd6ieVq6BN6kijfmFJqCMZpyG1uFM&dib_tag=se&keywords=Alpine%2BMuffy%2BKids%2BEar%2BDefenders&qid=1780916427&sr=8-1-spons&aref=9cU4yEkiZ4&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&linkCode=ll2&tag=loveparenti0f-21&linkId=2a987fec637c20111119beac6ce28769&ref_=as_li_ss_tl" data-es="https://www.amazon.es/Alpine-Muffy-Protectors-Children-Years/dp/B0B4BGF5GK?crid=2ODIXXYH1WPWA&dib=eyJ2IjoiMSJ9.pEZfm7ki9cTpdxNOg5AqY1yy3VEcejgwvqTGlwhOIEdyL-6xhgCV3sQBzUEpxa8jT8SnuaOcvx9mKOoRmUFLiKU0_LrN4a2qMOX2FsulANh_MgQGLK7pI0gsonZLh6jtzHcjLpVw2XN24nSaNOt-xZb0xyBLeL8brp5fJRPe0El38-1IfwNTQdn2OsizejqDsgU009ZE9gsemX9PF-aLEgxIfg6dSb3svcjBoZYtwjGrlUaNusu0shZZqj4nLYcphOEaz3DY1lotAY3_hUD1ACHLNsOxUbE0toMMKIR-ap0.Uk8f28mh6Y1hxVfBmOUySo1f_rjL4tIlGuyoca4qyQQ&dib_tag=se&keywords=Alpine%2BMuffy%2BKids%2BEar%2BDefenders&qid=1780916361&sprefix=alpine%2Bmuffy%2Bkids%2Bear%2Bdefenders%2Caps%2C193&sr=8-1-spons&aref=29xS6ObR5g&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&linkCode=ll2&tag=loveparenti00-21&linkId=3059a6317a062deb0271fcb6375ca120&ref_=as_li_ss_tl" onclick="selectMuffy(this)"></div>
+            <div class="colour-swatch" style="background:linear-gradient(135deg,#C00000,#E8720C);background-color:#C00000;" title="Formula One" data-uk="https://www.amazon.co.uk/Alpine-Muffy-Kids-Defenders-Noise-canceling/dp/B0B4BG2GWB?dib=eyJ2IjoiMSJ9.pEZfm7ki9cTpdxNOg5AqY1yy3VEcejgwvqTGlwhOIEekmbmxeP-HZfMq6YiGzBqkzT4DrOHZEybLENftoFK5X6gcQzzEpVPJNuKJ3m8ypNlBcCqqqGS_iPVdqvz5ATkW9-ftM8XjL_685DHQ8YLsTAaRUKd7CSU3hjTSa0rnnSq3Efv_UJATML0rzuvV6TEGVIFlVUgqeIXG_I4A4E3M-6NoY37RUAOF9Mm569z3l6pg7eEBhXKVXxB1QgKSze5WULQ51MG1WApp6rDv4d9c08o-XuFrceHOgpOMtM1j8UU.ZsGd3sabuqIpFCRd6ieVq6BN6kijfmFJqCMZpyG1uFM&dib_tag=se&keywords=Alpine%2BMuffy%2BKids%2BEar%2BDefenders&qid=1780916427&sr=8-1-spons&aref=9cU4yEkiZ4&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&linkCode=ll2&tag=loveparenti0f-21&linkId=2a987fec637c20111119beac6ce28769&ref_=as_li_ss_tl" data-es="https://www.amazon.es/Alpine-Muffy-Protectors-Children-Years/dp/B0B4BG2GWB?crid=2ODIXXYH1WPWA&dib=eyJ2IjoiMSJ9.pEZfm7ki9cTpdxNOg5AqY1yy3VEcejgwvqTGlwhOIEdyL-6xhgCV3sQBzUEpxa8jT8SnuaOcvx9mKOoRmUFLiKU0_LrN4a2qMOX2FsulANh_MgQGLK7pI0gsonZLh6jtzHcjLpVw2XN24nSaNOt-xZb0xyBLeL8brp5fJRPe0El38-1IfwNTQdn2OsizejqDsgU009ZE9gsemX9PF-aLEgxIfg6dSb3svcjBoZYtwjGrlUaNusu0shZZqj4nLYcphOEaz3DY1lotAY3_hUD1ACHLNsOxUbE0toMMKIR-ap0.Uk8f28mh6Y1hxVfBmOUySo1f_rjL4tIlGuyoca4qyQQ&dib_tag=se&keywords=Alpine%2BMuffy%2BKids%2BEar%2BDefenders&qid=1780916361&sprefix=alpine%2Bmuffy%2Bkids%2Bear%2Bdefenders%2Caps%2C193&sr=8-1-spons&aref=29xS6ObR5g&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&linkCode=ll2&tag=loveparenti00-21&linkId=d127a027921d2edb4e318cf0791d6419&ref_=as_li_ss_tl" onclick="selectMuffy(this)"></div>
+          </div>
+        </div>
+        <div class="product-ctas">
+          <a id="muffy-uk" href="https://www.amazon.co.uk/Alpine-Muffy-Kids-Defenders-Noise-canceling/dp/B08JZ21818?dib=eyJ2IjoiMSJ9.pEZfm7ki9cTpdxNOg5AqY1yy3VEcejgwvqTGlwhOIEekmbmxeP-HZfMq6YiGzBqkzT4DrOHZEybLENftoFK5X6gcQzzEpVPJNuKJ3m8ypNlBcCqqqGS_iPVdqvz5ATkW9-ftM8XjL_685DHQ8YLsTAaRUKd7CSU3hjTSa0rnnSq3Efv_UJATML0rzuvV6TEGVIFlVUgqeIXG_I4A4E3M-6NoY37RUAOF9Mm569z3l6pg7eEBhXKVXxB1QgKSze5WULQ51MG1WApp6rDv4d9c08o-XuFrceHOgpOMtM1j8UU.ZsGd3sabuqIpFCRd6ieVq6BN6kijfmFJqCMZpyG1uFM&dib_tag=se&keywords=Alpine%2BMuffy%2BKids%2BEar%2BDefenders&qid=1780916427&sr=8-1-spons&aref=9cU4yEkiZ4&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&linkCode=ll2&tag=loveparenti0f-21&linkId=899afd937e4272321e6e4b32aeb911ae&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored" class="product-cta">Amazon UK — Blue →</a>
+          <a id="muffy-es" href="https://www.amazon.es/Alpine-Muffy-Protectors-Children-Years/dp/B08JZ21818?crid=2ODIXXYH1WPWA&dib=eyJ2IjoiMSJ9.pEZfm7ki9cTpdxNOg5AqY1yy3VEcejgwvqTGlwhOIEdyL-6xhgCV3sQBzUEpxa8jT8SnuaOcvx9mKOoRmUFLiKU0_LrN4a2qMOX2FsulANh_MgQGLK7pI0gsonZLh6jtzHcjLpVw2XN24nSaNOt-xZb0xyBLeL8brp5fJRPe0El38-1IfwNTQdn2OsizejqDsgU009ZE9gsemX9PF-aLEgxIfg6dSb3svcjBoZYtwjGrlUaNusu0shZZqj4nLYcphOEaz3DY1lotAY3_hUD1ACHLNsOxUbE0toMMKIR-ap0.Uk8f28mh6Y1hxVfBmOUySo1f_rjL4tIlGuyoca4qyQQ&dib_tag=se&keywords=Alpine%2BMuffy%2BKids%2BEar%2BDefenders&qid=1780916361&sprefix=alpine%2Bmuffy%2Bkids%2Bear%2Bdefenders%2Caps%2C193&sr=8-1-spons&aref=29xS6ObR5g&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&linkCode=ll2&tag=loveparenti00-21&linkId=fba56c6328e492e7189f107afaf3ea96&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored" class="product-cta product-cta--es">Amazon ES — Blue →</a>
+        </div>
+      </div>
+
+      <!-- SONY -->
+      <div class="product-card">
+        <div class="product-emoji">⚫</div>
+        <div class="product-badge">Adults — Premium Pick</div>
+        <h3>Sony WH-1000XM5 Wireless Headphones</h3>
+        <p>Industry-leading active noise cancellation for adults who need serious sound management. Perfect for autistic adults in busy workplaces or needing genuine quiet time at home. Worth every penny.</p>
+        <div class="product-ctas">
+          <a href="https://www.amazon.co.uk/WF-1000XM5-Cancelling-Bluetooth-Headphones-Compatible/dp/B0C4TLFZSZ?dib=eyJ2IjoiMSJ9.pdY7_c7Yo8AmP4iDIORTF8nGJRcMYTlU6swJU6NWN2mCXNyFkGOP4llEZhb3KF7wvdxxsKfqJ9k64l7R00QXYnwIN2qnD8zFGdc54YnygrIBDZDl-ic5BQuAJd7-Xl0fQnfMias96CTgg44IePXCWu3t5F5rHDsULUd0IRr5_KZ3kvP4Mq0ZOyTRZzAO1_765n_8CQXA3IzG1FyaeUk7K4ntqj2s8QxjXgkVD81lx3E.3jQKFFNQvHTzPVPFYUqjCwgma2VrUwqEfTakU3R4Ir8&dib_tag=se&keywords=Sony%2BWH-1000XM5%2Bnoise%2Bcancelling&qid=1780990007&sr=8-1-spons&aref=phvlHWkj8i&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&linkCode=ll2&tag=loveparenti0f-21&linkId=f0db56573acbb5a40e76d5b1fec55e6e&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored" class="product-cta">Amazon UK →</a>
+        </div>
+      </div>
+
+      <!-- JBL -->
+      <div class="product-card">
+        <div class="product-emoji">🎵</div>
+        <div class="product-badge">Adults — ES Pick</div>
+        <h3>JBL Tune Beam Ghost 2 Wireless Noise Cancelling Earbuds</h3>
+        <p>Wireless Bluetooth noise cancelling earbuds with a waterproof design. A great alternative for adults wanting discreet noise management — sleek, effective, and comfortable for all-day wear.</p>
+        <div class="product-ctas">
+          <a href="https://www.amazon.es/JBL-Bluetooth-Cancelling-Headphones-Waterproof/dp/B0DK3X522R?crid=OFRY0FTO7LN1&dib=eyJ2IjoiMSJ9.o26YfXim4JuCSTbz_9GmEmlRABRDDm_tnyZJAmmxa76r45mmk6NtfezjKptbUdivOz6wtsfqYtJaiBf_2NJTkaPNeGOyf2ZB5f3fv7tZ-ZrloJC616CfcgiLvEO6jRlCVx7s4kb8-yAmB3tIZLpWS3wu7Ctzvrwkj3H2N370Ez4wH7krkBNw6PwjF6XU6E1fj25QKxGc1xVMBF0a4NK_MibSDd2HsqvShY4Um-D1vXHdlNsXEZO5Uxd11JRVwvrAkpDyDOjAI7mCEgGIKu4czA9LFJe_gcfQWV6nOrloFD0.X6pyutDjETyDKMKSXQ8ws2xbe6e_ePpUu4aPi0H_O9U&dib_tag=se&keywords=Wireless%2BNoise%2BCancelling%2BEarbuds&qid=1781090112&sprefix=wireless%2Bnoise%2Bcancelling%2Bearbuds%2Caps%2C83&sr=8-1-spons&aref=N9vj9z9X9g&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&linkCode=ll2&tag=loveparenti00-21&linkId=5dfea167551bc8d06d01839b7e73d29c&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored" class="product-cta product-cta--es">Amazon ES →</a>
+        </div>
+      </div>
+
+      <!-- LOOP EARPLUGS - 3 variants -->
+      <div class="product-card">
+        <div class="product-emoji">🔵</div>
+        <div class="product-badge">Children 6-12 — Discreet — Blue</div>
+        <h3>Loop Engage Kids Earplugs — Blue</h3>
+        <p>Stylish, discreet, no electronics. Designed to look like earrings and reduce noise without blocking it entirely — perfect for children in social or school settings who want to take the edge off without standing out.</p>
+        <div class="product-ctas">
+          <a href="https://www.amazon.co.uk/Loop-Engage-Kids-Plugs-6-12yrs/dp/B0DBLYRDM6?crid=29ZHBMOKX42RJ&dib=eyJ2IjoiMSJ9.Sa2n_wVf4e7YY46tQUK2rnWJGqTtRh3axkYM1M9OqpKgYMO-pF9b-EC0aIw8lH_89eWl83VUE1Kx7o4u1E_2SjZhXEbPFcds0s5W28xa9uG9Lfy8S06imaFMYnk6W8urLlK2wrCWiMCrQJnkLQ_zMQDQyiP1gl0UnqOFYflUCVZaaVXE0Ro7R4eRACmP12ELgaOA3bCMfV0OpC_376AXdGX0dpLBpCNlvMLwq2yiTscVnQguHhPOWunOwYJuoOJe5eh5dNhkoc-MElUcqzjk-G44kKGm9PB3uxRS-xmenYE.Iqn3ppckAduoRfM6k1CqWfPIlQXWDvYAdnaPjCX2qMs&dib_tag=se&keywords=Loop%2BEngage%2BKids%2B2%2BEar%2BPlugs%2B%286-12yrs%29&qid=1781090259&sprefix=loop%2Bengage%2Bkids%2B2%2Bear%2Bplugs%2B6-12yrs%2B%2Caps%2C136&sr=8-1-spons&aref=QIZuojTUea&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&linkCode=ll2&tag=loveparenti0f-21&linkId=935a4c6a9be5b3ae2760cefac107c87b&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored" class="product-cta">Amazon UK →</a>
+          <a href="https://www.amazon.es/Loop-Engage-Kids-Earplugs-Years/dp/B0DBLYRDM6?crid=3GAGZWCY475W&dib=eyJ2IjoiMSJ9.Sa2n_wVf4e7YY46tQUK2rt4_jRSABmtIRRGxy8lnDh91KAq3EbZq0wBWanGvUwys6P6OZYg6DBpcCHha_wBTjN28NwfNJ4bvVTW2AuXN7nFu2YsoBKORtH5dCy4X8qn96McgCZLgTr5_9rmFAsmk96EmnpndenPD-6_Xx-mzIlCHAxyr4yCuQ8mD61Cqdah5Kjz2Sg2CR3eoprmB2oDGql57h_tODaeCsoUo3Z5pLql9pixz7C2mr6yqkFvs9edx-ued_1Ml9hpnjyqTHx5-4RXvO0EGC2pmel8cE9tXN60._JUwCyDbNP6M8HOQghoz_m2H2v4DCO8XVgAYhhc2Bi8&dib_tag=se&keywords=Loop%2BEngage%2BKids%2B2%2BEar%2BPlugs%2B%286-12yrs%29&qid=1781091620&sprefix=loop%2Bengage%2Bkids%2B2%2Bear%2Bplugs%2B6-12yrs%2B%2Caps%2C111&sr=8-1-spons&aref=Ibb8EbWeId&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&linkCode=ll2&tag=loveparenti00-21&linkId=8b2506ea934dbcf58fd309f512f1cc74&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored" class="product-cta product-cta--es">Amazon ES →</a>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-emoji">🩷</div>
+        <div class="product-badge">Children 6-12 — Discreet — Pink</div>
+        <h3>Loop Engage Kids Earplugs — Pink</h3>
+        <p>Same brilliant discreet earplug design in pink. Perfect for children who want noise reduction without standing out. Comfortable for all-day wear in school, social situations, or busy environments.</p>
+        <div class="product-ctas">
+          <a href="https://www.amazon.co.uk/Loop-Engage-Kids-Plugs-6-12yrs/dp/B0DBLZ75J7?crid=29ZHBMOKX42RJ&dib=eyJ2IjoiMSJ9.Sa2n_wVf4e7YY46tQUK2rnWJGqTtRh3axkYM1M9OqpKgYMO-pF9b-EC0aIw8lH_89eWl83VUE1Kx7o4u1E_2SjZhXEbPFcds0s5W28xa9uG9Lfy8S06imaFMYnk6W8urLlK2wrCWiMCrQJnkLQ_zMQDQyiP1gl0UnqOFYflUCVZaaVXE0Ro7R4eRACmP12ELgaOA3bCMfV0OpC_376AXdGX0dpLBpCNlvMLwq2yiTscVnQguHhPOWunOwYJuoOJe5eh5dNhkoc-MElUcqzjk-G44kKGm9PB3uxRS-xmenYE.Iqn3ppckAduoRfM6k1CqWfPIlQXWDvYAdnaPjCX2qMs&dib_tag=se&keywords=Loop%2BEngage%2BKids%2B2%2BEar%2BPlugs%2B%286-12yrs%29&qid=1781090259&sprefix=loop%2Bengage%2Bkids%2B2%2Bear%2Bplugs%2B6-12yrs%2B%2Caps%2C136&sr=8-1-spons&aref=QIZuojTUea&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&linkCode=ll2&tag=loveparenti0f-21&linkId=b05790383a446ff22695865af8435f61&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored" class="product-cta">Amazon UK →</a>
+          <a href="https://www.amazon.es/Loop-Engage-Kids-Plugs-6-12yrs/dp/B0DBLZ75J7?dib=eyJ2IjoiMSJ9.jlKIWXCQ2DOHsbf8ozEdDx2AKgnxNdrhjwu_ffA5tj1ngjivqaVPkQc_-EvQwXn1HWcXr7N0jtNpWTBV5EInrGlZq4jzfcVBumrnOM_Wdr_DDQzaE4qV-_2yyNFQ7yZFftlxLowV_TJ96OL5f0IjyibANW0xwny2Oc4QwTfvh25zwSgRKuwb3XKX-8QdVzxkLegj8tLxNAB9feRR9S_14DU2NJnpyYJ8V4OtlXXQNh_ko66iCOFIa9UkBed-80GQM42TT2bT5_kz0UqGcIjr5w2IOGhoA9s1ShyYHmEWlEY.tiB5UVJzaQEFaGBGG6hafq3Ck9zQ_I2jshCXNTlmXvg&dib_tag=se&keywords=Loop%2BEarplugs%2BQuiet&qid=1780990161&sr=8-2-spons&aref=QIZuojTUea&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&linkCode=ll2&tag=loveparenti00-21&linkId=5324ffbfad425e547762ef864d3d8238&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored" class="product-cta product-cta--es">Amazon ES →</a>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-emoji">🟠</div>
+        <div class="product-badge">Children 6-12 — Discreet — Orange</div>
+        <h3>Loop Engage Kids Earplugs — Orange</h3>
+        <p>The boldest colour in the Loop range — great for children who love bright colours. Same discreet, effective noise reduction. No electronics, no bulk, and comfortable enough to wear all day.</p>
+        <div class="product-ctas">
+          <a href="https://www.amazon.co.uk/Loop-Engage-Kids-Plugs-6-12yrs/dp/B0DBLW6JD4?crid=29ZHBMOKX42RJ&dib=eyJ2IjoiMSJ9.Sa2n_wVf4e7YY46tQUK2rnWJGqTtRh3axkYM1M9OqpKgYMO-pF9b-EC0aIw8lH_89eWl83VUE1Kx7o4u1E_2SjZhXEbPFcds0s5W28xa9uG9Lfy8S06imaFMYnk6W8urLlK2wrCWiMCrQJnkLQ_zMQDQyiP1gl0UnqOFYflUCVZaaVXE0Ro7R4eRACmP12ELgaOA3bCMfV0OpC_376AXdGX0dpLBpCNlvMLwq2yiTscVnQguHhPOWunOwYJuoOJe5eh5dNhkoc-MElUcqzjk-G44kKGm9PB3uxRS-xmenYE.Iqn3ppckAduoRfM6k1CqWfPIlQXWDvYAdnaPjCX2qMs&dib_tag=se&keywords=Loop%2BEngage%2BKids%2B2%2BEar%2BPlugs%2B%286-12yrs%29&qid=1781090259&sprefix=loop%2Bengage%2Bkids%2B2%2Bear%2Bplugs%2B6-12yrs%2B%2Caps%2C136&sr=8-1-spons&aref=QIZuojTUea&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&linkCode=ll2&tag=loveparenti0f-21&linkId=2fbcbae094d25787f3270d6315b019ab&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored" class="product-cta">Amazon UK →</a>
+          <a href="https://www.amazon.es/Loop-Engage-Kids-Plugs-6-12yrs/dp/B0DBLW6JD4?dib=eyJ2IjoiMSJ9.jlKIWXCQ2DOHsbf8ozEdDx2AKgnxNdrhjwu_ffA5tj1ngjivqaVPkQc_-EvQwXn1HWcXr7N0jtNpWTBV5EInrGlZq4jzfcVBumrnOM_Wdr_DDQzaE4qV-_2yyNFQ7yZFftlxLowV_TJ96OL5f0IjyibANW0xwny2Oc4QwTfvh25zwSgRKuwb3XKX-8QdVzxkLegj8tLxNAB9feRR9S_14DU2NJnpyYJ8V4OtlXXQNh_ko66iCOFIa9UkBed-80GQM42TT2bT5_kz0UqGcIjr5w2IOGhoA9s1ShyYHmEWlEY.tiB5UVJzaQEFaGBGG6hafq3Ck9zQ_I2jshCXNTlmXvg&dib_tag=se&keywords=Loop%2BEarplugs%2BQuiet&qid=1780990161&sr=8-2-spons&aref=QIZuojTUea&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&linkCode=ll2&tag=loveparenti00-21&linkId=b7f8362d6fa6ab9a64c7b7653fbc94c8&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored" class="product-cta product-cta--es">Amazon ES →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── FIDGET & SENSORY ── -->
+  <div class="category-section">
+    <div class="category-header">
+      <span class="category-icon">🧸</span>
+      <div>
+        <h2>Fidget &amp; Sensory Tools</h2>
+        <p>Small tools that make a big difference to focus and regulation</p>
+      </div>
+    </div>
+    <div class="product-grid">
+      <div class="product-card">
+        <div class="product-emoji">🎲</div>
+        <div class="product-badge">Adults &amp; Older Children</div>
+        <h3>PILPOC Fidget Cube</h3>
+        <p>Premium build, quiet sides, satisfying clicker. Works brilliantly for school, work, or home — gives hands something to do without disturbing others. A genuine staple in our household.</p>
+        <div class="product-ctas">
+          <a href="https://www.amazon.co.uk/YYOJ-Bubble-Fidget-Sensory-Anxiety/dp/B07DVQS6G3?dib=eyJ2IjoiMSJ9.JtlDpGsDPFByXuEWMUUqp6af3nNhC_76ShwraBat-Azcr85MkPmWjJ_lr0lIbw8em_hLT3kWzyGbLVDDFV8vEC0gU1cyjxX_qUrX1p0vD83GlvmiDPy-QGmlvF-jUuN3rofYQ78X8esFaRW61kWlTFWv814_pASmF3NjqHR_vGkhAAcnEphkHyv5iklWXyl6T7CiKzrT8j-mgBfuVHJrI7gM_a8ehvPBg352p4PpBEmD9I17fzBq8yPPFBowanqnPMqTlsM8kYcDMQeImmBcDKguoTuN74-UAX-8trqCKKA.7cTsq0xkkz23ze9vLKOKgHlCvqBTToq_O6gv2of4TLI&dib_tag=se&keywords=PILPOC%2BtheFube%2BFidget%2BCube&qid=1780986797&sr=8-9&th=1&linkCode=ll2&tag=loveparenti0f-21&linkId=a5812108cc0f493ccbbcf7c0be5c1b6a&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored" class="product-cta">Amazon UK →</a>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-emoji">🐛</div>
+        <div class="product-badge">All Ages</div>
+        <h3>3 Piece Galaxy Fidget Toy Set</h3>
+        <p>These fidget toys relieve stress and anxiety, helping adults and children relax and maintain focus. Particularly good for anyone who needs something in their hands to stay regulated.</p>
+        <div class="product-ctas">
+          <a href="https://www.amazon.co.uk/Cuackamily-3-Piece-Fidget-Toy-Set/dp/B0CM6KPGCH?crid=334FR00V0XTRO&dib=eyJ2IjoiMSJ9.zWTzdyYHvmTJVJ2CKMrJWOTXTguVthRxlYNfuhvk1eqHsSR_hFKdFzPdHEYwcH7OTi0LFPFPGEGmwGKmLSsw1h4bSBDhPLf9jGikTtNpm_wIaf6ArJcjJvRFG_fZMOileAikQTp_jdtfjxi-E8Oa8l7LuOlVMPfIb_bcncH1bc1RLej6fFLNwBv3a23Wkt1lLaAzFeQByOnILSdtTtIeVUm3Ghae_2NZ5C8iseaf4xH5KVSX7RWZpmJ3JPiLi3ESWTSNciqliuuqLKA6SC0ECp51R1Trk7NPQyuChoRppQI.azxqInMvFrLStF47JDDAE_BnYVfPuV0o5DBgN-28Af0&dib_tag=se&keywords=sensory+toys+autism&qid=1780987087&s=kids&sprefix=sensory+toys+autism%2Ctoys%2C139&sr=1-31&linkCode=ll2&tag=loveparenti0f-21&linkId=ddf807b3aad68d3e0a133b30099da4e4&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored" class="product-cta">Amazon UK →</a>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-emoji">🪨</div>
+        <div class="product-badge">All Ages — NT Self-Care Pick</div>
+        <h3>Sensory Worry Stones</h3>
+        <p>Silent, discreet, surprisingly effective. Not just for autistic family members — these are brilliant for NT parents on the hard days too. Something to hold and press when you need to stay regulated.</p>
+        <div class="product-ctas">
+          <a href="https://www.amazon.co.uk/dp/B0F29G6K2P?&linkCode=ll2&tag=loveparenti0f-21&linkId=109fb6bcf1709e73b31d8ce41b298383&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored" class="product-cta">Amazon UK →</a>
+          <a href="https://www.amazon.es/CATZUM-Pieces-Sensory-Anxiety-Plastic/dp/B0GHMYXKGD?dib=eyJ2IjoiMSJ9.BQEWwHVsUIaN4UCP_hv5inlfIJYXCRTSeixc8d9W46ctDbJQKSqs_PodWZonfvGxy8G_pwbmoZRb5DkJsNClcfNKqF43pZBgODs8WucdnWZqMXyW9neLVEKClYx6nfvlfsmnn67zocjMk3uwsVawX_NB9N4dlKphTuSRx2Ne5U9_Hs93kd--RZ_AYh-SfODYA-pjklPluWbwibAaREtLqLCsdrxIxk9bcPaYxAdltWGxZXoWifMEB2jvwcHJE4LUTdszf-VM4c1GJ2tqRm1dR0oxjNfAT6k-hZyRr32_4uc.6vRTucyvRbAy32oDdluakS-A6dbUnnIk6xH8WOtnB-8&dib_tag=se&keywords=Sensory+Worry+Stones+6-Pack&qid=1780917281&sr=8-2-spons&aref=eHLmEHsYH8&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1&linkCode=ll2&tag=loveparenti00-21&linkId=d5480cb580c04ac408d7fa33e701af2e&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored" class="product-cta product-cta--es">Amazon ES →</a>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-emoji">🎁</div>
+        <div class="product-badge">Gift Idea — ES</div>
+        <h3>Nestling 30-Piece Fidget Toy Pack</h3>
+        <p>Perfect as a gift or starter sensory kit — 30 different fidget tools in a handy storage box. Great for finding out which textures and tools work best before investing in individual pieces.</p>
+        <div class="product-ctas">
+          <a href="https://www.amazon.es/-/en/Nestling-Relieves-Sensory-Against-Disorders/dp/B0BJ1SBH2F?crid=2VCLHGWYVBB4O&dib=eyJ2IjoiMSJ9.ZOfFvKPb5UQfPkV8qu8mJI40zBI-MVfjRP8X-sC5m_3lYA7k1XfPYMhl8jeccXdkw9VOeWuFmu7S5pQLl39ihbZzTtwtM7xc6cbLZahKYuoVfzuU7zdo0K9ju6VGATQXoqKvAffaKJ9wfFCWjZUbSsDnBxJK_xksfd66a0Tn72Gk-y7Jx5pqR9taoEa_0YLV4YIqMPScnB9jLIxsyNZ8xBDyld-Qxb_etJzOQxsbMOBO4lS8mSxCdbZDtXWd0u2U9S_2L9zB9AZNcDkBv2W9lekbjkeTaMiUbklA3ncvLh0.ATfNr-UFm26RX0CMiLdYhy5bR-Oey0n92I6Z7sJ69cY&dib_tag=se&keywords=fidget+toy+selection&qid=1780986709&sprefix=fidget+toy+selection%2Caps%2C122&sr=8-2&linkCode=ll2&tag=loveparenti00-21&linkId=9e2b449ba8c57719d93ad20d8244095f&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored" class="product-cta product-cta--es">Amazon ES →</a>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-emoji">🔴</div>
+        <div class="product-badge">Adult — Anti Self-Harming — ES</div>
+        <h3>TOMUS Ouchies Spiky Pain Fidget Keychain</h3>
+        <p>A dense surface of uniform spikes providing rich tactile feedback when pressed and rolled — helping with focus and anxiety relief. Designed as a sensory distraction tool for adults and teens.</p>
+        <div class="product-ctas">
+          <a href="https://www.amazon.es/ATOMUS-Ouchies-Grippie-Keychain-Relaxation/dp/B0GBWS49KP?crid=1FUSXFH7UW7R0&dib=eyJ2IjoiMSJ9.BajxJ2MKWUbEKts4lnxEpAHCMtQkA7877v256Bz1lHyZGinu1dcynhyVEQwTd-KGE5UDVYFI5zMMfTXqOaJONPrUQutbbaOCWmXstGIKuy9uJtuhVNzQ1b236zhsD_r1l6oZHXJ20TdN9op03Mf76Sgda61XlD_hlHJW1s4pdaS8ZwIkzx8N1_nzf5jPumD6zS7QT0nB0SyqwWrQQePtlGnZN4YM29cb7vpNAdlwnKKpz7ZdgAHbYmF8jYknJHuNpsFD-XLASHShL8ScKw8N5i2fqzwQ2OGOBQuTaHSv-eY.JOhsz-cw7GlFYPh-1CBwIoIYLYj6WOuGaKMd2_8TerM&dib_tag=se&keywords=sensory+toys&qid=1780997984&sprefix=sensory%2Caps%2C123&sr=8-1-spons&aref=vQ8fUXAb5o&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1&linkCode=ll2&tag=loveparenti00-21&linkId=e6171b3c7b06ab0641f62757e81456b5&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored" class="product-cta product-cta--es">Amazon ES →</a>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-emoji">⚫</div>
+        <div class="product-badge">Adult — Anti Self-Harming — UK</div>
+        <h3>Ouchies Clicker Spinner Sensory Keychain</h3>
+        <p>An innovative fidget toy designed to reduce stress and anxiety — a sensory distraction companion you can take anywhere. Clicker and spinner combined, giving hands something satisfying to focus on.</p>
+        <div class="product-ctas">
+          <a href="https://www.amazon.co.uk/Ouchies-Clicker-Spinner-Sensory-Keychain/dp/B0FGX7BBDW?crid=27J3DFQ3G960V&dib=eyJ2IjoiMSJ9.0AzAyp5uSv5Z7EvlY2y3IObCTYHqiNnexao-lKwAjKlDDlGgTUCzA7bwmtNsD9lPjtB3pZk3lrHNxXd_02PPbM5__pNaQyx3NK0D41aOAT8oU8APidsxZcBzVCgYmQ96_1Em48YJnXQKBqeeeb10DSc-Wv93aPqecIt9VFwxcWx2HDaTw5bCrXpEGzGffBDiPe1fEKuB_wDxdXBiGV9yTQlvVsxx6noKGU9ngKDRNxdpCdXwb607TuknZCMxn5lXEAey4tgUFLMej7sizpQLebLqqK0gpYvO0tb2PsSvyR8.sQnpu4w9LMe_0dQB_p5m4mIY_CVcZKfqVeH98pBvGCo&dib_tag=se&keywords=sensory%2Bpain%2Bfidget&qid=1780998156&sprefix=sensory%2Bpain%2Bfidget%2Caps%2C112&sr=8-7&th=1&linkCode=ll2&tag=loveparenti0f-21&linkId=0188901d6a4bb75a2df3b609dad68107&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored" class="product-cta">Amazon UK →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── COLOURING BLANKETS ── -->
+  <div class="category-section">
+    <div class="category-header">
+      <span class="category-icon">🎨</span>
+      <div>
+        <h2>DIY Colouring Blankets</h2>
+        <p>Washable, reusable creative canvas — a brilliant calming sensory activity</p>
+      </div>
+    </div>
+    <div class="product-grid">
+      <div class="product-card">
+        <div class="product-emoji">🍬</div>
+        <div class="product-badge">UK &amp; ES</div>
+        <h3>DIY Colouring Blanket — Gummy Bears</h3>
+        <p>Washable felt-velvet blanket with coloured markers included. A wonderfully calming, focused activity for children who need something creative to do with their hands.</p>
+        <div class="product-ctas">
+          <a href="https://www.amazon.co.uk/INPUS-Coloring-Blankets-Personalized-including/dp/B0FWCBS7KB?crid=3F1PGOYRCA23M&dib=eyJ2IjoiMSJ9.pnLkFPLUd40tXil9Fkj1bym2MeZPsWDQVMlPKMK_S30gq0LeH8grJznH5emwmTaEDIjLt2-7Mi7kyl0S8bT-6_7Sc_rfWfqrQAAID8-7mxi02pnSPCNradTJVqn0Wc_9xxocyPubX2kJrwKkUMDzjY-HAxG4SJ9fduHt_86TFL2xzTpLLsifDPyqq2I-CoMcOgKWPbcdrkHwkLOl3iqwM5MPHY2NF6SmDJv6IHsiMjbN09L4P1iw2O4mAd539ltLVAyPAVGDaXezz6b2Ioa6BXhpOUAIXPZ6OUk2Hj4SXqg.QnTfuTYWdpHDB2qO7IPqmNSyw4PmB7pWpJR2CG97JiE&dib_tag=se&keywords=DIY%2BColoring%2BBlanket&qid=1780918027&sr=8-2&th=1&linkCode=ll2&tag=loveparenti0f-21&linkId=4cb49241ce4851b5d2c26644676e2e47&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored" class="product-cta">Amazon UK →</a>
+          <a href="https://www.amazon.es/dp/B0FWCBS7KB?pd_rd_i=B0FWBZJTMW&pd_rd_w=K7NGQ&content-id=amzn1.sym.1a1cf43a-d009-48e1-8554-8b895fd31e09&pf_rd_p=1a1cf43a-d009-48e1-8554-8b895fd31e09&pf_rd_r=CMNNKKM65NRKDF6CARRD&pd_rd_wg=ux4zb&pd_rd_r=b1002904-2c27-4f95-817c-1028ddaf2344&aref=xYlaIgnY9e&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWw&th=1&linkCode=ll2&tag=loveparenti00-21&linkId=5f956ce3388a2d03a1b3f7d9da4fe97c&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored" class="product-cta product-cta--es">Amazon ES →</a>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-emoji">✏️</div>
+        <div class="product-badge">UK &amp; ES</div>
+        <h3>DIY Colouring Blanket — Crayons</h3>
+        <p>A playful crayon design on the same washable felt-velvet base. Comes with markers, fully washable, and reusable — brilliant value as a calming creative activity that can be done again and again.</p>
+        <div class="product-ctas">
+          <a href="https://www.amazon.co.uk/INPUS-Coloring-Blankets-Personalized-including/dp/B0FWBZJTMW?crid=3F1PGOYRCA23M&dib=eyJ2IjoiMSJ9.pnLkFPLUd40tXil9Fkj1bym2MeZPsWDQVMlPKMK_S30gq0LeH8grJznH5emwmTaEDIjLt2-7Mi7kyl0S8bT-6_7Sc_rfWfqrQAAID8-7mxi02pnSPCNradTJVqn0Wc_9xxocyPubX2kJrwKkUMDzjY-HAxG4SJ9fduHt_86TFL2xzTpLLsifDPyqq2I-CoMcOgKWPbcdrkHwkLOl3iqwM5MPHY2NF6SmDJv6IHsiMjbN09L4P1iw2O4mAd539ltLVAyPAVGDaXezz6b2Ioa6BXhpOUAIXPZ6OUk2Hj4SXqg.QnTfuTYWdpHDB2qO7IPqmNSyw4PmB7pWpJR2CG97JiE&dib_tag=se&keywords=DIY%2BColoring%2BBlanket&qid=1780918027&sr=8-2&th=1&linkCode=ll2&tag=loveparenti0f-21&linkId=2b3868d2e24be3332161ad4eb35f2adb&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored" class="product-cta">Amazon UK →</a>
+          <a href="https://www.amazon.es/dp/B0FWBZJTMW?pd_rd_i=B0FWBZJTMW&pd_rd_w=K7NGQ&content-id=amzn1.sym.1a1cf43a-d009-48e1-8554-8b895fd31e09&pf_rd_p=1a1cf43a-d009-48e1-8554-8b895fd31e09&pf_rd_r=CMNNKKM65NRKDF6CARRD&pd_rd_wg=ux4zb&pd_rd_r=b1002904-2c27-4f95-817c-1028ddaf2344&aref=xYlaIgnY9e&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWw&th=1&linkCode=ll2&tag=loveparenti00-21&linkId=a3de50f0d28bf54f73b7c72786b5dd00&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored" class="product-cta product-cta--es">Amazon ES →</a>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-emoji">🎃</div>
+        <div class="product-badge">UK &amp; ES</div>
+        <h3>DIY Colouring Blanket — Halloween</h3>
+        <p>Spooky and fun — perfect for Halloween or for children who love a theme. Same washable felt-velvet format with markers included.</p>
+        <div class="product-ctas">
+          <a href="https://www.amazon.co.uk/INPUS-Coloring-Blankets-Personalized-including/dp/B0FWCBYPQW?crid=3F1PGOYRCA23M&dib=eyJ2IjoiMSJ9.pnLkFPLUd40tXil9Fkj1bym2MeZPsWDQVMlPKMK_S30gq0LeH8grJznH5emwmTaEDIjLt2-7Mi7kyl0S8bT-6_7Sc_rfWfqrQAAID8-7mxi02pnSPCNradTJVqn0Wc_9xxocyPubX2kJrwKkUMDzjY-HAxG4SJ9fduHt_86TFL2xzTpLLsifDPyqq2I-CoMcOgKWPbcdrkHwkLOl3iqwM5MPHY2NF6SmDJv6IHsiMjbN09L4P1iw2O4mAd539ltLVAyPAVGDaXezz6b2Ioa6BXhpOUAIXPZ6OUk2Hj4SXqg.QnTfuTYWdpHDB2qO7IPqmNSyw4PmB7pWpJR2CG97JiE&dib_tag=se&keywords=DIY%2BColoring%2BBlanket&qid=1780918027&sr=8-2&th=1&linkCode=ll2&tag=loveparenti0f-21&linkId=c5a6bdfad2a6402ad035fb7f1de9194b&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored" class="product-cta">Amazon UK →</a>
+          <a href="https://www.amazon.es/dp/B0FWCBYPQW?pd_rd_i=B0FWBZJTMW&pd_rd_w=K7NGQ&content-id=amzn1.sym.1a1cf43a-d009-48e1-8554-8b895fd31e09&pf_rd_p=1a1cf43a-d009-48e1-8554-8b895fd31e09&pf_rd_r=CMNNKKM65NRKDF6CARRD&pd_rd_wg=ux4zb&pd_rd_r=b1002904-2c27-4f95-817c-1028ddaf2344&aref=xYlaIgnY9e&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWw&th=1&linkCode=ll2&tag=loveparenti00-21&linkId=e23c54bfc0de3ee6e4201881f7123979&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored" class="product-cta product-cta--es">Amazon ES →</a>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-emoji">🎭</div>
+        <div class="product-badge">UK &amp; ES — Adults</div>
+        <h3>DIY Colouring Blanket — Cigarettes &amp; Alcohol</h3>
+        <p>A tongue-in-cheek adult design — because sometimes the NT parent needs a colouring activity too. Same washable felt-velvet format. This one's for you. 😄</p>
+        <div class="product-ctas">
+          <a href="https://www.amazon.co.uk/INPUS-Coloring-Blankets-Personalized-including/dp/B0FWC5W21Q?crid=3F1PGOYRCA23M&dib=eyJ2IjoiMSJ9.pnLkFPLUd40tXil9Fkj1bym2MeZPsWDQVMlPKMK_S30gq0LeH8grJznH5emwmTaEDIjLt2-7Mi7kyl0S8bT-6_7Sc_rfWfqrQAAID8-7mxi02pnSPCNradTJVqn0Wc_9xxocyPubX2kJrwKkUMDzjY-HAxG4SJ9fduHt_86TFL2xzTpLLsifDPyqq2I-CoMcOgKWPbcdrkHwkLOl3iqwM5MPHY2NF6SmDJv6IHsiMjbN09L4P1iw2O4mAd539ltLVAyPAVGDaXezz6b2Ioa6BXhpOUAIXPZ6OUk2Hj4SXqg.QnTfuTYWdpHDB2qO7IPqmNSyw4PmB7pWpJR2CG97JiE&dib_tag=se&keywords=DIY%2BColoring%2BBlanket&qid=1780918027&sr=8-2&th=1&linkCode=ll2&tag=loveparenti0f-21&linkId=b5e2e1e7f9623be114a403499ceed1c1&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored" class="product-cta">Amazon UK →</a>
+          <a href="https://www.amazon.es/dp/B0GQ458HW7?pd_rd_i=B0GQ458HW7&pd_rd_w=K7NGQ&content-id=amzn1.sym.1a1cf43a-d009-48e1-8554-8b895fd31e09&pf_rd_p=1a1cf43a-d009-48e1-8554-8b895fd31e09&pf_rd_r=CMNNKKM65NRKDF6CARRD&pd_rd_wg=ux4zb&pd_rd_r=b1002904-2c27-4f95-817c-1028ddaf2344&aref=c7E8qXCqz0&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWw&th=1&linkCode=ll2&tag=loveparenti00-21&linkId=c1cc18e43e6f7d14abf6c7c6add1777d&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored" class="product-cta product-cta--es">Amazon ES →</a>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-emoji">🐄</div>
+        <div class="product-badge">UK &amp; ES</div>
+        <h3>DIY Colouring Blanket — Cow</h3>
+        <p>A fun cow-print design — cheerful and satisfying to colour in. Great for animal-loving children and a lovely quiet activity for focused sensory input.</p>
+        <div class="product-ctas">
+          <a href="https://www.amazon.co.uk/INPUS-Coloring-Blankets-Personalized-including/dp/B0FWC5CL21?crid=3F1PGOYRCA23M&dib=eyJ2IjoiMSJ9.pnLkFPLUd40tXil9Fkj1bym2MeZPsWDQVMlPKMK_S30gq0LeH8grJznH5emwmTaEDIjLt2-7Mi7kyl0S8bT-6_7Sc_rfWfqrQAAID8-7mxi02pnSPCNradTJVqn0Wc_9xxocyPubX2kJrwKkUMDzjY-HAxG4SJ9fduHt_86TFL2xzTpLLsifDPyqq2I-CoMcOgKWPbcdrkHwkLOl3iqwM5MPHY2NF6SmDJv6IHsiMjbN09L4P1iw2O4mAd539ltLVAyPAVGDaXezz6b2Ioa6BXhpOUAIXPZ6OUk2Hj4SXqg.QnTfuTYWdpHDB2qO7IPqmNSyw4PmB7pWpJR2CG97JiE&dib_tag=se&keywords=DIY%2BColoring%2BBlanket&qid=1780918027&sr=8-2&th=1&linkCode=ll2&tag=loveparenti0f-21&linkId=73909473d4a934defa2be6fbb49a5bd0&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored" class="product-cta">Amazon UK →</a>
+          <a href="https://www.amazon.es/dp/B0FWC5CL21?pd_rd_i=B0FWBZJTMW&pd_rd_w=K7NGQ&content-id=amzn1.sym.1a1cf43a-d009-48e1-8554-8b895fd31e09&pf_rd_p=1a1cf43a-d009-48e1-8554-8b895fd31e09&pf_rd_r=CMNNKKM65NRKDF6CARRD&pd_rd_wg=ux4zb&pd_rd_r=b1002904-2c27-4f95-817c-1028ddaf2344&aref=xYlaIgnY9e&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWw&th=1&linkCode=ll2&tag=loveparenti00-21&linkId=3d734a3745f011c03e63efb92473d91b&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored" class="product-cta product-cta--es">Amazon ES →</a>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-emoji">🍄</div>
+        <div class="product-badge">UK &amp; ES</div>
+        <h3>DIY Colouring Blanket — Mushrooms &amp; Flowers</h3>
+        <p>A beautiful nature-themed design for children who love plants and flowers. Calming colours, satisfying to colour in, and endlessly reusable.</p>
+        <div class="product-ctas">
+          <a href="https://www.amazon.co.uk/INPUS-Coloring-Blankets-Personalized-including/dp/B0FWC9XYG2?crid=3F1PGOYRCA23M&dib=eyJ2IjoiMSJ9.pnLkFPLUd40tXil9Fkj1bym2MeZPsWDQVMlPKMK_S30gq0LeH8grJznH5emwmTaEDIjLt2-7Mi7kyl0S8bT-6_7Sc_rfWfqrQAAID8-7mxi02pnSPCNradTJVqn0Wc_9xxocyPubX2kJrwKkUMDzjY-HAxG4SJ9fduHt_86TFL2xzTpLLsifDPyqq2I-CoMcOgKWPbcdrkHwkLOl3iqwM5MPHY2NF6SmDJv6IHsiMjbN09L4P1iw2O4mAd539ltLVAyPAVGDaXezz6b2Ioa6BXhpOUAIXPZ6OUk2Hj4SXqg.QnTfuTYWdpHDB2qO7IPqmNSyw4PmB7pWpJR2CG97JiE&dib_tag=se&keywords=DIY%2BColoring%2BBlanket&qid=1780918027&sr=8-2&th=1&linkCode=ll2&tag=loveparenti0f-21&linkId=1b17b1d054f7684f2bbed22c4aa2f56a&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored" class="product-cta">Amazon UK →</a>
+          <a href="https://www.amazon.es/dp/B0FWC9XYG2?pd_rd_i=B0FWBZJTMW&pd_rd_w=K7NGQ&content-id=amzn1.sym.1a1cf43a-d009-48e1-8554-8b895fd31e09&pf_rd_p=1a1cf43a-d009-48e1-8554-8b895fd31e09&pf_rd_r=CMNNKKM65NRKDF6CARRD&pd_rd_wg=ux4zb&pd_rd_r=b1002904-2c27-4f95-817c-1028ddaf2344&aref=xYlaIgnY9e&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWw&th=1&linkCode=ll2&tag=loveparenti00-21&linkId=6d1e1a52a01a54dfbcce3e8c77f5776a&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored" class="product-cta product-cta--es">Amazon ES →</a>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-emoji">🦕</div>
+        <div class="product-badge">UK &amp; ES</div>
+        <h3>DIY Colouring Blanket — Dinosaurs</h3>
+        <p>A favourite for dinosaur-loving children. Bold outlines, satisfying to colour, and endlessly reusable. A wonderful quiet activity for children who need focused sensory input.</p>
+        <div class="product-ctas">
+          <a href="https://www.amazon.co.uk/NPLSEO-Coloring-Creative-Personalized-Dinosaur/dp/B0FVFM4N6L?crid=WLKZ03I34MSQ&dib=eyJ2IjoiMSJ9.IJ3ws2XmsNHN-n2crd4i_I0njDmB6l9hPuoP5a88XYwqShG_uKIOkMWajaAmDMQYav59WEpbtVtgS5FkZo0a3t-b1jZcekcnlpd73RHmfOIeGWwE786kmX3UEadfZeeIr2f1dbwh_x3e36n_9rrOT2n1WvlfxzdqeGPWZKrig2dsbgyhirtOiAN6B1MGzz6Ti-NFJOIJzKMZ15FyfXxmv8-hEkYepMY2yUus22O93ZXC8hiT8-BnBXXZHuz7gl3UkKPe_G6EvKHjdOxIX34Ii5c4Lb1_tjLeIdObvB_xun4.OWzoUsmwLh5Lf-vDcbq67PeeeXaKW0-UPzIWePnKTT8&dib_tag=se&keywords=colouring%2Bblanket%2Bdinosaur&qid=1781088952&sprefix=CLOURING%2BBLANKET%2BDIN%2Caps%2C99&sr=8-7&th=1&linkCode=ll2&tag=loveparenti0f-21&linkId=6dbc0f2f5f68a73106d9abc67c2aad6b&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored" class="product-cta">Amazon UK →</a>
+          <a href="https://www.amazon.es/dp/B0FWC6HW67?pd_rd_i=B0FWBZJTMW&pd_rd_w=K7NGQ&content-id=amzn1.sym.1a1cf43a-d009-48e1-8554-8b895fd31e09&pf_rd_p=1a1cf43a-d009-48e1-8554-8b895fd31e09&pf_rd_r=CMNNKKM65NRKDF6CARRD&pd_rd_wg=ux4zb&pd_rd_r=b1002904-2c27-4f95-817c-1028ddaf2344&aref=xYlaIgnY9e&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWw&th=1&linkCode=ll2&tag=loveparenti00-21&linkId=b56ba48e27c0102efe089f473ab75b82&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored" class="product-cta product-cta--es">Amazon ES →</a>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-emoji">🍓</div>
+        <div class="product-badge">UK &amp; ES</div>
+        <h3>DIY Colouring Blanket — Fruits</h3>
+        <p>Bright, colourful fruit designs that are cheerful and satisfying to colour. Great for younger children and for anyone who finds repetitive colouring genuinely calming.</p>
+        <div class="product-ctas">
+          <a href="https://www.amazon.co.uk/INPUS-Coloring-Blankets-Personalized-including/dp/B0FWC9ZRFV?crid=3F1PGOYRCA23M&dib=eyJ2IjoiMSJ9.pnLkFPLUd40tXil9Fkj1bym2MeZPsWDQVMlPKMK_S30gq0LeH8grJznH5emwmTaEDIjLt2-7Mi7kyl0S8bT-6_7Sc_rfWfqrQAAID8-7mxi02pnSPCNradTJVqn0Wc_9xxocyPubX2kJrwKkUMDzjY-HAxG4SJ9fduHt_86TFL2xzTpLLsifDPyqq2I-CoMcOgKWPbcdrkHwkLOl3iqwM5MPHY2NF6SmDJv6IHsiMjbN09L4P1iw2O4mAd539ltLVAyPAVGDaXezz6b2Ioa6BXhpOUAIXPZ6OUk2Hj4SXqg.QnTfuTYWdpHDB2qO7IPqmNSyw4PmB7pWpJR2CG97JiE&dib_tag=se&keywords=DIY%2BColoring%2BBlanket&qid=1780918027&sr=8-2&th=1&linkCode=ll2&tag=loveparenti0f-21&linkId=05bfe0eb08fe2a6c862c405187264d0f&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored" class="product-cta">Amazon UK →</a>
+          <a href="https://www.amazon.es/dp/B0FWC9ZRFV?pd_rd_i=B0FWBZJTMW&pd_rd_w=K7NGQ&content-id=amzn1.sym.1a1cf43a-d009-48e1-8554-8b895fd31e09&pf_rd_p=1a1cf43a-d009-48e1-8554-8b895fd31e09&pf_rd_r=CMNNKKM65NRKDF6CARRD&pd_rd_wg=ux4zb&pd_rd_r=b1002904-2c27-4f95-817c-1028ddaf2344&aref=xYlaIgnY9e&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWw&th=1&linkCode=ll2&tag=loveparenti00-21&linkId=0a3db24b97331969f70f2c5429657583&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored" class="product-cta product-cta--es">Amazon ES →</a>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-emoji">💻</div>
+        <div class="product-badge">UK &amp; ES</div>
+        <h3>DIY Colouring Blanket — Tech / 80s Design</h3>
+        <p>A tech-themed design for older children and teenagers who love gadgets and gaming. Same calming, washable format — brilliant as a focused quiet activity.</p>
+        <div class="product-ctas">
+          <a href="https://www.amazon.co.uk/INPUS-Coloring-Blankets-Personalized-including/dp/B0FWC5PXZJ?crid=3F1PGOYRCA23M&dib=eyJ2IjoiMSJ9.pnLkFPLUd40tXil9Fkj1bym2MeZPsWDQVMlPKMK_S30gq0LeH8grJznH5emwmTaEDIjLt2-7Mi7kyl0S8bT-6_7Sc_rfWfqrQAAID8-7mxi02pnSPCNradTJVqn0Wc_9xxocyPubX2kJrwKkUMDzjY-HAxG4SJ9fduHt_86TFL2xzTpLLsifDPyqq2I-CoMcOgKWPbcdrkHwkLOl3iqwM5MPHY2NF6SmDJv6IHsiMjbN09L4P1iw2O4mAd539ltLVAyPAVGDaXezz6b2Ioa6BXhpOUAIXPZ6OUk2Hj4SXqg.QnTfuTYWdpHDB2qO7IPqmNSyw4PmB7pWpJR2CG97JiE&dib_tag=se&keywords=DIY%2BColoring%2BBlanket&qid=1780918027&sr=8-2&th=1&linkCode=ll2&tag=loveparenti0f-21&linkId=b5d17ba4f7a562cc520ec7f54eb8e814&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored" class="product-cta">Amazon UK →</a>
+          <a href="https://www.amazon.es/TQOZ72RQSM39SF30T9/dp/B0H2X1CYDQ?crid=3KYA0G22TKE9N&dib=eyJ2IjoiMSJ9.qXPE0uAHCScVRixSsu9_m7SBRH-378oYcnV4_S9UnU0dxCd3WKOEhHPWyz2fkPumJ5lURe4TneGO6WOoOaverD5UOGQ873geNnk19hNK-NEkTcQ0CGKRWno4O619iIK5ZDnm9inqo3gZV6RT27FU8_AaGaDDoxcjqAB_6jVF2IYri6-AlVbC8Kal4f1-Dgeirch9-rj8hSO4th76CQQeQG8COfnNeusn7c9-wxXpA9qR8XKsExQMB6fquVMjUCr-WYbqQVq7VkQy3d61g9SyTBQvQVDK-F-ttItpVP1QdjE.rxVtQQ8WfzHYozx0Yu93KrROH70a-1-bSr8dcNwY2vA&dib_tag=se&keywords=colouring%2Bblanket&qid=1780918280&sprefix=colouring%2Bblankets%2Caps%2C96&sr=8-3-spons&aref=3L2mw2oKJA&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&linkCode=ll2&tag=loveparenti00-21&linkId=5983a7dd6d797ff99667c3e7f7c24cb5&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored" class="product-cta product-cta--es">Amazon ES →</a>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-emoji">😄</div>
+        <div class="product-badge">ES Only</div>
+        <h3>DIY Colouring Blanket — Funny Characters</h3>
+        <p>Cheerful, fun characters on the same washable felt-velvet base. A brilliant calming activity for children who love colour and creativity. Currently available on Amazon ES.</p>
+        <div class="product-ctas">
+          <a href="https://www.amazon.es/TQOZ72RQSM39SF30T9/dp/B0H2X1VHLY?crid=3KYA0G22TKE9N&dib=eyJ2IjoiMSJ9.qXPE0uAHCScVRixSsu9_m7SBRH-378oYcnV4_S9UnU0dxCd3WKOEhHPWyz2fkPumJ5lURe4TneGO6WOoOaverD5UOGQ873geNnk19hNK-NEkTcQ0CGKRWno4O619iIK5ZDnm9inqo3gZV6RT27FU8_AaGaDDoxcjqAB_6jVF2IYri6-AlVbC8Kal4f1-Dgeirch9-rj8hSO4th76CQQeQG8COfnNeusn7c9-wxXpA9qR8XKsExQMB6fquVMjUCr-WYbqQVq7VkQy3d61g9SyTBQvQVDK-F-ttItpVP1QdjE.rxVtQQ8WfzHYozx0Yu93KrROH70a-1-bSr8dcNwY2vA&dib_tag=se&keywords=colouring%2Bblanket&qid=1780918280&sprefix=colouring%2Bblankets%2Caps%2C96&sr=8-3-spons&aref=3L2mw2oKJA&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&linkCode=ll2&tag=loveparenti00-21&linkId=feb0f5c0b7ef3766a9aa755c4bb4b2af&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored" class="product-cta product-cta--es">Amazon ES →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── COLOURING T-SHIRTS ── -->
+  <div class="category-section">
+    <div class="category-header">
+      <span class="category-icon">👕</span>
+      <div>
+        <h2>Colouring T-Shirts</h2>
+        <p>Colour them in, wash them, and colour them in again — a wearable sensory activity</p>
+      </div>
+    </div>
+    <div class="product-grid">
+      <div class="product-card">
+        <div class="product-emoji">🦄</div>
+        <div class="product-badge">UK &amp; ES</div>
+        <h3>Reusable Colouring T-Shirt — Unicorn</h3>
+        <p>100% cotton with washable magic markers included. Colour it in, wear it, wash it, and start again. A brilliant sensory-creative activity that results in something wearable.</p>
+        <div class="product-ctas">
+          <a href="https://www.amazon.co.uk/dp/B07K6TCH3S?pd_rd_i=B07K6WQXDH&pd_rd_w=L5now&content-id=amzn1.sym.67a7787e-69bd-4913-9670-239f61f2c206&pf_rd_p=67a7787e-69bd-4913-9670-239f61f2c206&pf_rd_r=BSJ09T342GJYZ4QZ67JC&pd_rd_wg=uzs49&pd_rd_r=b5089d10-0496-4165-8c51-bbd1efd19de2&aref=ZgV1HAkbrm&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWw&th=1&psc=1&linkCode=ll2&tag=loveparenti0f-21&linkId=208e367bedd703bd08727fdfbc7e622a&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored" class="product-cta">Amazon UK →</a>
+          <a href="https://www.amazon.es/-/en/Splat-Planet-T-Shirt-Unisex-Baby/dp/B07K6TCH3S?dib=eyJ2IjoiMSJ9.wK2HP4ECPLHBfEBMW8nw-U-EExqWSq_xqb8hwaYfLWs-O8WWdbsfN703cRgUL_xBsux9BWif4ZFotXz_wULItrzgiZAzRZklf19WTIabmlcDKXDM7B_7qJdE5qhqeeXwBhHgWWbM5Tjojxp1hc1iKL5AmYGikcmEWHxnObmTOFqlNwkd3dYFzwiqT5rkLMHTCpjIOlGM5YJ8hNh2pZbminX6ChxDtwjgeMPbWPqatR5mWtcaAqNFA0yGzd_PROqso0D5vD4Vi13CTFvXGPSUS8DagsFSqB_RN3nYJA4Y5Lo.x4A9TR6Phe38437UHE5PQaoeT3964iSM6zwjUS00W-U&dib_tag=se&qid=1781091213&refinements=p_89%3ASplat%2BPlanet&sr=8-2&srs=19520153031&th=1&psc=1&linkCode=ll2&tag=loveparenti00-21&linkId=fe6674baaa658efa704afe9d0f7c36e0&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored" class="product-cta product-cta--es">Amazon ES →</a>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-emoji">🦸</div>
+        <div class="product-badge">UK &amp; ES</div>
+        <h3>Reusable Colouring T-Shirt — Superhero</h3>
+        <p>POW! A superhero design for little heroes everywhere. Same washable magic marker format — colour it, wear it proudly, then wash and go again.</p>
+        <div class="product-ctas">
+          <a href="https://www.amazon.co.uk/Splat-Planet-Superhero-Non-Toxic-Washable/dp/B07K6VCGZP?crid=23QR7DGA8Q2RR&dib=eyJ2IjoiMSJ9.UxiMY3VfKpCRCzksooJDknhgoxWMuCvQ2kz-7ybn7q_Td1JzFR7gpikVE_fcoqzCYewE_vd3LmOrZm1mR20JfnIHusSyErzpE5SeMUj5c90cqGDJeaHYu_zrm-8IX074siBi-Gi7K2eW0aqUDGfJxw7YP6vWWafiqKqnE2sAyh2szhbhR6x2vp0Geal-5SV9mwe9FfjR5mdNR-YJw_oRul9_gQF511bwqaWLvO-Znb45E8m99wAsvS5ctUnkVjNLvGQGH-aOJP67oVCxHCtUgDPbUnuwX5nwrdgnTbXaOmY.wZgtFe94Td2YelJwHxcY-KRtJVP9ZG-fW2XInJTvbc0&dib_tag=se&keywords=coloring%2Bt%2Bshirt&qid=1781000378&sprefix=cloouring%2Btshirt%2Caps%2C116&sr=8-3-spons&aref=jAaWDTroNt&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&psc=1&linkCode=ll2&tag=loveparenti0f-21&linkId=eaad271aedbc35c1ecdfef69ca554672&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored" class="product-cta">Amazon UK →</a>
+          <a href="https://www.amazon.es/-/en/Splat-Planet-Superhero-Washable-Non-Toxic/dp/B07K6SZ9VT?crid=19OXEU92IG8VZ&dib=eyJ2IjoiMSJ9.XrgZHJyQ15QNXEcsM87t0MdIDJqqLgjZ6kgsXspAHIDfr5b0SrFjH4pMJdhJ1x024opngVWPx6iLBC3WJKCLFNV63IFTWcXcr7MijuWeuDT-R8YyvydMmZkz08X4A2Cw_gmUDSBy5QHG6h6q8QRISe9H79TSb2CjW-qIx6wU9a47HIqCm29T7BZmqZIaDsCk25ghICiJU_CaiQ-yRK-Se0lYarRXCVUcTkczbObejaujqfzYe4wuAhpeRXoTw_X_F3QYH58G6ISlPB1Zm4upJkvwmfva1W8cG3vAkmk2OYc.6EDUshsSedu-H6KrzUiX0hKIWCAlOyenmIr0ig0TSX8&dib_tag=se&keywords=Splat%2BPlanet%2BMagic%2BChristmas%2BGingerbread%2BColoring%2BT-Shirt%2Bwith%2B10%2BWashable%2BMagic%2BMarkers&qid=1781090685&sprefix=splat%2Bplanet%2Bmagic%2Bchristmas%2Bgingerbread%2Bcoloring%2Bt-shirt%2Bwith%2B10%2Bwashable%2Bmagic%2Bmarkers%2Caps%2C104&sr=8-14&th=1&psc=1&linkCode=ll2&tag=loveparenti00-21&linkId=6b7b46484c5f60b5f3f10301aad0d7e5&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored" class="product-cta product-cta--es">Amazon ES →</a>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-emoji">🦖</div>
+        <div class="product-badge">UK &amp; ES</div>
+        <h3>Reusable Colouring T-Shirt — Dinosaurs</h3>
+        <p>For the dinosaur-obsessed child in your life. Washable magic markers, 100% cotton, reusable. A creative and focused activity they can wear.</p>
+        <div class="product-ctas">
+          <a href="https://www.amazon.co.uk/Splat-Planet-Dinosaur-Non-Toxic-Washable/dp/B07K6SDPTF?th=1&psc=1&linkCode=ll2&tag=loveparenti0f-21&linkId=a71d98c31dff7b8dd1d4fb5d6c20cced&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored" class="product-cta">Amazon UK →</a>
+          <a href="https://www.amazon.es/-/en/Splat-Planet-Dinosaur-Coloring-Non-Toxic/dp/B07K6SDPTF?dib=eyJ2IjoiMSJ9.wK2HP4ECPLHBfEBMW8nw-U-EExqWSq_xqb8hwaYfLWs-O8WWdbsfN703cRgUL_xBsux9BWif4ZFotXz_wULItrzgiZAzRZklf19WTIabmlcDKXDM7B_7qJdE5qhqeeXwBhHgWWbM5Tjojxp1hc1iKL5AmYGikcmEWHxnObmTOFqlNwkd3dYFzwiqT5rkLMHTl1slT0uR5CEHChnekaJ8XJxCKR2n_I8zUmtu9neMXtbU39VCxp6WBB6rNjuZ45a7xDp32AlWRlFcU0IhYinGn1lqw1W4PJEldqi_sbezQPI.HxXp30Yat6CNp14Mc6xG3I-lg8KKKLq9PU6nx7HouBY&dib_tag=se&qid=1781092353&refinements=p_89%3ASplat%2BPlanet&sr=8-3&srs=19520153031&th=1&psc=1&linkCode=ll2&tag=loveparenti00-21&linkId=d6ed7014eb4b8deb38ccbf425be5b3e8&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored" class="product-cta product-cta--es">Amazon ES →</a>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-emoji">🐕</div>
+        <div class="product-badge">UK &amp; ES</div>
+        <h3>Reusable Colouring T-Shirt — Dogs</h3>
+        <p>For the dog lovers. A playful dog-themed design with washable markers included. Colour it in, wear it, wash it — and do it all again.</p>
+        <div class="product-ctas">
+          <a href="https://www.amazon.co.uk/dp/B07K6VJRVT?pf_rd_p=1058fabc-2812-4699-8245-ce27b495cfb1&pf_rd_r=BDBMW0KARGW4KPC76511&pd_rd_wg=s1eGD&pd_rd_w=UM1o3&content-id=amzn1.sym.1058fabc-2812-4699-8245-ce27b495cfb1&pd_rd_r=0979d75b-66c0-42d3-97bf-3731802754f2&aref=cYB38M3s7h&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWwy&th=1&psc=1&linkCode=ll2&tag=loveparenti0f-21&linkId=e2a81eef4efb416f57282cae9a274a75&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored" class="product-cta">Amazon UK →</a>
+          <a href="https://www.amazon.es/-/en/Splat-Planet-Coloring-T-Shirt-Non-Toxic/dp/B07K6TQMWL?crid=1EGLP59427UYK&dib=eyJ2IjoiMSJ9.YM0AIqPRxPZvmh8s_nJzTQzCblWR9AWZYdZ1e-hU-1VSoRdFbvTwGkzcsw2IK3cI45aMJInhvrsJz3eihSk1CHhAwTKyHeJvVCuqumRnFYZWvaZmF6Ik3qqr5PB5YwWaEK-b11qiAZXcGp_tWT4VD1yRDw_cXRaSai5xeR2F8cT-ZPP719vqXPgaj1XDGBLpdlJ8xnO3PzZmHzGwieAC2vd5H7QIw_wxWEHIhr0rU1VE9Qhnk-px7wQz26ccmx-BdefYSkMh_oXJrgXTCv2Jfllqw1W4PJEldqi_sbezQPI.EqC7ZEJv43tWiWNHDRE3KFvlTSQWSk3yMzoxv1C-21w&dib_tag=se&keywords=Splat%2BPlanet%2BColour-in%2BDogs%2C%2BPets%2BT-Shirt%2Bwith%2B10%2BNon-Toxic%2BWashable%2BMagic%2BColouring%2BPens&qid=1781090919&sprefix=splat%2Bplanet%2Bcolour-in%2Bdogs%2Bpets%2Bt-shirt%2Bwith%2B10%2Bnon-toxic%2Bwashable%2Bmagic%2Bcolouring%2Bpens%2Caps%2C107&sr=8-31&th=1&linkCode=ll2&tag=loveparenti00-21&linkId=f7329e353e01aaf59e8ed9eeeedb73a2&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored" class="product-cta product-cta--es">Amazon ES →</a>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-emoji">🐈</div>
+        <div class="product-badge">UK &amp; ES</div>
+        <h3>Reusable Colouring T-Shirt — Cats</h3>
+        <p>For the cat lovers. A playful cat design with washable magic markers. Colour it, wear it, wash it — and start the whole creative process again.</p>
+        <div class="product-ctas">
+          <a href="https://www.amazon.co.uk/Splat-Planet-Colour-Non-Toxic-Washable/dp/B07K6TTHCP?th=1&psc=1&linkCode=ll2&tag=loveparenti0f-21&linkId=49da32d6be51525374f1e588db5acb3a&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored" class="product-cta">Amazon UK →</a>
+          <a href="https://www.amazon.es/Splat-Planet-Colouring-Cats-Non-Toxic/dp/B07K6VJ3G9?crid=OE1EUK1HBAA2&dib=eyJ2IjoiMSJ9.0wTVlMeOo03XNDaxJ5qyUG2bDhbB59xDCYN5IJ9izd0vsFo7V12UfGDwbZy5ukvAuX3ZMZ5YZth9CY764Qt8oEDenTLhziX5IYPopS4l30N-FEP5nrGuSTpCbvZ5BTV0i86iCfdMn8ngfy4iE8HQB5Nq2GzdP30-L6VWYZYkS3zBC6qZnes1EIO0T-3bLrCwBSfgUO3AiWZYp-_PJRs6s3aTGzYgTY5pABWB6a2crGpHc2Z8cevYIx_LcWkvmfoL8nVlDYt2JaXUfwLRczxUYdUPedXTSU22IW8T6Xv64h4.ug9z5eUB9H0nPF_D20aSYQpE2wIwdIwLnu5VyjHNtfw&dib_tag=se&keywords=Splat%2BPlanet%2BCats%2BT-Shirt%2BMagic%2BColouring%2Bwith%2B10%2BNon-Toxic%2BWashable%2BMagic%2BPens&qid=1781092148&sprefix=splat%2Bplanet%2Bcats%2Bt-shirt%2Bmagic%2Bcolouring%2Bwith%2B10%2Bnon-toxic%2Bwashable%2Bmagic%2Bpens%2Caps%2C173&sr=8-1-spons&aref=rBv0FipxGB&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&psc=1&linkCode=ll2&tag=loveparenti00-21&linkId=a2cf0fc14b5dc3bfd8214a925f6a1fcb&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored" class="product-cta product-cta--es">Amazon ES →</a>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-emoji">🎅</div>
+        <div class="product-badge">UK &amp; ES — Christmas</div>
+        <h3>Christmas Colouring T-Shirt — Gingerbread Man</h3>
+        <p>A festive gingerbread design with 10 washable magic markers. A brilliant Christmas gift or activity — colour it in and wear it to the Christmas party.</p>
+        <div class="product-ctas">
+          <a href="https://www.amazon.co.uk/Splat-Planet-Christmas-Gingerbread-Non-Toxic/dp/B07K6TRQVP?crid=CRBNFFUO0U7D&dib=eyJ2IjoiMSJ9.cLriJLYytigNzhvkKXy8gwOE8VaJ19TrNS_jZmxcbScYc2iafDOkuTcFfBT9TR8cKvuVhv13vnlaLAT7wB8am8HFgSL5HL-NV6DBOiLPyhbbYdGUEZgtZl4cQqUf1Wobgs1WH0xejkWGgqsLk9jN0_HUXgI5zVRo03sfoBNnS3Gil4Nr7l88v5fKNjDPopwo0P59t5JnUA8-yeHRVuDt2Diep5CRUxsEPBajEqrge4NT-1qilhD56CqArBj89NYUvuUpX5gLJPj_dyRImLVgaVSQUAd4kHS3a1zObMx6aN8.mpAxuYVgXu_YmM4oUKs7CKcqAMEKhWczV3ixSMIanII&dib_tag=se&keywords=Splat%2BPlanet%2BMagic%2BChristmas%2BGingerbread%2BColoring%2BT-Shirt&qid=1781090490&sprefix=splat%2Bplanet%2Bmagic%2Bchristmas%2Bgingerbread%2Bcoloring%2Bt-shirt%2Bwith%2B10%2Bwashable%2Bmagic%2Bmarkers%2Caps%2C134&sr=8-1&th=1&psc=1&linkCode=ll2&tag=loveparenti0f-21&linkId=bf4b88b53b7694c189b67845c5f65c9e&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored" class="product-cta">Amazon UK →</a>
+          <a href="https://www.amazon.es/dp/B07K6TRQVP?pd_rd_i=B07K6TRQVP&pd_rd_w=zQwbH&content-id=amzn1.sym.1a1cf43a-d009-48e1-8554-8b895fd31e09&pf_rd_p=1a1cf43a-d009-48e1-8554-8b895fd31e09&pf_rd_r=944HC0T2SRZCWQA3SC08&pd_rd_wg=Deane&pd_rd_r=7a45049e-e002-4168-aab5-abd536f68ad1&aref=zqWjNXwcrQ&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWw&th=1&linkCode=ll2&tag=loveparenti00-21&linkId=fda570e4eb9b7f61d6b9a7cb00461d2a&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored" class="product-cta product-cta--es">Amazon ES →</a>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-emoji">🧝</div>
+        <div class="product-badge">UK &amp; ES — Christmas</div>
+        <h3>Christmas Colouring T-Shirt — Naughty Elves</h3>
+        <p>A cheeky naughty elves Christmas design with washable magic markers. A fun festive activity — colour them in, wear to the party, wash, and do it again next year.</p>
+        <div class="product-ctas">
+          <a href="https://www.amazon.co.uk/Splat-Planet-Christmas-Non-Toxic-Washable/dp/B07K6WGD7F?&linkCode=ll2&tag=loveparenti0f-21&linkId=cec2933e70fd3e29d29a87e1dec2b216&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored" class="product-cta">Amazon UK →</a>
+          <a href="https://www.amazon.es/-/en/Splat-Planet-Christmas-Elf-5-6/dp/B07K6WGD7F?crid=11TLILPZT6M5A&dib=eyJ2IjoiMSJ9.NcS1NDYOS2z0VSdxQdYv02NVtaM5qC-66s1w-JDD9n8o3LGIXEmd7G8rltLfwPwsY3TC2rZdIogYgsCLWcL199sWxZ_l9Cr1KOamHbkbvi1RD1WHTbyQl8L4x_chJthDjMJWMc-7iJ_mLvaLyUC3QIxs5gl7kXvNHW7LllqaBfemrwbeISf3c77qxVVAw8CBr3x0oIaSgzwe4hXS11PinV2N-4jiut8fkKwdhK30-LSgFXZKH7_x1BtvJfj3CCg2HlfseR8xqSqn0GYjvKo65eEuHIS3Tv9NmCaJH6NE0fw.FlHohj0J1XDMoyHlLo8JjM2FKrwQptxlUHLmZDkx9ok&dib_tag=se&keywords=Splat%2BPlanet%2BColour-in%2BChristmas%2BElfT-Shirt&qid=1781092493&sprefix=splat%2Bplanet%2Bcolour-in%2Bchristmas%2Belft-shirt%2Bwith%2B6%2Bnon-toxic%2Bwashable%2Bmagic%2Bpens%2B%2Cspecialty-aps%2C98&sr=8-1&srs=19520153031&th=1&psc=1&linkCode=ll2&tag=loveparenti00-21&linkId=5d90fa4a07747fbaea8a10ce6b8ffdad&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored" class="product-cta product-cta--es">Amazon ES →</a>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-emoji">🎅</div>
+        <div class="product-badge">UK &amp; ES — Christmas</div>
+        <h3>Christmas Colouring T-Shirt — Santa Claus</h3>
+        <p>Ho ho ho! A Santa Claus design with 10 washable magic markers. Colour it, wear it to the Christmas party, and wash it ready to do again.</p>
+        <div class="product-ctas">
+          <a href="https://www.amazon.co.uk/Splat-Planet-Christmas-Non-Toxic-Washable/dp/B07K6TMF6Y?crid=3DR6ZSV84YCN2&dib=eyJ2IjoiMSJ9.AOjemru3vJHcNsJ97l6b40dGNKCJx97jr9IYOQvbYiCg0pvreeEQe8zLp90e5EKW1W1fBHyxoUmsvq5xqhkCOAlR68lyXY7MCnpzHr5L9-jEoFXrWhoVQ3qrW8qZI1IK46ebDOYweK-4UNMupoYu-A.pEvm62MdsHo4d0nun2J4gXdmuempnKubFfbCoX_tyKo&dib_tag=se&keywords=Santa%2BClaus%2Bcolouring%2Bt-shirt&qid=1781091375&sprefix=santa%2Bclaus%2Bcolouring%2Bt-shirt%2Caps%2C107&sr=8-1&th=1&psc=1&linkCode=ll2&tag=loveparenti0f-21&linkId=efb1b1714f4b378e4f462606a222e5d5&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored" class="product-cta">Amazon UK →</a>
+          <a href="https://www.amazon.es/dp/B07K6TMF6Y?psc=1&pd_rd_i=B07K6TMF6Y&pd_rd_w=5iE75&content-id=amzn1.sym.1a1cf43a-d009-48e1-8554-8b895fd31e09&pf_rd_p=1a1cf43a-d009-48e1-8554-8b895fd31e09&pf_rd_r=BZ7CW2Y6W6E7HP08QCK8&pd_rd_wg=bSGKr&pd_rd_r=a2abfd04-d098-4d2c-a432-b66d4732aff3&aref=KiitdIvVd9&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWw&linkCode=ll2&tag=loveparenti00-21&linkId=c7d055c1124a0b00160febf6cad68846&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored" class="product-cta product-cta--es">Amazon ES →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── BOOKS ── -->
+  <div class="category-section">
+    <div class="category-header">
+      <span class="category-icon">📚</span>
+      <div>
+        <h2>Books Worth Reading</h2>
+        <p>Honest, practical, and actually written for real families</p>
+      </div>
+    </div>
+    <div class="product-grid">
+      <div class="product-card">
+        <div class="product-emoji">💛</div>
+        <div class="product-badge">For NT Parents</div>
+        <h3>Parenting Rewired — Danielle Punter &amp; Charlotte Chaney</h3>
+        <p>Highly rated, warm, and practical guide for NT parents raising autistic children. Written by parents who get it — this sits alongside my own book as essential reading for anyone navigating this life.</p>
+        <div class="product-ctas">
+          <a href="https://www.amazon.co.uk/dp/1839970723?&linkCode=ll2&tag=loveparenti0f-21&linkId=bd8acb27bdf3826833b6f127fd78af10&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored" class="product-cta">Amazon UK →</a>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-emoji">🌱</div>
+        <div class="product-badge">For Autistic Family Members</div>
+        <h3>The Autistic Burnout Workbook — Dr. Megan Anna Neff</h3>
+        <p>An excellent resource for the autistic people in your life — and for you to understand what burnout looks like and how to support recovery. Understanding burnout changed everything for our family.</p>
+        <div class="product-ctas">
+          <a href="https://www.amazon.co.uk/s?k=Autistic+Burnout+Workbook+Megan+Anna+Neff&linkCode=ll2&tag=loveparenti0f-21&linkId=46e16d54860e61d9c3377c565c731121&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored" class="product-cta">Amazon UK →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="bottom-cta">
+    <h2>Want more honest guidance?</h2>
+    <p>Head to the blog for real talk from 26 years of neurodiverse family life — or grab my book and start from the beginning.</p>
+    <a href="https://loveparentingandautism.com/blog/" class="btn-gold">Read the Blog →</a>
+    <a href="https://www.amazon.co.uk/Love-Parenting-Autism-perspective-mother/dp/B0GN7ZH59Z?crid=1YK7U53305QKT&dib=eyJ2IjoiMSJ9.iFoCKsu7Cepce4zZLPrP4HWqEMWv_3NCcr2H3_pjEIJvGuSvUm7Op-MsWksHvR0H2Ajs8_OAj7sooMsfcYkvzlqxlpLpbgTQwuOTYVubEJaCWmXarQqWzI2O7gAK1AVL.q2KsJJmi-KEY0mhTpYQ91dr8Jjcul1IU0ErkOyYW2bI&dib_tag=se&keywords=love+parenting+and+autism+nicky+stixx&qid=1780916075&sprefix=love+parenting+and+autism+nicky+stixx%2Caps%2C99&sr=8-1&linkCode=ll2&tag=loveparenti0f-21&linkId=e1240bcdc089bdf5a27858dbca626929&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored" class="btn-outline">Get the Book on Amazon →</a>
+  </div>
+
+</main>
+
+<footer class="resources-footer">
+  <p>© <script>document.write(new Date().getFullYear())</script> Nicky Stixx — Love, Parenting &amp; Autism. All rights reserved.</p>
+  <p style="margin-top:0.5rem"><a href="https://loveparentingandautism.com">← Back to main site</a> &nbsp;|&nbsp; <a href="https://loveparentingandautism.com/blog/">Blog</a> &nbsp;|&nbsp; <a href="https://www.amazon.co.uk/Love-Parenting-Autism-perspective-mother/dp/B0GN7ZH59Z?tag=loveparenti0f-21" target="_blank" rel="noopener sponsored">My Book on Amazon</a></p>
+</footer>
+
+<script>
+function selectMuffy(swatch) {
+  document.querySelectorAll('.colour-swatch').forEach(s => s.classList.remove('active'));
+  swatch.classList.add('active');
+  const colour = swatch.getAttribute('title');
+  const ukLink = document.getElementById('muffy-uk');
+  const esLink = document.getElementById('muffy-es');
+  ukLink.href = swatch.dataset.uk;
+  esLink.href = swatch.dataset.es;
+  ukLink.textContent = 'Amazon UK — ' + colour + ' →';
+  esLink.textContent = 'Amazon ES — ' + colour + ' →';
+}
+</script>
+
+</body>
+</html>
