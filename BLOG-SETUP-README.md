@@ -56,6 +56,7 @@ Your post content goes here in normal Markdown...
 - `Autism Explained`
 - `Tools & Strategies`
 - `NT Self-Care`
+- `Sensory Tools`
 
 ## Markdown quick reference
 
