@@ -364,34 +364,7 @@
 <nav class="post-nav-bar">
   <a href="/blog/" class="back-link">Back to Blog</a>
 </nav>
-  .filter-bar {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  justify-content: center;
-  padding: 24px;
-  background: var(--purple-dark);
-}
-.filter-tag {
-  font-size: 0.78rem;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  padding: 8px 18px;
-  border-radius: 100px;
-  border: 2px solid rgba(255,255,255,0.3);
-  color: rgba(255,255,255,0.75);
-  background: transparent;
-  text-decoration: none;
-  transition: all 0.2s;
-}
-.filter-tag:hover,
-.filter-tag.active {
-  background: var(--orange);
-  border-color: var(--orange);
-  color: #fff;
-}
-
+ 
 <!-- POST HERO -->
 <header class="post-hero">
   <p class="post-category">{{ page.category | default: 'NT Life' }}</p>
