@@ -659,6 +659,11 @@ function selectMuffy(swatch) {
   esLink.textContent = 'Amazon ES — ' + colour + ' →';
 }
 </script>
-
+<a href="#top" class="back-to-top" id="backToTop" aria-label="Back to top">↑</a>
+<script>
+window.addEventListener('scroll', function(){
+  document.getElementById('backToTop').classList.toggle('visible', window.scrollY > 400);
+});
+</script>
 </body>
 </html>
