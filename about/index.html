@@ -1,1 +1,131 @@
+---
+title: About | Love, Parenting & Autism
+description: Meet Nicky Stixx — NT wife, mum, and author writing the honest truth of life in a neurodiverse family.
+permalink: /about/
+---
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About | Love, Parenting & Autism</title>
+  <meta name="description" content="Meet Nicky Stixx — NT wife, mum, and author writing the honest truth of life in a neurodiverse family." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
+  <style>
+    *,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    :root{
+      --purple:#5B1F8A;--purple-dark:#3D1260;--purple-deep:#2A0D45;--purple-light:#EDE0F7;
+      --orange:#E8720C;--orange-dark:#B85A08;--yellow:#F0C040;--yellow-light:#FDF3CC;
+      --cream:#FDF9F4;--cream-dark:#F0E8DC;--text-dark:#1E1226;--text-mid:#4A3D5C;
+      --text-light:#8A7A9A;--white:#FFFFFF;
+    }
+    body{font-family:'Lato',sans-serif;background:var(--cream);color:var(--text-dark);font-size:17px;line-height:1.75}
+    h1,h2,h3,h4{font-family:'Playfair Display',serif;line-height:1.3}
+    a{color:var(--purple);text-decoration:none;transition:color 0.2s}
+    a:hover{color:var(--orange-dark)}
+    img{max-width:100%;display:block}
+    .container{max-width:760px;margin:0 auto;padding:0 2rem}
+    .top-nav{background:var(--purple-dark);padding:14px 24px;display:flex;align-items:center;justify-content:space-between}
+    .back-link{color:rgba(255,255,255,0.75);font-size:0.82rem;font-weight:700;letter-spacing:0.05em;text-decoration:none;display:flex;align-items:center;gap:8px;transition:color 0.2s}
+    .back-link:hover{color:var(--yellow)}
+    .back-link::before{content:'←'}
+    .nav-home{color:rgba(255,255,255,0.75);font-size:0.82rem;font-weight:700;text-decoration:none;transition:color 0.2s}
+    .nav-home:hover{color:var(--yellow)}
+    .about-hero{background:var(--purple-dark);background-image:radial-gradient(ellipse 80% 60% at 20% 50%,rgba(91,31,138,0.9) 0%,transparent 70%),radial-gradient(ellipse 60% 80% at 80% 20%,rgba(232,114,12,0.25) 0%,transparent 60%);padding:70px 24px 60px;text-align:center}
+    .eyebrow{font-size:0.75rem;font-weight:700;letter-spacing:0.2em;text-transform:uppercase;color:var(--yellow);margin-bottom:16px}
+    .about-hero h1{font-family:'Playfair Display',serif;font-size:clamp(2rem,5vw,3.2rem);color:#fff;margin-bottom:16px}
+    .about-hero h1 em{color:var(--yellow);font-style:italic}
+    .about-hero p{font-size:1.05rem;color:rgba(255,255,255,0.85);max-width:600px;margin:0 auto}
+    .about-main{max-width:760px;margin:0 auto;padding:56px 24px 80px}
+    .about-main h2{font-size:1.5rem;color:var(--purple-dark);margin:2.5rem 0 1rem}
+    .about-main h2:first-child{margin-top:0}
+    .about-main p{margin-bottom:1.25rem;color:var(--text-mid)}
+    .about-main p strong{color:var(--text-dark)}
+    .pull-quote{background:var(--yellow-light);border-left:4px solid var(--orange);padding:1.25rem 1.5rem;margin:2rem 0;border-radius:0 8px 8px 0;font-family:'Playfair Display',serif;font-size:1.15rem;font-style:italic;color:var(--purple-dark)}
+    .brand-list{margin:1.5rem 0;padding-left:0;list-style:none}
+    .brand-list li{padding:0.6rem 0;border-bottom:1px solid var(--cream-dark);color:var(--text-mid)}
+    .brand-list li:last-child{border-bottom:none}
+    .brand-list strong{color:var(--purple-dark)}
+    .bottom-cta{background:var(--purple-dark);background-image:linear-gradient(135deg,var(--purple-dark) 0%,var(--purple) 100%);border-radius:20px;padding:48px 44px;text-align:center;margin-top:2.5rem}
+    .bottom-cta h2{font-family:'Playfair Display',serif;font-size:1.8rem;color:#fff;margin-bottom:12px}
+    .bottom-cta p{color:rgba(255,255,255,0.85);font-size:1rem;margin-bottom:28px;max-width:480px;margin-left:auto;margin-right:auto}
+    .btn-gold{display:inline-block;background:var(--orange);color:var(--white);font-weight:700;font-size:0.95rem;padding:0.75rem 1.75rem;border-radius:25px;transition:all 0.2s}
+    .btn-gold:hover{background:var(--orange-dark);color:var(--white);transform:translateY(-1px)}
+    .btn-outline{display:inline-block;background:transparent;color:var(--white);border:2px solid rgba(255,255,255,0.5);font-weight:700;font-size:0.95rem;padding:0.75rem 1.75rem;border-radius:25px;margin-left:1rem;transition:all 0.2s}
+    .btn-outline:hover{border-color:var(--yellow);color:var(--yellow)}
+    .about-footer{background:var(--purple-deep);color:rgba(255,255,255,0.6);padding:2rem 0;text-align:center;font-size:0.88rem;border-top:3px solid var(--orange);margin-top:0}
+    .about-footer a{color:var(--yellow)}
+    .about-footer a:hover{color:var(--white)}
+    .back-to-top{position:fixed;bottom:28px;right:28px;width:48px;height:48px;border-radius:50%;background:var(--orange);color:#fff;display:flex;align-items:center;justify-content:center;font-size:1.4rem;text-decoration:none;box-shadow:0 6px 20px rgba(91,31,138,0.25);opacity:0;visibility:hidden;transform:translateY(12px);transition:opacity 0.25s,transform 0.25s,background 0.2s;z-index:999}
+    .back-to-top.visible{opacity:1;visibility:visible;transform:translateY(0)}
+    .back-to-top:hover{background:var(--orange-dark);color:#fff}
+    @media(max-width:768px){
+      .bottom-cta{padding:32px 24px}
+      .btn-outline{margin-left:0;margin-top:0.75rem;display:block;width:fit-content;margin:0.75rem auto 0}
+      .back-to-top{bottom:18px;right:18px;width:44px;height:44px;font-size:1.2rem}
+    }
+  </style>
+</head>
+<body id="top">
+
+<nav class="top-nav">
+  <a href="https://loveparentingandautism.com" class="back-link">Back to main site</a>
+  <a href="https://loveparentingandautism.com/blog/" class="nav-home">Blog →</a>
+</nav>
+
+<section class="about-hero">
+  <p class="eyebrow">Love, Parenting &amp; Autism</p>
+  <h1>Hi, I'm <em>Nicky</em></h1>
+  <p>NT wife, mum, author, and the neurotypical half of a neurodiverse family for over 26 years.</p>
+</section>
+
+<main class="about-main">
+
+  <h2>The Short Version</h2>
+  <p>I'm Nicky Stixx — writer, content creator, and the resident neurotypical (NT) in a household where my husband and son are autistic, and my daughter very likely is too, just undiagnosed. I've spent 26 years learning, adjusting, getting things wrong, getting things right, and slowly figuring out how to build a life that genuinely works for all of us.</p>
+  <p>I write about all of it — the messy, the honest, the unglamorous, and the unexpectedly hopeful. No clinical distance, no jargon for the sake of it. Just real talk from someone who's lived it.</p>
+
+  <div class="pull-quote">
+    "I'm not a clinician. I'm not here to give you a textbook definition. I'm here to tell you what nobody tells you — the real stuff, the human stuff, the stuff that actually helps."
+  </div>
+
+  <h2>Why I Write This</h2>
+  <p>When my husband and son were diagnosed, I was handed very little beyond a label and a leaflet. Everything else — the understanding, the strategies, the sense of "oh, <strong>that's</strong> what's going on" — I had to find for myself, usually the hard way, often years later than I'd have liked.</p>
+  <p>This space exists so that other NT partners, parents, and family members don't have to do that alone. Whether you're brand new to a diagnosis or 20 years into this life and still figuring it out (that's most of us, by the way), I want this to feel like a hand on your shoulder rather than another thing to get right.</p>
+
+  <h2>What I'm Up To</h2>
+  <p>Beyond the blog, here's where you'll find me and what I'm building:</p>
+  <ul class="brand-list">
+    <li><strong>Love, Parenting &amp; Autism</strong> — my book, drawn from 26 years of lived experience, available in paperback and Kindle on Amazon.</li>
+    <li><strong>This blog</strong> — honest posts on autism, NT life, sensory tools, self-care, and the stuff in between.</li>
+    <li><strong>LingaLonga Art</strong> — a bespoke handmade wedding stationery and décor business I run with my daughter Alyssa, serving the Mallorca market.</li>
+  </ul>
+  <p>I'm based in Mallorca, Spain — sunshine, sea, and a household that keeps me on my toes in the best possible way.</p>
+
+  <div class="bottom-cta">
+    <h2>Want the full story?</h2>
+    <p>My book covers all of it — the early days, the hard lessons, and the things I wish someone had told me sooner.</p>
+    <a href="https://loveparentingandautism.com/blog/" class="btn-gold">Read the Blog →</a>
+    <a href="https://www.amazon.co.uk/Love-Parenting-Autism-perspective-mother/dp/B0GN7ZH59Z?linkCode=ll2&tag=loveparenti0f-21&linkId=e1240bcdc089bdf5a27858dbca626929&ref_=as_li_ss_tl" target="_blank" rel="noopener sponsored" class="btn-outline">Get the Book on Amazon →</a>
+  </div>
+
+</main>
+
+<footer class="about-footer">
+  <p>© <script>document.write(new Date().getFullYear())</script> Nicky Stixx — Love, Parenting &amp; Autism. All rights reserved.</p>
+  <p style="margin-top:0.5rem"><a href="https://loveparentingandautism.com">← Back to main site</a> &nbsp;|&nbsp; <a href="https://loveparentingandautism.com/blog/">Blog</a> &nbsp;|&nbsp; <a href="https://www.amazon.co.uk/Love-Parenting-Autism-perspective-mother/dp/B0GN7ZH59Z?tag=loveparenti0f-21" target="_blank" rel="noopener sponsored">My Book on Amazon</a></p>
+</footer>
+
+<a href="#top" class="back-to-top" id="backToTop" aria-label="Back to top">↑</a>
+<script>
+window.addEventListener('scroll', function(){
+  document.getElementById('backToTop').classList.toggle('visible', window.scrollY > 400);
+});
+</script>
+
+</body>
+</html>
