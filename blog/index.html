@@ -512,5 +512,11 @@ permalink: /blog/
 
 </main>
 
+  <a href="#top" class="back-to-top" id="backToTop" aria-label="Back to top">↑</a>
+<script>
+window.addEventListener('scroll', function(){
+  document.getElementById('backToTop').classList.toggle('visible', window.scrollY > 400);
+});
+</script>
 </body>
 </html>
