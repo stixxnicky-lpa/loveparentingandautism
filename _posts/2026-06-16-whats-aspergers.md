@@ -1,3 +1,12 @@
+---
+layout: post
+title: "What Is Asperger's? A Friendly Guide for the Rest of Us"
+date: 2026-06-16
+author: Nicky Stixx
+categories: [autism]
+tags: [aspergers, neurotypical, autism-explained]
+description: "A plain-English breakdown of what Asperger's means and how to be a better human to the Aspies in your life."
+---
 # What Is Asperger's? A Friendly Guide for the Rest of Us
 
 You've probably heard the term "Asperger's" — maybe a colleague mentioned it, a friend's kid was diagnosed, or someone in your life recently told you they're autistic. But what does it actually *mean*, and more importantly, how does it affect the person standing right in front of you?
