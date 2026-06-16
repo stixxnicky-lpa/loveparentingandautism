@@ -1,3 +1,4 @@
+```yaml
 ---
 layout: post
 title: "What Is Asperger's? A Friendly Guide for the Rest of Us"
