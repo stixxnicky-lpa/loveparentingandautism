@@ -3,7 +3,7 @@ layout: post
 title: "What Is Asperger's? A Friendly Guide for the Rest of Us"
 date: 2026-06-16
 author: Nicky Stixx
-categories: [autism]
+categories: [autism-explained]
 tags: [aspergers, neurotypical, autism-explained]
 description: "A plain-English breakdown of what Asperger's means and how to be a better human to the Aspies in your life."
 ---
