@@ -9,6 +9,7 @@ excerpt: "Discover Cloud Nine's sensory-friendly anxiety hoodies — with built-
 tags: [sensory tools, autism clothing, anxiety hoodie, fidget support, neurodivergent clothing, sensory processing, calming tools, cloud nine hoodie]
 image: /assets/images/cloud-nine-hoodie-review.jpg
 ---
+
 # The Hoodie That Gets It: Why Cloud Nine Is Made for Sensory Needs (And the People Who Love Them)
 
 Let me paint you a picture.
