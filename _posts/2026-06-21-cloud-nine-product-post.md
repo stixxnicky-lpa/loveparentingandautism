@@ -1,14 +1,14 @@
 ---
 layout: post
 title: "The Hoodie That Gets It: Why Cloud Nine Is Made for Sensory Needs (And the People Who Love Them)"
-description: "Discover Cloud Nine's sensory-friendly anxiety hoodies — with built-in stress balls, chewable drawstrings, and aromatherapy pockets. A game-changer for autistic kids, adults, and the neurotypical families who support them."
-author: Nicky Stixx
 date: 2026-06-21
 categories: [tools-and-strategies, sensory-support, product-reviews]
+emoji: 🧠
+read_time: 5 min read
+excerpt: "Discover Cloud Nine's sensory-friendly anxiety hoodies — with built-in stress balls, chewable drawstrings, and aromatherapy pockets. A game-changer for autistic kids, adults, and the neurotypical families who support them."
 tags: [sensory tools, autism clothing, anxiety hoodie, fidget support, neurodivergent clothing, sensory processing, calming tools, cloud nine hoodie]
 image: /assets/images/cloud-nine-hoodie-review.jpg
 ---
-
 # The Hoodie That Gets It: Why Cloud Nine Is Made for Sensory Needs (And the People Who Love Them)
 
 Let me paint you a picture.
