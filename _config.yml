@@ -3,7 +3,7 @@ description: Real talk from an NT wife and mum in a neurodiverse family.
 url: "https://loveparentingandautism.com"
 description: "Real talk from an NT wife and mum living inside a neurodiverse family."
 og_image: "/images/lpa-og-default.svg"
-baseurl: ""
+baseurl: "https://loveparentingandautism.com/images/lpa_og_default.svg"
 permalink: /blog/:year/:month/:day/:title/
 
 # Build settings
