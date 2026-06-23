@@ -8,11 +8,24 @@
 
   <!-- Open Graph for Pinterest/social sharing -->
   <meta property="og:title" content="{{ page.title }}" />
-  <meta property="og:description" content="{{ page.description | default: page.excerpt | strip_html | truncatewords: 30 }}" />
-  <meta property="og:type" content="article" />
-  <meta property="og:url" content="{{ page.url | absolute_url }}" />
-  <meta property="og:image" content="{{ page.og_image | default: '/assets/images/lpa-og-default.jpg' | absolute_url }}" />
-  <meta name="twitter:card" content="summary_large_image" />
+ <meta name="description" content="{{ page.description | default: site.description | strip_html | truncatewords: 30 }}" />
+
+<!-- Open Graph -->
+<meta property="og:site_name" content="Love, Parenting & Autism" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="{{ page.url | absolute_url }}" />
+<meta property="og:title" content="{{ page.title | escape }}" />
+<meta property="og:description" content="{{ page.description | default: site.description | strip_html | truncatewords: 30 | escape }}" />
+<meta property="og:image" content="{{ page.og_image | default: site.og_image | absolute_url }}" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:locale" content="en_GB" />
+
+<!-- Twitter / X Card -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="{{ page.title | escape }}" />
+<meta name="twitter:description" content="{{ page.description | default: site.description | strip_html | truncatewords: 30 | escape }}" />
+<meta name="twitter:image" content="{{ page.og_image | default: site.og_image | absolute_url }}" />
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
