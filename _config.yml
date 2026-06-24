@@ -1,7 +1,6 @@
 title: Love, Parenting & Autism
-description: Real talk from an NT wife and mum in a neurodiverse family.
-url: "https://loveparentingandautism.com"
 description: "Real talk from an NT wife and mum living inside a neurodiverse family."
+url: "https://loveparentingandautism.com"
 og_image: "/images/lpa-social.jpg"
 baseurl: ""
 permalink: /blog/:year/:month/:day/:title/
@@ -11,6 +10,7 @@ markdown: kramdown
 theme: null
 plugins:
   - jekyll-feed
+
 # Author
 author:
   name: "Nicky Stixx"
