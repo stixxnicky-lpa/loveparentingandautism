@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "What To Do When Your Child Has a Meltdown in Public"
-date: 2026-06-25
-categories: [autism, parenting, meltdowns]
+title: "Your Post Title Here"
+date: 2026-07-01
+categories: NT-Parents-Truths
 author: Nicky Stixx
-description: "Public meltdowns are every autism parent's worst nightmare — but they don't have to be. Here's what actually helps, from someone who's been there more times than she can count."
-og_image: "/assets/images/public-meltdown-blog.jpg"
+excerpt: "One or two sentence teaser for previews/SEO."
+og_image: "/assets/images/your-custom-image.jpg"   # optional — only if you want to override the default lpa_social.jpg
 ---
 
 Let me paint you a picture.
