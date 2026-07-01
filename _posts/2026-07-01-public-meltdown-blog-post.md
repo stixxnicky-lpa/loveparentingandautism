@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Your Post Title Here"
+title: "What To Do When Your Child Has a Meltdown in Public"
 date: 2026-07-01
-categories: [NT-Parents-Truths]
+categories: [nt-parent-truths]
 author: Nicky Stixx
-excerpt: "One or two sentence teaser for previews/SEO."
+description: "Public meltdowns are every autism parent's worst nightmare — but they don't have to be. Here's what actually helps, from someone who's been there more times than she can count."
 og_image: "/assets/images/public-meltdown-blog.png"
 ---
 
