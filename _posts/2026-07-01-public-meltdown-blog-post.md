@@ -2,9 +2,11 @@
 layout: post
 title: "What To Do When Your Child Has a Meltdown in Public"
 date: 2026-07-01
-categories: [nt-parent-truths]
-author: Nicky Stixx
+category: NT Parent Truths
 description: "Public meltdowns are every autism parent's worst nightmare — but they don't have to be. Here's what actually helps, from someone who's been there more times than she can count."
+emoji: 🌪️
+read_time: 8 min read
+excerpt: "The cereal aisle. The stares. The guilt. If you've ever frozen while your child melted down in public, this is the toolkit — and the reassurance — you actually need."
 og_image: "/assets/images/public-meltdown-blog.png"
 ---
 
