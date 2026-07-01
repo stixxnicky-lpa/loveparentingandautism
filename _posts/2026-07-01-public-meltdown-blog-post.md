@@ -5,7 +5,7 @@ date: 2026-07-01
 categories: [NT-Parents-Truths]
 author: Nicky Stixx
 excerpt: "One or two sentence teaser for previews/SEO."
-og_image: "/assets/images/your-custom-image.jpg"   # optional — only if you want to override the default lpa_social.jpg
+og_image: "/assets/images/public-meltdown-blog.png"
 ---
 
 Let me paint you a picture.
