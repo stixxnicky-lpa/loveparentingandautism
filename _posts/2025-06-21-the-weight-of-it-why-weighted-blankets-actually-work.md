@@ -82,6 +82,11 @@ The blanket isn't the point. The human under it is.
 
 That's always the point. 💙
 
+### Related Reads
+
+- **[Why the World Is Too Loud and What Actually Helps](/blog/2025/06/14/why-the-world-is-too-loud-and-what-actually-helps/)** — more on sensory overwhelm and what eases it.
+- **[Hands Busy, Brain Happy](/blog/2025/06/28/hands-busy-brain-happy-colouring-fidgeting-and-the-productive-stim/)** — a lighter-weight sensory tool for the toolkit.
+
 ---
 
 *Disclosure: This post contains affiliate links. If you buy something via a link here, I earn a small commission at no extra cost to you. I only recommend things I'd actually put in my own family's hands.*
