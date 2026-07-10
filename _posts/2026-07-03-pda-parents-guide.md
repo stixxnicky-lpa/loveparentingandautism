@@ -35,6 +35,8 @@ Most mainstream parenting advice is built on the assumption that consistency, re
 
 With PDA, this approach doesn't just fail — it actively escalates things. Reward charts can register as another demand. Firm boundaries can be heard as a threat. The more visible and rigid the authority, the higher the anxiety, and the harder the avoidance.
 
+It's part of why I went back to basics with [the tools that actually helped our family](/blog/2025/06/08/the-tools-that-actually-help/) — most of what's marketed as "parenting strategies" simply isn't built with a PDA nervous system in mind.
+
 This was one of the most disorientating things for me as an NT parent. Everything I'd absorbed about "good parenting" was engineered for a brain that responds to structure with security. PDA brains often respond to that same structure with alarm.
 
 ## What actually helps
@@ -60,3 +62,9 @@ You will get this wrong. Often. I still do, and I've had over two decades of pra
 That's not failure. That's being a tired human parenting a nervous system that plays by different rules to the one you were handed. The goal was never to get it perfect. It's to keep adjusting the approach until you find what your particular child needs — and to give yourself the same grace you're trying to give them.
 
 PDA asks a lot of a family. It also, if you let it, teaches you to ask for a lot less — fewer demands, less rigidity, more genuine connection. That's not a bad trade.
+
+### Related Reads
+
+- **[Autism Explained: What Nobody Tells You at Diagnosis](/blog/2025/06/07/autism-explained-what-nobody-tells-you-at-diagnosis/)** — where PDA fits into the bigger picture.
+- **[What's Asperger's? A Friendly Guide for the Rest of Us](/blog/2026/06/16/whats-aspergers-a-friendly-guide-for-the-rest-of-us/)** — another profile worth knowing alongside PDA.
+- **[Why the World Is Too Loud and What Actually Helps](/blog/2025/06/14/why-the-world-is-too-loud-and-what-actually-helps/)** — because sensory overwhelm often travels alongside PDA.
