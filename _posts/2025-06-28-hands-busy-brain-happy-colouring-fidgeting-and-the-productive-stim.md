@@ -104,6 +104,12 @@ The colouring blankets, the fidgets, the worry stones — these aren't treats or
 
 That's enough of a reason. 💙
 
+### Related Reads
+
+- **[Why the World Is Too Loud and What Actually Helps](/blog/2025/06/14/why-the-world-is-too-loud-and-what-actually-helps/)** — the bigger picture on sensory regulation.
+- **[The Weight of It: Why Weighted Blankets Actually Work](/blog/2025/06/21/the-weight-of-it-why-weighted-blankets-actually-work/)** — another simple tool that helps the nervous system settle.
+- **[The Tools That Actually Help](/blog/2025/06/08/the-tools-that-actually-help/)** — where this fits into the wider toolkit.
+
 ---
 
 *Disclosure: This post contains affiliate links. If you buy something via a link here, I earn a small commission at no extra cost to you. I only recommend things I'd actually put in my own family's hands.*
