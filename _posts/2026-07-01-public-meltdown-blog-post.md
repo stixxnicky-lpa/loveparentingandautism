@@ -143,6 +143,12 @@ And on the days it doesn't feel like it will? Be as kind to yourself as you are 
 
 You're doing a remarkable job. Even when it doesn't feel like it.
 
+### Related Reads
+
+- **[NT Parent Truths Nobody Talks About](/blog/2025/06/06/nt-parent-truths-nobody-talks-about/)** — more truths nobody prepares you for.
+- **[26 Years In: What I Wish Someone Told Me](/blog/2026/06/03/26-years-in-what-i-wish-someone-told-me/)** — how moments like this add up over the years.
+- **[You Cannot Pour From an Empty Cup](/blog/2025/06/09/you-cannot-pour-from-an-empty-cup/)** — for the exhaustion that follows.
+
 ---
 
 *Nicky Stixx is the author of [Love, Parenting & Autism](https://www.amazon.co.uk/dp/B0GTY96RM2) and the only neurotypical person in her house — a position she's held for over 26 years. She writes about the real, unfiltered experience of loving and raising neurodivergent children at [loveparentingandautism.com](https://loveparentingandautism.com).*
