@@ -123,6 +123,11 @@ But there will also be days when something clicks. When you understand something
 
 You are not alone in this. This community exists for you. Come back whenever you need it. 💙
 
+### Related Reads
+
+- **[PDA: A Parent's Guide](/blog/2026/07/03/pda-parents-guide/)** — a closer look at one profile you'll hear about often.
+- **[What's Asperger's? A Friendly Guide for the Rest of Us](/blog/2026/06/16/whats-aspergers-a-friendly-guide-for-the-rest-of-us/)** — untangling a term that still confuses people.
+
 ---
 
 *Nicky Stixx is the author of [Love, Parenting & Autism](https://www.amazon.co.uk/dp/B0GN7ZH59Z), available on Amazon in paperback and Kindle. She is the neurotypical heart of a neurodiverse family, writing the honest truth of this life for over two decades.*
