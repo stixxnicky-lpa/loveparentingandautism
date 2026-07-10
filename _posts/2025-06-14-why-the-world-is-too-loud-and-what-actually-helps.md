@@ -78,6 +78,12 @@ If someone in your life wears noise reduction tools, they are doing so because t
 
 That's the job. 💙
 
+### Related Reads
+
+- **[The Weight of It: Why Weighted Blankets Actually Work](/blog/2025/06/21/the-weight-of-it-why-weighted-blankets-actually-work/)** — another sensory tool worth knowing about.
+- **[Hands Busy, Brain Happy](/blog/2025/06/28/hands-busy-brain-happy-colouring-fidgeting-and-the-productive-stim/)** — a quieter way to regulate through the hands.
+- **[Cloud Nine Product Post](/blog/2026/06/21/cloud-nine-product-post/)** — sensory-friendly clothing that helps too.
+
 ---
 
 *Disclosure: This post contains affiliate links. If you buy something via a link here, I earn a small commission at no extra cost to you. I only recommend things I'd actually put in my own family's hands.*
