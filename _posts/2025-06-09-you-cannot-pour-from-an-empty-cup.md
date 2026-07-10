@@ -123,6 +123,11 @@ Start today. Start small. Start somewhere.
 
 Just start. 💛
 
+### Related Reads
+
+- **[Public Meltdown Blog Post](/blog/2026/07/01/public-meltdown-blog-post/)** — the kind of day that empties the cup fastest.
+- **[26 Years In: What I Wish Someone Told Me](/blog/2026/06/03/26-years-in-what-i-wish-someone-told-me/)** — how the cup gets refilled over the long haul.
+
 ---
 
 *Nicky Stixx is the author of [Love, Parenting & Autism](https://www.amazon.co.uk/dp/B0GN7ZH59Z), available on Amazon in paperback and Kindle. She is the neurotypical heart of a neurodiverse family, writing the honest truth of this life for over two decades.*
