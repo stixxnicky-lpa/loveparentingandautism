@@ -82,7 +82,7 @@ It looks like hard. It looks like good. It looks like 26 years that I'd choose a
 
 - **[NT Parent Truths Nobody Talks About](/blog/2025/06/06/nt-parent-truths-nobody-talks-about/)** — some of those truths, up close.
 - **[Public Meltdown Blog Post](/blog/2026/07/01/public-meltdown-blog-post/)** — one of the moments that taught me the most.
-- **[You Cannot Pour From an Empty Cup](/blog/2025/06/09/you-cannot-pour-from-an-empty-cup/)** — a lesson it took years to actually learn.
+- **[What's Asperger's? A Friendly Guide for the Rest of Us](/blog/2026/06/16/whats-aspergers-a-friendly-guide-for-the-rest-of-us/)** — another piece of the puzzle, for anyone still untangling the terminology.
 
 ---
 
