@@ -38,7 +38,7 @@ That is closer to what it can feel like. Not always. Not for everyone. But close
 And then add this: a world built entirely around neurotypical rules that were never explained, only expected. Social cues that everyone else seems to have downloaded automatically but that feel like a foreign language. Jokes that land wrong. Sarcasm that reads as truth. Eye contact that feels physically painful. Routines that aren't just preferences — they are the scaffolding that holds the day together.
 
 This is why, when a routine breaks, it isn't a tantrum or an overreaction. It is the scaffolding collapsing. It is genuine distress in a world that already takes enormous energy to navigate.
-If you're an NT partner trying to make sense of this from the inside, [26 years of living it](/blog/2026/06/03/26-years-in-what-i-wish-someone-had-told-me/) is where I started writing it all down.
+If you're an NT partner trying to make sense of this from the inside, [26 years of living it](/blog/2026/06/03/26-years-in-what-i-wish-someone-told-me/) is where I started writing it all down.
 Understanding this changed everything for me. It didn't make the hard days easier, exactly — but it made them make sense. And sense, when you're lost, is everything.
 
 ---
