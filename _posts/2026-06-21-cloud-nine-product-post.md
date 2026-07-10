@@ -138,6 +138,11 @@ This is a brand I'm backing. And I don't back things lightly.
 
 **Get yours here → [Shop Cloud Nine — use code NICKY63915 for 10% off](https://www.cloudnineclothing.ca/NICKY63915)**
 
+### Related Reads
+
+- **[Why the World Is Too Loud and What Actually Helps](/blog/2025/06/14/why-the-world-is-too-loud-and-what-actually-helps/)** — the sensory struggle this clothing was designed for.
+- **[The Weight of It: Why Weighted Blankets Actually Work](/blog/2025/06/21/the-weight-of-it-why-weighted-blankets-actually-work/)** — another sensory-friendly option worth trying.
+
 ---
 
 *Disclosure: I'm a proud Cloud Nine ambassador. If you purchase through my link, I may earn a commission at no extra cost to you. I only share products I genuinely believe in — and this is one of them.*
