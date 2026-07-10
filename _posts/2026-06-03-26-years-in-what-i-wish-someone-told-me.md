@@ -77,6 +77,12 @@ It looks like parenting two kids on the spectrum (well, one confirmed, one we su
 
 It looks like hard. It looks like good. It looks like 26 years that I'd choose again.
 
+### Related Reads
+
+- **[NT Parent Truths Nobody Talks About](/blog/2025/06/06/nt-parent-truths-nobody-talks-about/)** — some of those truths, up close.
+- **[Public Meltdown Blog Post](/blog/2026/07/01/public-meltdown-blog-post/)** — one of the moments that taught me the most.
+- **[You Cannot Pour From an Empty Cup](/blog/2025/06/09/you-cannot-pour-from-an-empty-cup/)** — a lesson it took years to actually learn.
+
 ---
 
 I started this blog because I couldn't find the one I needed when I was sitting up at midnight not knowing what was wrong with my marriage, my family, or myself.
