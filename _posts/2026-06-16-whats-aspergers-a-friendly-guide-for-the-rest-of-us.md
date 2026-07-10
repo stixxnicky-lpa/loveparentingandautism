@@ -40,6 +40,11 @@ Be direct. Say what you mean. Don't rely on hints. If something matters, say it 
 
 The world is built for neurotypical brains. A little patience and plain communication goes a long way for everyone — and it costs you exactly nothing. 💙
 
+### Related Reads
+
+- **[Autism Explained: What Nobody Tells You at Diagnosis](/blog/2025/06/07/autism-explained-what-nobody-tells-you-at-diagnosis/)** — the wider picture this term fits into.
+- **[PDA: A Parent's Guide](/blog/2026/07/03/pda-parents-guide/)** — another profile worth understanding alongside this one.
+
 ---
 
 *Nicky Stixx is the author of [Love, Parenting & Autism](https://www.amazon.co.uk/Love-Parenting-Autism-perspective-mother/dp/B0GN7ZH59Z?linkCode=ll2&tag=loveparenti0f-21&linkId=e1240bcdc089bdf5a27858dbca626929&ref_=as_li_ss_tl) — available in paperback and Kindle on Amazon.*
