@@ -111,6 +111,7 @@ This space exists for you. Come back whenever you need it. 💙
 
 - **[Public Meltdown Blog Post](/blog/2026/07/01/public-meltdown-blog-post/)** — one of those truths nobody talks about, up close.
 - **[26 Years In: What I Wish Someone Told Me](/blog/2026/06/03/26-years-in-what-i-wish-someone-told-me/)** — the long view on truths like this one.
+  
 ---
 
 *Nicky Stixx is the author of [Love, Parenting & Autism](https://www.amazon.co.uk/dp/B0GN7ZH59Z) — also available from the [LPA shop](/shop/).*
