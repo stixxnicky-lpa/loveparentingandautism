@@ -1,5 +1,4 @@
 ---
-
 layout: post
 title: "26 Years In — What I Wish Someone Had Told Me About Loving an Autistic Man"
 category: NT Wife Life
@@ -9,7 +8,6 @@ read_time: 7 min read
 excerpt: "Nobody told me what it would be like to be the NT wife of an autistic man. Twenty-six years in, here's the truth I wish someone had handed me."
 tags: [NT wife, autism marriage, neurodiverse relationships, honest talk]
 og_image: /assets/images/blog/26-years-in.jpg
-
 ---
 
 There's a version of this post that starts with a heartwarming line about love conquering all. I'm not writing that version.
