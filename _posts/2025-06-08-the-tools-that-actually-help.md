@@ -141,6 +141,11 @@ That shift in perspective is the most powerful tool I have ever found. It costs 
 
 You've got this. 💙
 
+### Related Reads
+
+- **[PDA: A Parent's Guide](/blog/2026/07/03/pda-parents-guide/)** — for when standard tools need a PDA-specific twist.
+- **[Hands Busy, Brain Happy](/blog/2025/06/28/hands-busy-brain-happy-colouring-fidgeting-and-the-productive-stim/)** — one of the simplest tools that actually works.
+
 ---
 
 *Nicky Stixx is the author of [Love, Parenting & Autism](https://www.amazon.co.uk/dp/B0GN7ZH59Z), available on Amazon in paperback and Kindle. She is the neurotypical heart of a neurodiverse family, writing the honest truth of this life for over two decades.*
