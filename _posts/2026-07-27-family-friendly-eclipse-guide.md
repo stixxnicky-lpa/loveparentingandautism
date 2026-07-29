@@ -2,7 +2,7 @@
 layout: post
 title: "Family-Friendly Eclipse Guide: Tips, Sensory Advice & Resources for 12 August 2026"
 date: 2026-07-29
-category: Family Adventures
+category: Tools & Strategies
 emoji: 🌑
 read_time: 6 min read
 excerpt: "On 12 August 2026 a total solar eclipse will cross parts of Europe. Here’s how to make the experience calm, safe, and magical for families — including children with sensory needs."
