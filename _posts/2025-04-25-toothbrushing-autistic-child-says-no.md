@@ -4,7 +4,6 @@ title: "Toothbrushing When Your Autistic Child Says NO — What Actually Helps"
 description: "Real, no-filter strategies for toothbrushing meltdowns with an autistic child — sensory-friendly brushes, toothpaste swaps, and routine tweaks that actually work."
 excerpt: "It's not stubbornness. It's sensory. Here's what actually helped us get through toothbrushing — no clinical distance, just real talk."
 category: Tools & Strategies
-tags: [sensory, toothbrushing, oral hygiene, autism, sensory tools]
 ---
 
 Let's be honest. Toothbrushing in our house used to be a full-body negotiation. The tears, the meltdown, the guilt afterwards — because you know dental health matters, but you also can't force your child past their sensory limits without breaking something inside both of you.
