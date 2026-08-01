@@ -60,5 +60,3 @@ You don't have to do it perfectly. You just have to keep showing up.
 And if tonight was a toothbrushing disaster? Tomorrow is a new day. 💙
 
 You're not alone in this. Your feelings are valid. And you deserve support — not just for your child, but for you.
-
-**What's worked in your house?** Drop it below — because someone reading this right now needs to hear what actually worked for you. 👇
