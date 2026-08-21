@@ -47,7 +47,7 @@ I built this community around one honest idea — that the neurotypical partner 
 
 If you're in that sandwich — kids, parents, career, and barely any hours left for you — I'd really encourage you to look her up.
 
-**Ready to find your focus and return to your own genius?** Reach out to Helen and start the conversation, or follow her on Instagram: [@helen_costa_coach](https://www.instagram.com/helen_costa_coach)
+**Ready to find your focus and return to your own genius?** Reach out to Helen and start the conversation.
 
 📸 Follow Helen on Instagram: [@helen_costa_coach](https://www.instagram.com/helen_costa_coach)
 
