@@ -13,6 +13,7 @@ If you're reading this, there's a good chance you're stretched in about six dire
 That's exactly the person Helen built her practice for. And I'm genuinely excited to introduce her to you.
 
 ![Helen Costa, Founder of Return to Your Genius](/assets/images/helen-costa-headshot.jpg)
+
 *Helen Costa, Founder of Return to Your Genius*
 
 ## So, Who Is Helen?
