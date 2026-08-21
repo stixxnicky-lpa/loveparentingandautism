@@ -13,7 +13,7 @@ If you're reading this, there's a good chance you're stretched in about six dire
 That's exactly the person Helen built her practice for. And I'm genuinely excited to introduce her to you.
 
 <div style="text-align:center; margin:2rem 0;">
-  <img src="/assets/images/guest-experts/return-to-your-genius-logo.jpeg" alt="Return to Your Genius logo" style="max-width:220px;">
+  <img src="/assets/images/return-to-your-genius-logo.jpeg" alt="Return to Your Genius logo" style="max-width:220px;">
   <p><em>Return to Your Genius</em></p>
 </div>
 
@@ -52,5 +52,5 @@ If you're in that sandwich — kids, parents, career, and barely any hours left 
 📸 Follow Helen on Instagram: [@helen_costa_coach](https://www.instagram.com/helen_costa_coach)
 
 <div style="text-align:center; margin-top:2rem;">
-  <img src="/assets/images/guest-experts/helen-costa-headshot.jpg" alt="Helen Costa, Founder of Return to Your Genius" style="max-width:220px; border-radius:50%;">
+  <img src="/assets/images/helen-costa-headshot.jpg" alt="Helen Costa, Founder of Return to Your Genius" style="max-width:220px; border-radius:50%;">
 </div>
