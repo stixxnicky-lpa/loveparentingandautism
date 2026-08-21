@@ -48,5 +48,5 @@ If you're in that sandwich — kids, parents, career, and barely any hours left 
 **Ready to find your focus and return to your own genius?** Reach out to Helen and start the conversation.
 
 <div style="text-align:center; margin-top:2rem;">
-  <img src="/assets/images/guest-experts/return-to-your-genius-logo.jpeg" alt="Return to Your Genius logo" style="max-width:220px;">
+  <img src="/assets/images/return-to-your-genius-logo.jpeg" alt="Return to Your Genius logo" style="max-width:220px;">
 </div>
